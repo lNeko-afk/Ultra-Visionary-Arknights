@@ -1,0 +1,25 @@
+﻿l_simp_chinese:
+ #基础源石引擎
+ uva_shippart_reactor_Core1_T1: "基础源石引擎"
+ uva_shippart_reactor_Core2_T1: "基础源石引擎"
+ uva_shippart_reactor_Core3_T1: "基础源石引擎"
+ uva_shippart_reactor_Core4_T1: "基础源石引擎"
+ uva_shippart_reactor_Core5_T1: "基础源石引擎"
+ uva_shippart_reactor_Core6_T1: "基础源石引擎"
+ uva_shippart_reactor_Core7_T1: "基础源石引擎"
+ #源能裂解引擎
+ uva_shippart_reactor_Core1_T2: "源能裂解引擎"
+ uva_shippart_reactor_Core2_T2: "源能裂解引擎"
+ uva_shippart_reactor_Core3_T2: "源能裂解引擎"
+ uva_shippart_reactor_Core4_T2: "源能裂解引擎"
+ uva_shippart_reactor_Core5_T2: "源能裂解引擎"
+ uva_shippart_reactor_Core6_T2: "源能裂解引擎"
+ uva_shippart_reactor_Core7_T2: "源能裂解引擎"
+ #聚源能发生器
+ uva_shippart_reactor_Core1_T3: "聚源能发生器"
+ uva_shippart_reactor_Core2_T3: "聚源能发生器"
+ uva_shippart_reactor_Core3_T3: "聚源能发生器"
+ uva_shippart_reactor_Core4_T3: "聚源能发生器"
+ uva_shippart_reactor_Core5_T3: "聚源能发生器"
+ uva_shippart_reactor_Core6_T3: "聚源能发生器"
+ uva_shippart_reactor_Core7_T3: "聚源能发生器"

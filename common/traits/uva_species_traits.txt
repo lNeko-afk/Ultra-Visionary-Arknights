@@ -1,0 +1,26 @@
+trait_improved_oripathy = {
+    cost = 2 #花费
+    randomized = no #是否可以随机生成该特质
+    advanced_trait = no #是否是高级特质
+    potential_crossbreeding_chance = 0 #生育优先度，越高的数值代表越有可能是有该特质物种增长
+
+    species_possible_remove = {
+        always = no
+    }
+
+    allowed_archetypes = {
+        TERRA
+    } #允许的种族类别（有机，机械等）
+
+    #prerequisites = { tech_xxx } #需要的前置科技
+    #icon = "<文件相对路径>" #用于定义图标，默认情况下是 gfx/interface/icons/traits/< ID >.dds
+    #custom_tooltip = TRAIT_WOMEN_WEAR_EFFECT #显示的文本，注意：将会覆盖自动生成的修正器文本
+    #slave_cost = {energy = 100} #进入奴隶市场被售卖后所得
+
+    modifier = { #人口的修正
+        pop_government_ethic_attraction =  -0.1
+        army_damage_mult = 0.25
+        pop_growth_speed = 0.25
+        species_empire_size_mult = -0.1
+    }
+}

@@ -1,0 +1,11 @@
+on_game_start_country = {
+    events = {
+        uva_origin_utg.0
+        uva_ohh.1
+    }
+}
+on_game_start_planet = {
+    events = {
+        uva_origin_utg.1
+    }
+}

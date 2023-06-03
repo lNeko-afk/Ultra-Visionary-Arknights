@@ -1,0 +1,24 @@
+song = {
+    name = longtrail_1
+}
+song = {
+    name = longtrail_2
+}
+song = {
+    name = longtrail_3
+}
+song = {
+    name = 库伯斯_匣
+}
+song = {
+    name = 库伯斯_归恒
+}
+song = {
+    name = 库伯斯_意涵之回想
+}
+song = {
+    name = 库伯斯_浪
+}
+song = {
+    name = 库伯斯_静邃
+}

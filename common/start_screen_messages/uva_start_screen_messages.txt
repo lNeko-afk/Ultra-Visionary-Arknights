@@ -1,0 +1,9 @@
+part = {
+    location = 0
+    localization = "START_SCREEN_MESSAGES_UVA_1"
+
+    trigger = {
+        is_TERRA_species = yes
+        has_origin = origin_united_terra
+    }
+}

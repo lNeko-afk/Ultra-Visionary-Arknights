@@ -1,0 +1,19 @@
+﻿l_simp_chinese:
+##岗位
+ job_originium_miner:0 "§H源石矿工§!"
+ job_originium_miner_plural:0 "§H源石矿工§!"
+ mod_job_originium_miner_add: "$job_originium_miner$职业"
+ job_originium_miner_desc:0 "泰拉大地上持续了千年的特殊职业，这种职业通常伴随着高风险却获得最低的收入，而且矿工们长期处于高源石浓度的环境下工作，几乎必然会患上矿石病，直至矿石病被治愈，源石矿工的基本权利得到了一定的保障"
+ job_originium_miner_effect_desc:0 "£mod_job_originium_miner_add£$job_originium_prime$消耗£consumer_goods£ §R消费品§!生产£originium_prime£§H至纯源石§!与£minerals£§R矿石§!，并提供一定的£minerals£§R矿物§!产量增幅"
+
+ job_sanity_strengthen_agentia_producer:0 "§Y应急理智加强液生产者§!"
+ job_sanity_strengthen_agentia_producer_plural:0 "§Y应急理智加强液生产者§!"
+ mod_jobsanity_strengthen_agentia_producer:0 "$job_sanity_strengthen_agentia_producer$职业"
+ job_sanity_strengthen_agentia_producer_desc:0 "这些生产者操作精准的操作萃取站的自动化机器，将食物初步制成营养液，再萃取其中的营养物质并继续加工，制成应急理智加强液"
+ job_sanity_strengthen_agentia_producer_effect_desc:0 "£mod_job_sanity_strengthen_agentia_producer_add£$job_sanity_strengthen_agentia_producer$消耗£food£§G食物§!生产£sanity£§Y理智§!"
+
+ job_sanity_concentrated_agentia_producer:0 "§Y应急理智浓缩液生产者§!"
+ job_sanity_concentrated_agentia_producer_plural:0 "§Y应急理智浓缩液生产者§!"
+ mod_job_sanity_concentrated_agentia_producer_add:0 "$job_sanity_concentrated_agentia_producer$职业"
+ job_sanity_concentrated_agentia_producer_desc:0 "得益于技术提升，工人们可以用更少的原材料制造出更优质的理智液，对岗位的需求也降低了"
+ job_sanity_concentrated_agentia_producer_effect_desc:0 "£mod_job_sanity_concentrated_agentia_producer_add£$job_sanity_concentrated_agentia_producer$消耗£food£§G食物§!生产£sanity£§Y理智§!"

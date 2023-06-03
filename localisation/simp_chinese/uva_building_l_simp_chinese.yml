@@ -1,0 +1,13 @@
+﻿l_simp_chinese:
+#建筑名称及介绍
+ ######初阶建筑######
+ building_originium_prime_mine: "§S源石矿场§!"
+ building_originium_prime_mine_desc: "泰拉大陆上特有的资源——§S至纯源石§!的§Y原材料§!，往往是由这样的一个个矿场生产的，再就近运入工厂加工成§S至纯源石§!。不过研究证明，源石是能够通过转化培育而成，因此通过开采石料、收集废品等方式都可以转换成源石"
+ building_emergency_sanity_strengthen_agentia_factory: "§Y应急理智加强液萃取站§!"
+ building_emergency_sanity_strengthen_agentia_factory_desc: "利用食物作为原材料，提取其中的营养物质制成的药剂，带有芬芳清香，便于入口。蕴含能量丰富，一剂即可恢复体力"
+ building_emergency_sanity_concentrated_agentia_factory: "§Y应急理智浓缩液浓缩站§!"
+ building_emergency_sanity_concentrated_agentia_factory_desc: "萃取技术与浓缩技术双重提高的产物，理智浓缩液，等量的体积却有超过两倍的营养价值，横扫颓势，做回自己。"
+
+ ######进阶建筑######
+ building_tragedy_cenotaph: "§H联合政府苦难纪念碑§!"
+ building_tragedy_cenotaph_desc: "一个由巨型石碑和航天发射站模型组成的纪念碑，为了纪念几千几万年以来，在泰拉大地不断产生的§R悲剧与苦难§!，缅怀受苦的泰拉人民，联合政府建造了§H苦难纪念碑§!，目的是展望§H遥远的未来§!，铭记§R过去的伤痕§!。\n\n§B从一天星斗的童梦中醒来，一个孩子走进墓园§!\n§B一片白色的石头林野，美得令人窒息§!\n§B我们在墓园献上花束§!\n§B不为纪念，只为装点§!\n§B在墓园中，我们自己正是花束§!\n§B朝花一簇§!\n§B何其短暂§!\n——取自《大地的尽头》BV1T14y1M76V"

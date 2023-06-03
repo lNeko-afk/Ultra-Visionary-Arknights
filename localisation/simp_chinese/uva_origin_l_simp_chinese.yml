@@ -1,0 +1,10 @@
+﻿l_simp_chinese:
+
+ uva_1_system_initializer_NAME:0 "§B泰拉联合政府起源§!"
+ uva_1_system_initializer_DESC:0 "$origin_tooltip_united_terra_effect$\n\n$origin_united_terra_desc$"
+
+ origin_united_terra:0 "§B泰拉联合政府起源§!"
+ origin_united_terra_desc:0 "滋生苦难的泰拉大地，自§B罗德岛§!研发了§R矿石病§!治愈方法之后进入了高速变革时期，虽然泰拉大地也因此陷入了一段时间的§R内战§!，但是内战之后泰拉基于各国建立了§B联合政府§!，集中力量办大事，先后深入研究§Y前文明科技§!与§Y太空技术§!，将视野放在灿烂的§M星空§!。\n从§R乌萨斯社会主义共和国联盟§!第一个航天员进入太空，§B联合政府§!脱离了他们的摇篮。得益于前文明的科技，联合政府开始高速发展太空技术，无尽的深空在等待着泰拉！然而，前文明的真相也将慢慢被揭开……"
+ origin_tooltip_united_terra_effect:0 "使用起源后，将会在故事星系开始游戏。首都行星拥有§B特殊建筑§!以及额外的人口。\n\n§R注意：将使用固定恒星系开局§!"
+
+ START_SCREEN_MESSAGES_UVA_1: "$origin_united_terra_desc$"

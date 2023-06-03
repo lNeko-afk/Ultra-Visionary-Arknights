@@ -1,0 +1,62 @@
+﻿l_simp_chinese:
+#科技分类
+ originium_theory: "§H源石理论§!"
+ originium_theory_desc: "源石基础理论，是泰拉近现代科技的基本支柱"
+
+#一阶段源石科技
+ ######物理######
+ tech_originium_theory: "§H源石理论§!"
+ tech_originium_theory_desc: "源石基础理论，是泰拉近现代科技的基本支柱"
+ TECH_ORIGINIUM_THEORY_TITTLE: "源石，苦难的开始"
+ TECH_ORIGINIUM_THEORY_DESC: "泰拉种群科技的起源。"
+ tech_basic_originium_engine: "§M基础源石引擎§!"
+ tech_basic_originium_engine_desc: "基于源石的引擎，由最常规的方式功能"
+ TECH_UNLOCK_BASIC_ORIGINIUM_ENGINE_TITTLE: "§H解锁部件：§!$tech_basic_originium_engine$"
+ TECH_UNLOCK_BASIC_ORIGINIUM_ENGINE_DESC: "§H$tech_basic_originium_engine$§!\n$tech_basic_originium_engine_desc$"
+ tech_cracking_originium_energy_supply_technology: "§Y裂解源石供能技术§!"
+ tech_cracking_originium_energy_supply_technology_desc: "通过直接将源石连带源石所含信息直接裂解，以此产生大量能量"
+ TECH_UNLOCK_CRACKING_ORIGINIUM_ENERGY_SUPPLY_TECHNOLOGY_TITTLE: "§H解锁部件：§!$tech_cracking_originium_energy_supply_technology$"
+ TECH_UNLOCK_CRACKING_ORIGINIUM_ENERGY_SUPPLY_TECHNOLOGY_DESC: "$tech_cracking_originium_energy_supply_technology$\n$tech_cracking_originium_energy_supply_technology_desc$"
+ tech_shaped_originercy_generator: "§R聚§H源§Y能§G发§B生§M器§!"
+ tech_shaped_originercy_generator_desc: "与低效的直接摧毁源石不同，新式技术可以将源石能量直接转化"
+ TECH_SHAPED_ORIGINERCY_GENERATOR_TITTLE: "§H解锁部件：§!$tech_shaped_originercy_generator$"
+ TECH_SHAPED_ORIGINERCY_GENERATOR_DESC: "$tech_shaped_originercy_generator$\n$tech_shaped_originercy_generator_desc$"
+
+ ######社会######
+ ##营养学
+ tech_sanity_factory_0: "§G营养提取技术§!"
+ tech_sanity_factory_0_desc: "从食品中提取营养恢复体力与理智"
+ TECH_SANITY_FACTORY_0_TITLE: "绿瓶的，好喝的！"
+ TECH_SANITY_FACTORY_0_DESC: "从食品中提取营养恢复体力与理智"
+
+ tech_originercy_forced_ripening: "§G源能催熟§!"
+ tech_originercy_forced_ripening_desc: "给植物生长提供额外的能量，既能够保证质量也能提升效率"
+ TECH_ORIGINERCY_FORCED_RIPENING_TITTLE: "这玩意可比转基因更靠谱！"
+ TECH_ORIGINERCY_FORCED_RIPENING_DESC: "给植物生长提供额外的能量，既能够保证质量也能提升效率"
+
+ tech_originercy_synthetic_starch: "§G合成淀粉§!"
+ tech_originercy_synthetic_starch_desc: "利用源能合成物质，合成淀粉是先例"
+ TECH_ORIGINERCY_SYNTHETIC_STARCH_TITTLE: "不好吃不好喝不好用"
+ TECH_ORIGINERCY_SYNTHETIC_STARCH_DESC: "利用源能合成物质，合成淀粉是先例"
+
+ tech_sanity_factory_1: "§G营养浓缩技术§!"
+ tech_sanity_factory_1_desc: "性价比极高的理智液，两单位小麦就能提供抵一人的体力！"
+ TECH_SANITY_FACTORY_1_TITLE: "横扫饥饿，做回博士！"
+ TECH_SANITY_FACTORY_1_DESC: "性价比极高的理智液，两单位小麦就能提供抵一人的体力！"
+
+ ##递质学
+
+ ##领袖学
+ tech_rhodesisland_style_operator_management: "§M罗德岛式干员管理§!"
+ tech_rhodesisland_style_operator_management_desc: "借鉴了罗德岛医药组织的干员管理模式，更为合理的优化了领袖组织"
+ TECH_RHODESISLAND_STYLE_OPERATOR_MANAGEMENT_TITTLE: "懂不懂罗德岛博士的含金量啊！"
+ TECH_RHODESISLAND_STYLE_OPERATOR_MANAGEMENT_DESC: "借鉴了罗德岛医药组织的干员管理模式，更为合理的优化了领袖组织"
+
+
+ ######工程######
+ tech_originium_mining: "§H源石开采技术§!"
+ tech_originium_mining_desc: "源石开采技术，泰拉世界的核心科技"
+ TECH_ORIGINIUM_MINING_TITLE: "泰拉掌握核心科技！"
+ TECH_ORIGNIUM_MINING_DESC: "源石开采技术，泰拉世界的核心科技"
+
+

@@ -1,0 +1,3 @@
+originium_theory = {
+    icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_originium_theory.dds"
+}

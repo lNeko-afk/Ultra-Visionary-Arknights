@@ -1,0 +1,40 @@
+namespace = uva_ohh
+
+country_event = {   #初始弹窗
+    id = uva_ohh.1
+    is_triggered_only = yes
+    title = "uva_ohh.1.name"
+    desc = "uva_ohh.1.desc"
+    custom_gui = uva_ohh_normal_window
+    force_open = yes
+    picture_event_data = {
+        portrait = caster_01_1
+        room = aquatics_room
+    }
+    show_sound = event_default
+
+    diplomatic = yes
+
+    trigger = {
+        is_ai = no
+        is_TERRA_species = yes
+        not = { has_active_event = { uva_ohh.1 } }
+    }
+
+    immediate = {
+        set_country_flag = uva_ohh_flag
+    }
+
+    option = {
+        name = "uva_ohh.1.a"
+        custom_gui = uva_ohh_normal_window_option
+        response_text = "uva_ohh.1.a_desc"
+        is_dialog_only = yes
+    }
+    option = {
+        name = "uva_ohh.1.b"
+        custom_gui = uva_ohh_normal_window_option
+        response_text = "uva_ohh.1.b_desc"
+        is_dialog_only = yes
+    }
+}

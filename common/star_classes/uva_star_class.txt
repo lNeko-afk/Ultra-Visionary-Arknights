@@ -1,0 +1,14 @@
+sc_uva_star1 = {
+    class = g_star
+    icon = uva_1_star
+    planet = {
+        key = pc_g_star
+        class = g_class
+    }
+
+    spawn_odds = 0
+    num_planets = {
+        min = 4
+        max = 10
+    }
+}

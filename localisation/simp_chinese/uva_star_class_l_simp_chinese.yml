@@ -1,0 +1,12 @@
+﻿l_simp_chinese:
+ ######主星系######
+ uva_1_system_initializer: "泰拉星系"
+ uva_1_system_initializer_desc: "孕育泰拉人的一颗怎么看都相当普通的G型恒星"
+ NAME_uva_star: "塔罗星"
+ NAME_uva_home_talo_1: "塔罗Ⅰ"
+ Name_uva_home_terra: "泰拉"
+ NAME_manmade_moon: "黑月"
+ NAME_uva_home_talo_2: "塔罗Ⅱ"
+ NAME_talo_innovation: "塔罗Ⅱb"
+ NAME_talo_3_barren: "塔罗Ⅲ"
+ NAME_talo_4_frost: "塔罗Ⅳ"

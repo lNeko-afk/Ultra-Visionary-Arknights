@@ -1,0 +1,29 @@
+spriteTypes = {
+    #界面背景
+    spriteType = {
+        name = GFX_uva_ohh_normal_window_option
+        textureFile = "gfx/ui/uva_operator_headhunter_normal_mainUI_option.dds"
+        effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+        noOfFrames = 3
+    }
+    spriteType = {
+        name = GFX_uva_ohh_normal_window_portrait
+        textureFile = "gfx/ui/uva_operator_headhunter_normal_mainUI_portrait.dds"
+    }
+    spriteType = {
+        name = GFX_uva_ohh_normal_window_portrait_mask
+        textureFile = "gfx/ui/uva_operator_headhunter_normal_mainUI_portrait_mask.dds"
+        effectFile = "gfx/FX/buttonstate_rendertarget.shader"
+        type = room
+        character = yes
+    }
+    spriteType = {
+        name = GFX_uva_ohh_normal_window
+        textureFile = "gfx/ui/uva_operator_headhunter_normal_mainUI.dds"
+    }
+    spriteType = {
+        name = GFX_uva_ohh_normal_window_dialogue
+        textureFile = "gfx/ui/uva_operator_headhunter_normal_mainUI_text.dds"
+
+    }
+}

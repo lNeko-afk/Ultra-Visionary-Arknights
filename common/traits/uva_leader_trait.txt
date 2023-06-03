@@ -1,0 +1,24 @@
+leader_trait_originium_theory = {
+    cost = 1
+
+    icon = gfx/interface/icons/traits/trait_originium_theory.dds
+    immortal_leaders = yes
+    modifier = {
+        category_originium_theory_research_speed_mult = 0.25
+    }
+    leader_trait = {
+        scientist
+    }
+    leader_class = {
+        scientist
+    }
+
+    ai_categories = {
+        physics
+        engineering
+        society
+    }
+    ai_weight = {
+        weight = 100
+    }
+}

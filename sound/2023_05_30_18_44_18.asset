@@ -1,0 +1,43 @@
+sound =
+{
+	name = "2023_05_30_18_44_18_advisor_generic_phrase_1"
+	file = "vo/2023_05_30_18_44_18/advisor_generic_phrase_1.wav"
+}
+sound =
+{
+	name = "2023_05_30_18_44_18_advisor_notification_research_complete_1"
+	file = "vo/2023_05_30_18_44_18/advisor_notification_research_complete_1.wav"
+}
+
+#AAAAAAAAAA
+soundgroup = 
+{
+	name = advisor_2023_05_30_18_44_18
+	soundeffectoverrides =
+	{
+		advisor_sample_voice_type = 2023_05_30_18_44_18_advisor_generic_phrase
+		advisor_notification_research_complete = 2023_05_30_18_44_18_advisor_notification_research_complete
+	}
+}
+
+#BBBBBBBBBB
+soundeffect = {
+	name = 2023_05_30_18_44_18_advisor_generic_phrase
+	sounds = {
+		weighted_sound = { sound = 2023_05_30_18_44_18_advisor_generic_phrase_1 weight = 1000 }
+	}
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+
+soundeffect = {
+	name = 2023_05_30_18_44_18_advisor_notification_research_complete
+	sounds = {
+		weighted_sound = { sound = 2023_05_30_18_44_18_advisor_notification_research_complete_1 weight = 1000 }
+	}
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+

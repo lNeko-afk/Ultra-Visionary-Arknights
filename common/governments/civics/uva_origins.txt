@@ -1,0 +1,28 @@
+origin_united_terra = {
+    is_origin = yes
+    icon = "gfx/interface/icons/origins/origin_united_terra.dds"
+    picture = uva_united_terra
+    max_once_global = yes
+
+    initializers = { uva_1_system_initializer }
+
+    possible = {
+        species_archetype = {
+            value = TERRA
+        }
+    }
+
+    description =  origin_tooltip_united_terra_effect
+
+    traits = {
+        trait = trait_improved_oripathy
+    }
+
+    flags = { custom_start_screen }
+
+    advanced_start = yes
+
+    random_weight = {
+        base = 0
+    }
+}

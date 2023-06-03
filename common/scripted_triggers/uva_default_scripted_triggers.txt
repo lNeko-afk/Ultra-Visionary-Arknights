@@ -1,0 +1,11 @@
+uva_default_govement_trigger = {
+    or = {
+        has_authority = auth_united_goverments
+    }
+}
+
+is_TERRA_species = {
+    species = {
+        is_archetype = TERRA
+    }
+}

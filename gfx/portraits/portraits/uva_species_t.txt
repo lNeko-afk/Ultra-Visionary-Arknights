@@ -1,0 +1,298 @@
+portraits = {
+    #领袖头像
+    caster_01_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_爱丽丝_1.dds"}
+    caster_01_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_爱丽丝_2.dds"}
+    caster_01_3 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_爱丽丝_skin1.dds"}
+    caster_02_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_薄绿_1.dds"}
+    caster_02_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_薄绿_2.dds"}
+    caster_03_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_惊蛰_1.dds"}
+    caster_03_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_惊蛰_2.dds"}
+    caster_04_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_苦艾_1.dds"}
+    caster_04_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_苦艾_2.dds"}
+    caster_05_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_莱恩哈特_1.dds"}
+    caster_05_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_莱恩哈特_2.dds"}
+    caster_05_3 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_莱恩哈特_skin1.dds"}
+    caster_05_4 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_莱恩哈特_skin2.dds"}
+    caster_06_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_洛洛_1.dds"}
+    caster_06_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_洛洛_2.dds"}
+    caster_07_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_蜜蜡_1.dds"}
+    caster_07_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_蜜蜡_2.dds"}
+    caster_07_3 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_蜜蜡_skin1.dds"}
+    caster_08_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_深靛_1.dds"}
+    caster_08_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_深靛_2.dds"}
+    caster_08_3 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_深靛_skin1.dds"}
+    caster_09_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_蚀清_1.dds"}
+    caster_09_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_蚀清_2.dds"}
+    caster_10_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_特米米_1.dds"}
+    caster_10_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_特米米_2.dds"}
+    caster_10_3 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_特米米_skin1.dds"}
+    caster_11_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_天火_1.dds"}
+    caster_11_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_天火_2.dds"}
+    caster_11_3 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_天火_skin1.dds"}
+    caster_12_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_星源_1.dds"}
+    caster_12_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_星源_2.dds"}
+    caster_13_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_炎狱炎熔_1.dds"}
+    caster_13_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_炎狱炎熔_2.dds"}
+    caster_13_3 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_炎狱炎熔_skin1.dds"}
+    caster_14_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_耶拉_1.dds"}
+    caster_14_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_耶拉_2.dds"}
+    caster_15_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_夜魔_1.dds"}
+    caster_15_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_夜魔_2.dds"}
+    caster_15_3 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_夜魔_skin1.dds"}
+    caster_16_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_至简_1.dds"}
+    caster_16_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_至简_2.dds"}
+    caster_17_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_12F_1.dds"}
+    caster_18_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_卡达_1.dds"}
+    caster_18_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_卡达_2.dds"}
+    caster_18_3 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_卡达_skin1.dds"}
+    caster_19_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_史都华德_1.dds"}
+    caster_19_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_史都华德_skin1.dds"}
+    caster_20_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_夜烟_1.dds"}
+    caster_20_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_夜烟_2.dds"}
+    caster_21_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_布丁_1.dds"}
+    caster_21_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_布丁_2.dds"}
+    caster_21_3 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_布丁_skin1.dds"}
+    caster_22_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_杜林_1.dds"}
+    caster_23_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_格雷伊_1.dds"}
+    caster_23_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_格雷伊_2.dds"}
+    caster_23_3 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_格雷伊_skin1.dds"}
+    caster_24_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_炎熔_1.dds"}
+    caster_25_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_远山_1.dds"}
+    caster_25_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_远山_2.dds"}
+    caster_25_3 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_远山_skin1.dds"}
+    caster_26_1 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_雪绒_1.dds"}
+    caster_26_2 = { textureFile= "gfx/models/portraits/rhodes_island/caster/立绘_雪绒_2.dds"}
+
+
+    defender_01_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_临光_1.dds"}
+    defender_01_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_临光_2.dds"}
+    defender_01_3 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_临光_skin1.dds"}
+    defender_02_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_卡缇_1.dds"}
+    defender_02_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_卡缇_skin1.dds"}
+    defender_03_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_古米_1.dds"}
+    defender_03_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_古米_2.dds"}
+    defender_03_3 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_古米_skin1.dds"}
+    defender_04_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_可颂_1.dds"}
+    defender_04_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_可颂_2.dds"}
+    defender_04_3 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_可颂_skin1.dds"}
+    defender_04_4 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_可颂_skin2.dds"}
+    defender_05_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_吽_1.dds"}
+    defender_05_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_吽_2.dds"}
+    defender_05_3 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_吽_skin1.dds"}
+    defender_06_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_坚雷_1.dds"}
+    defender_06_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_坚雷_2.dds"}
+    defender_07_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_拜松_1.dds"}
+    defender_07_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_拜松_2.dds"}
+    defender_08_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_斑点_1.dds"}
+    defender_08_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_斑点_skin1.dds"}
+    defender_09_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_暮落_1.dds"}
+    defender_09_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_暮落_2.dds"}
+    defender_10_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_暴雨_1.dds"}
+    defender_10_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_暴雨_2.dds"}
+    defender_10_3 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_暴雨_skin1.dds"}
+    defender_11_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_极光_1.dds"}
+    defender_11_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_极光_2.dds"}
+    defender_11_3 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_极光_skin1.dds"}
+    defender_12_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_泡泡_1.dds"}
+    defender_12_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_泡泡_2.dds"}
+    defender_13_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_火哨_1.dds"}
+    defender_13_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_火哨_2.dds"}
+    defender_14_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_火神_1.dds"}
+    defender_14_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_火神_2.dds"}
+    defender_15_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_灰毫_1.dds"}
+    defender_15_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_灰毫_2.dds"}
+    defender_16_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_石棉_1.dds"}
+    defender_16_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_石棉_2.dds"}
+    defender_16_3 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_石棉_skin1.dds"}
+    defender_17_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_米格鲁_1.dds"}
+    defender_17_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_米格鲁_skin1.dds"}
+    defender_18_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_蛇屠箱_1.dds"}
+    defender_18_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_蛇屠箱_2.dds"}
+    defender_18_3 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_蛇屠箱_skin1.dds"}
+    defender_19_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_角峰_1.dds"}
+    defender_19_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_角峰_2.dds"}
+    defender_19_3 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_角峰_skin1.dds"}
+    defender_20_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_车尔尼_1.dds"}
+    defender_20_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_车尔尼_2.dds"}
+    defender_21_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_雷蛇_skin1.dds"}
+    defender_21_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_雷蛇_skin2.dds"}
+    defender_22_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_雷蛇_1.dds"}
+    defender_22_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_雷蛇_2.dds"}
+    defender_23_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_黑角_1.dds"}
+    defender_24_1 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_洋灰_1.dds"}
+    defender_24_2 = { textureFile= "gfx/models/portraits/rhodes_island/defender/立绘_洋灰_2.dds"}
+
+    guard_1_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_石英_1.dds"}
+    guard_1_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_石英_2.dds"}
+    guard_2_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_霜叶_1.dds"}
+    guard_2_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_霜叶_2.dds"}
+    guard_2_3= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_霜叶_skin1.dds"}
+    guard_3_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_燧石_1.dds"}
+    guard_3_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_燧石_2.dds"}
+    guard_3_3= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_燧石_skin1.dds"}
+    guard_4_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_星极_1.dds"}
+    guard_4_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_星极_2.dds"}
+    guard_4_3= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_星极_skin1.dds"}
+    guard_4_4= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_星极_skin2.dds"}
+    guard_4_5= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_星极_skin3.dds"}
+    guard_5_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_休谟斯_1.dds"}
+    guard_5_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_休谟斯_2.dds"}
+    guard_6_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_炎客_1.dds"}
+    guard_6_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_炎客_2.dds"}
+    guard_6_3= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_炎客_skin1.dds"}
+    guard_7_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_宴_1.dds"}
+    guard_7_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_宴_2.dds"}
+    guard_7_3= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_宴_skin1.dds"}
+    guard_7_4= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_宴_skin2.dds"}
+    guard_8_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_野鬃_skin1.dds"}
+    guard_9_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_因陀罗_1.dds"}
+    guard_9_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_因陀罗_2.dds"}
+    guard_9_3= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_因陀罗_skin1.dds"}
+    guard_11_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_幽灵鲨_1.dds"}
+    guard_11_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_幽灵鲨_2.dds"}
+    guard_11_3= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_幽灵鲨_skin1.dds"}
+    guard_12_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_羽毛笔_1.dds"}
+    guard_12_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_羽毛笔_2.dds"}
+    guard_12_3= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_羽毛笔_skin1.dds"}
+    guard_13_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_月见夜_1.dds"}
+    guard_13_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_月见夜_skin1.dds"}
+    guard_14_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_铸铁_1.dds"}
+    guard_14_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_铸铁_2.dds"}
+    guard_14_3= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_铸铁_skin1.dds"}
+    guard_16_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_艾丝黛尔_1.dds"}
+    guard_16_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_艾丝黛尔_2.dds"}
+    guard_17_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_柏喙_1.dds"}
+    guard_17_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_柏喙_2.dds"}
+    guard_17_3= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_柏喙_skin1.dds"}
+    guard_18_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_暴行_1.dds"}
+    guard_18_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_暴行_2.dds"}
+    guard_19_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_鞭刃_1.dds"}
+    guard_19_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_鞭刃_2.dds"}
+    guard_19_3= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_鞭刃_skin1.dds"}
+    guard_20_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_布洛卡_1.dds"}
+    guard_20_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_布洛卡_2.dds"}
+    guard_20_3= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_布洛卡_skin1.dds"}
+    guard_21_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_缠丸_1.dds"}
+    guard_21_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_缠丸_2.dds"}
+    guard_22_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_赤冬_1.dds"}
+    guard_22_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_赤冬_2.dds"}
+    guard_23_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_杜宾_1.dds"}
+    guard_23_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_杜宾_2.dds"}
+    guard_23_3= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_杜宾_skin1.dds"}
+    guard_24_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_断崖_1.dds"}
+    guard_24_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_断崖_2.dds"}
+    guard_24_3= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_断崖_skin1.dds"}
+    guard_25_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_断罪者_1.dds"}
+    guard_25_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_断罪者_2.dds"}
+    guard_25_3= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_断罪者_skin1.dds"}
+    guard_26_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_铎铃_1.dds"}
+    guard_26_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_铎铃_2.dds"}
+    guard_27_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_芳汀_1.dds"}
+    guard_27_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_芳汀_2.dds"}
+    guard_27_3= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_芳汀_skin1.dds"}
+    guard_28_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_芙兰卡_1.dds"}
+    guard_28_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_芙兰卡_2.dds"}
+    guard_29_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_海沫_1.dds"}
+    guard_29_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_海沫_2.dds"}
+    guard_30_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_火龙S黑角_1.dds"}
+    guard_30_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_火龙S黑角_2.dds"}
+    guard_31_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_杰克_1.dds"}
+    guard_31_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_杰克_2.dds"}
+    guard_31_3= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_杰克_skin1.dds"}
+    guard_32_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_刻刀_1.dds"}
+    guard_32_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_刻刀_2.dds"}
+    guard_33_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_拉普兰德_1.dds"}
+    guard_33_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_拉普兰德_2.dds"}
+    guard_33_3= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_拉普兰德_skin1.dds"}
+    guard_34_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_猎蜂_1.dds"}
+    guard_34_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_猎蜂_2.dds"}
+    guard_34_3= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_猎蜂_skin1.dds"}
+    guard_35_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_龙舌兰_1.dds"}
+    guard_35_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_龙舌兰_2.dds"}
+    guard_35_3= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_龙舌兰_skin1.dds"}
+    guard_36_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_玫兰莎_1.dds"}
+    guard_36_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_玫兰莎_skin1.dds"}
+    guard_37_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_摩根_1.dds"}
+    guard_37_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_摩根_2.dds"}
+    guard_38_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_慕斯_1.dds"}
+    guard_38_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_慕斯_2.dds"}
+    guard_38_3= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_慕斯_skin1.dds"}
+    guard_39_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_泡普卡_1.dds"}
+    guard_40_1= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_诗怀雅_1.dds"}
+    guard_40_2= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_诗怀雅_2.dds"}
+    guard_40_3= { textureFile= "gfx/models/portraits/rhodes_island/guard/立绘_诗怀雅_skin1.dds"}
+
+    medic_1_1= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_亚叶_1.dds"}
+    medic_1_2= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_亚叶_2.dds"}
+    medic_1_3= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_亚叶_skin1.dds"}
+    medic_2_1= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_濯尘芙蓉_1.dds"}
+    medic_2_2= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_濯尘芙蓉_2.dds"}
+    medic_3_1= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_安赛尔_1.dds"}
+    medic_3_2= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_安赛尔_skin1.dds"}
+    medic_4_1= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_白面鸮_1.dds"}
+    medic_4_2= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_白面鸮_2.dds"}
+    medic_4_3= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_白面鸮_skin1.dds"}
+    medic_5_1= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_调香师_1.dds"}
+    medic_5_2= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_调香师_2.dds"}
+    medic_5_3= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_调香师_skin1.dds"}
+    medic_5_4= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_调香师_skin2.dds"}
+    medic_6_1= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_芙蓉_1.dds"}
+    medic_6_2= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_芙蓉_skin1.dds"}
+    medic_7_1= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_赫默_1.dds"}
+    medic_7_2= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_赫默_2.dds"}
+    medic_7_3= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_赫默_skin1.dds"}
+    medic_7_4= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_赫默_skin2.dds"}
+    medic_8_1= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_褐果_1.dds"}
+    medic_8_2= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_褐果_2.dds"}
+    medic_9_1= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_华法琳_1.dds"}
+    medic_9_2= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_华法琳_2.dds"}
+    medic_9_3= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_华法琳_skin1.dds"}
+    medic_9_4= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_华法琳_skin2.dds"}
+    medic_10_1= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_嘉维尔_1.dds"}
+    medic_10_2= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_嘉维尔_2.dds"}
+    medic_10_3= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_嘉维尔_skin1.dds"}
+    medic_11_1= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_蜜莓_1.dds"}
+    medic_11_2= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_蜜莓_2.dds"}
+    medic_11_3= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_蜜莓_skin1.dds"}
+    medic_12_1= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_明椒_1.dds"}
+    medic_12_2= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_明椒_2.dds"}
+    medic_13_1= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_末药_1.dds"}
+    medic_13_2= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_末药_2.dds"}
+    medic_13_3= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_末药_skin1.dds"}
+    medic_14_1= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_清流_1.dds"}
+    medic_14_2= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_清流_2.dds"}
+    medic_15_1= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_桑葚_1.dds"}
+    medic_15_2= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_桑葚_2.dds"}
+    medic_15_3= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_桑葚_skin1.dds"}
+    medic_15_4= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_桑葚_skin2.dds"}
+    medic_16_1= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_苏苏洛_1.dds"}
+    medic_16_2= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_苏苏洛_2.dds"}
+    medic_16_3= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_苏苏洛_skin1.dds"}
+    medic_17_1= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_图耶_1.dds"}
+    medic_17_2= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_图耶_2.dds"}
+    medic_17_3= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_图耶_skin1.dds"}
+    medic_18_1= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_微风_1.dds"}
+    medic_18_2= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_微风_2.dds"}
+    medic_19_1= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_锡兰_1.dds"}
+    medic_19_2= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_锡兰_2.dds"}
+    medic_20_1= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_夏栎_skin1.dds"}
+    medic_21_1= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_絮雨_1.dds"}
+    medic_21_2= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_絮雨_2.dds"}
+    medic_21_3= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_絮雨_skin1.dds"}
+
+    sniper_01_1={textureFile="gfx/models/portraits/rhodes_island/sniper/立绘_克洛丝_1.dds"}
+    sniper_01_2={textureFile="gfx/models/portraits/rhodes_island/sniper/立绘_克洛丝_skin1.dds"}
+
+    specialist_01_1 = { }
+
+    supporter_01_1 = { }
+
+    vanguard_01_1 = { }
+}
+portraits = {
+    senior_01_1 = { }
+
+    special_01_1 = {
+
+    }
+}

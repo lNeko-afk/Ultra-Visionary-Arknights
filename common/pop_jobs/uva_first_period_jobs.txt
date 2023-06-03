@@ -1,0 +1,97 @@
+
+@uva_job_weight_max = 1000
+@uva_job_weight_ruler = 400
+@uva_job_weight_sp = 100
+@uva_job_weight_specialist = 30
+@uva_job_weight_worker = 10
+@uva_job_weight_min = 1.5
+
+originium_miner = {
+    category = worker
+    condition_string = WORKER_JOB_TRIGGER
+    building_icon = building_originium_prime_mine
+    clothes_texture_index = 3
+    possible_precalc = can_fill_worker_job
+    possible_pre_triggers = {
+        has_owner = yes
+    }
+
+    possible = {
+        OR = {
+            has_trait = trait_improved_oripathy
+        }
+    }
+
+    planet_modifier = {
+        planet_miners_minerals_produces_mult = 0.05
+    }
+
+    resources = {
+        category = planet_miners
+        produces = {
+            minerals = 24
+            originium_prime = 10
+        }
+        upkeep = {
+            consumer_goods = 3
+        }
+    }
+
+    weight = {
+        weight = @uva_job_weight_worker
+    }
+}
+
+sanity_strengthen_agentia_producer = {
+    category = worker
+    condition_string = WORKER_JOB_TRIGGER
+    building_icon = building_emergency_sanity_strengthen_agentia_factory
+    clothes_texture_index = 3
+    possible_precalc = can_fill_worker_job
+    possible_pre_triggers = {
+        has_owner = yes
+    }
+
+    possible = {
+        or = {
+            has_trait = trait_improved_oripathy
+        }
+    }
+
+    resources = {
+        category = planet_chemists
+        produces = {
+            sanity = 60
+        }
+        upkeep = {
+            food = 5
+        }
+    }
+}
+
+sanity_concentrated_agentia_producer = {
+    category = worker
+    condition_string = WORKER_JOB_TRIGGER
+    building_icon = building_emergency_sanity_concentrated_agentia_factory
+    clothes_texture_index = 3
+    possible_precalc = can_fill_worker_job
+    possible_pre_triggers = {
+        has_owner = yes
+    }
+
+    possible = {
+        or = {
+            has_trait = trait_improved_oripathy
+        }
+    }
+
+    resources = {
+        category = planet_chemists
+        produces = {
+            sanity = 120
+        }
+        upkeep = {
+            food = 8
+        }
+    }
+}

@@ -1,0 +1,40 @@
+music = {
+    name = "longtrail_1"
+    file = longtrail_1.ogg
+    volume = 1.00
+}
+music = {
+    name = "longtrail_2"
+    file = longtrail_2.ogg
+    volume = 1.00
+}
+music = {
+    name = "longtrail_3"
+    file = longtrail_3.ogg
+    volume = 1.00
+}
+music = {
+    name = "库伯斯_匣"
+    file = 库伯斯_匣.ogg
+    volume = 1.00
+}
+music = {
+    name = "库伯斯_归恒"
+    file = 库伯斯_归恒.ogg
+    volume = 1.00
+}
+music = {
+    name = "库伯斯_意涵之回想"
+    file = 库伯斯_意涵之回想.ogg
+    volume = 1.00
+}
+music = {
+    name = "库伯斯_浪"
+    file = 库伯斯_浪.ogg
+    volume = 1.00
+}
+music = {
+    name = "库伯斯_静邃"
+    file = 库伯斯_静邃.ogg
+    volume = 1.00
+}

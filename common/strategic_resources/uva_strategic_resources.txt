@@ -1,0 +1,143 @@
+originium_prime = {
+    tradable = no
+    category = strategic
+    max = 10000
+
+    prerequisites = { "tech_originium_mining" }
+    visibility_prerequisite = { has_technology = tech_originium_mining }
+    #deficit_situation = situation_exotic_gases_deficit
+
+    ai_weight = {
+        weight = 10
+    }
+
+    ai_wants = {
+        base = 10
+    }
+}
+
+lung_men_dollaris = {
+    tradable = no
+    category = strategic
+    max = 10000
+
+    prerequisites = {  }
+    visibility_prerequisite = {  }
+    #deficit_situation = situation_exotic_gases_deficit
+
+    ai_weight = {
+        weight = 10
+    }
+
+    ai_wants = {
+        base = 10
+    }
+}
+
+crystalline_electronic_unit = {
+    tradable = no
+    category = strategic
+    max = 10000
+
+    prerequisites = {  }
+    visibility_prerequisite = {  }
+    #deficit_situation = situation_exotic_gases_deficit
+
+    ai_weight = {
+        weight = 10
+    }
+
+    ai_wants = {
+        base = 10
+    }
+}
+
+d32_steel = {
+    tradable = no
+    category = strategic
+    max = 10000
+
+    prerequisites = {  }
+    visibility_prerequisite = {  }
+    #deficit_situation = situation_exotic_gases_deficit
+
+    ai_weight = {
+        weight = 10
+    }
+
+    ai_wants = {
+        base = 10
+    }
+}
+
+bipolar_nanoflake = {
+    tradable = no
+    category = strategic
+    max = 10000
+
+    prerequisites = {  }
+    visibility_prerequisite = {  }
+    #deficit_situation = situation_exotic_gases_deficit
+
+    ai_weight = {
+        weight = 10
+    }
+
+    ai_wants = {
+        base = 10
+    }
+}
+
+polymerization_preparation = {
+    tradable = no
+    category = strategic
+    max = 10000
+
+    prerequisites = {  }
+    visibility_prerequisite = {  }
+    #deficit_situation = situation_exotic_gases_deficit
+
+    ai_weight = {
+        weight = 10
+    }
+
+    ai_wants = {
+        base = 10
+    }
+}
+
+calcined_concretion = {
+    tradable = no
+    category = strategic
+    max = 10000
+
+    prerequisites = {  }
+    visibility_prerequisite = {  }
+    #deficit_situation = situation_exotic_gases_deficit
+
+    ai_weight = {
+        weight = 10
+    }
+
+    ai_wants = {
+        base = 10
+    }
+}
+
+sanity = {
+    tradable = no
+    category = strategic
+    max = 10000
+
+    prerequisites = {  }
+    visibility_prerequisite = {  }
+    #deficit_situation = situation_exotic_gases_deficit
+
+    ai_weight = {
+        weight = 10
+    }
+
+    ai_wants = {
+        base = 10
+    }
+}

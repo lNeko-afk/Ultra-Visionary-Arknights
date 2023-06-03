@@ -1,0 +1,6 @@
+planet_uva_black_crown = {
+    icon = "gfx/interface/icons/planet_modifiers/planet_uva_black_crown.dds"
+    icon_frame = 1
+    country_base_influence_produces_add = 1
+    country_base_unity_produces_add = 20
+}

@@ -1,0 +1,65 @@
+namespace = uva_origin_utg
+
+country_event = {
+    id = uva_origin_utg.0
+    is_triggered_only = yes
+    hide_window = yes
+
+    trigger = {
+        has_origin = origin_united_terra
+        uva_default_govement_trigger = yes
+    }
+
+    immediate = {
+        log = "uva_origin.0:开始初始化母星"
+        capital_scope = {
+            change_pc = pc_continental
+            log = "uva_origin.0:初始化class完毕"
+            prevent_anomaly = yes
+            #add_modifier = {}
+            log = "uva_origin.0:添加Moddifier完毕"
+            add_building = building_research_lab_1
+            add_building = building_originium_prime_mine
+            add_building = building_tragedy_cenotaph
+            log = "uva_origin.0:添加Building完毕"
+            add_deposit = d_lung_men
+            add_deposit = d_sarcophagus_generator
+            add_deposit = d_sargon_desert
+            add_deposit = d_aegir_aquatic_product
+            add_deposit = d_black_soil
+            add_deposit = d_laterano_supercomputing
+            add_deposit = d_utg_space_industry
+            log = "uva_origin.0:添加Deposit完毕"
+            add_district = district_city
+            add_district = district_industrial
+            add_district = district_industrial
+            add_district = district_generator
+            add_district = district_mining
+            add_district = district_farming
+            while = {
+                count = 10
+                create_pop = {
+                    species = root
+                }
+            }
+            log = "uva_origin.0:创建Population完毕"
+        }
+        log = "uva_origin.0:初始化完毕"
+    }
+}
+country_event = {
+    id = uva_origin_utg.1
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = {
+        capital_scope.solar_system = {
+            random_system_planet = {
+                limit = {
+                    has_planet_flag = uva_talo_2_innovation
+                }
+                add_deposit = d_black_soil
+            }
+        }
+    }
+}

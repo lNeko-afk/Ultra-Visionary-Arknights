@@ -1,0 +1,115 @@
+gov_uva_00 = {
+    ruler_title = "uva_leader_assitant"
+    ruler_title_female = "uva_leader_assitant"
+
+    possible = {
+        has_authority = auth_united_goverments
+    }
+
+    weight = { base = 100 }
+}
+
+gov_uva_01 = {
+    ruler_title = "uva_leader_assitant"
+    ruler_title_female = "uva_leader_assitant"
+    should_force_rename = yes
+
+    possible = {
+        has_authority = auth_united_goverments
+        has_ethic = ethic_fanatic_militarist
+    }
+
+    weight = { base = 10000 }
+}
+
+gov_uva_02 = {
+
+    ruler_title = "uva_leader_assitant"
+    ruler_title_female = "uva_leader_assitant"
+    should_force_rename = yes
+
+    possible = {
+        has_authority = auth_united_goverments
+        has_ethic = ethic_fanatic_pacifist
+    }
+
+    weight = { base = 10000 }
+}
+
+gov_uva_03 = {
+    ruler_title = "uva_leader_assitant"
+    ruler_title_female = "uva_leader_assitant"
+    should_force_rename = yes
+
+    possible = {
+        has_authority = auth_united_goverments
+        has_ethic = ethic_fanatic_materialist
+    }
+
+    weight = { base = 10000 }
+}
+
+gov_uva_04 = {
+    ruler_title = "uva_leader_assitant"
+    ruler_title_female = "uva_leader_assitant"
+    should_force_rename = yes
+
+    possible = {
+        has_authority = auth_united_goverments
+        has_ethic = ethic_fanatic_spiritualist
+    }
+
+    weight = { base = 10000 }
+}
+
+gov_uva_05 = {
+    ruler_title = "uva_leader_assitant"
+    ruler_title_female = "uva_leader_assitant"
+    should_force_rename = yes
+
+    possible = {
+        has_authority = auth_united_goverments
+        has_ethic = ethic_fanatic_xenophobe
+    }
+
+    weight = { base = 10000 }
+}
+
+gov_uva_06 = {
+    ruler_title = "uva_leader_assitant"
+    ruler_title_female = "uva_leader_assitant"
+    should_force_rename = yes
+
+    possible = {
+        has_authority = auth_united_goverments
+        has_ethic = ethic_fanatic_xenophile
+    }
+
+    weight = { base = 10000 }
+}
+
+gov_uva_07 = {
+    ruler_title = "uva_leader_assitant"
+    ruler_title_female = "uva_leader_assitant"
+    should_force_rename = yes
+
+    possible = {
+        has_authority = auth_united_goverments
+        has_ethic = ethic_fanatic_egalitarian
+    }
+
+    weight = { base = 10000 }
+}
+
+gov_uva_08 = {
+    ruler_title = "uva_leader_assitant"
+    ruler_title_female = "uva_leader_assitant"
+    should_force_rename = yes
+
+    possible = {
+        has_authority = auth_united_goverments
+        has_ethic = ethic_fanatic_authoritarian
+    }
+
+    weight = { base = 10000 }
+}

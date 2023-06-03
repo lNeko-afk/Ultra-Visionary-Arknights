@@ -1,0 +1,37 @@
+uva_civilight_eterna_DWDB_221E = {#文明的存续
+    desc = uva_civilight_eterna_DWDB_221E_desc
+    picture = GFX_uva_civilight_eterna_DWDB_221E_1
+    max_instances = 1
+
+    potential = {
+        is_ship_class = shipclass_science_ship
+        exists = leader
+    }
+
+    allow = {
+        is_ship_class = shipclass_science_ship
+        exists = leader
+    }
+
+    on_create = {
+
+    }
+
+    visible = {
+        default_site_visible_trigger = yes
+    }
+
+    stages = 6
+
+    on_roll_failed = {
+        from = {
+            standard_archaeological_site_on_roll_failed = {
+                RANDOM_EVENTS = all_random_events
+            }
+        }
+    }
+}
+#
+#uva_pre_civilization_arc = {#前文明遗迹
+#
+#}

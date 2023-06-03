@@ -1,0 +1,142 @@
+d_lung_men = {
+    is_for_colonizable = yes
+    use_for_min_max_adjustments = no
+
+    use_weights_for_terraforming_swap_types = no
+
+    category = deposit_cat_rare
+
+    planet_modifier = {
+        job_merchant_add = 1
+    }
+
+    resources = {
+        produces = {
+            lung_men_dollaris = 100
+        }
+    }
+
+    potential = {
+        always = no
+    }
+
+    drop_weight = {
+        weight = 0
+    }
+}
+
+d_sarcophagus_generator = {
+    is_for_colonizable = yes
+    use_for_min_max_adjustments = no
+
+    use_weights_for_terraforming_swap_types  = no
+
+    category = deposit_cat_rare
+
+    planet_modifier = {
+        district_generator_max = 2
+    }
+
+    resources = {
+        produces = {
+            energy = 15
+        }
+    }
+
+    potential = {
+        always = no
+    }
+
+    drop_weight = {
+        weight = 0
+    }
+}
+
+d_sargon_desert = {
+    is_for_colonizable = yes
+    use_for_min_max_adjustments = no
+
+    use_weights_for_terraforming_swap_types = no
+
+    category = deposit_cat_rare
+
+    planet_modifier = {
+        district_mining_max = 2
+    }
+
+    resources = {
+        produces = {
+            minerals = 15
+        }
+    }
+
+    drop_weight = {
+        weight = 0
+    }
+}
+
+d_aegir_aquatic_product = {
+    is_for_colonizable = yes
+    use_weights_for_terraforming_swap_types = no
+
+    use_for_min_max_adjustments = no
+
+    category = deposit_cat_rare
+
+    planet_modifier = {
+        district_farming_max = 2
+    }
+
+    resources = {
+        produces = {
+            food = 15
+        }
+    }
+
+    drop_weight = {
+        weight = 0
+    }
+}
+
+d_utg_space_industry = {
+    is_for_colonizable = yes
+    use_for_min_max_adjustments = no
+
+    use_weights_for_terraforming_swap_types = no
+
+    category = deposit_cat_rare
+
+    planet_modifier = {
+        planet_jobs_engineering_research_produces_mult = 0.25
+        planet_jobs_physics_research_produces_mult = 0.25
+        planet_jobs_society_research_produces_mult = 0.25
+        planet_jobs_alloys_produces_mult = 0.25
+    }
+
+
+    drop_weight = {
+        weight = 0
+    }
+}
+
+d_laterano_supercomputing = {
+    is_for_colonizable = yes
+    use_weights_for_terraforming_swap_types = no
+
+    use_for_min_max_adjustments = no
+
+    category = deposit_cat_rare
+
+    resources = {
+        produces = {
+            unity = 30
+            physics_research = 10
+            engineering_research = 10
+            society_research = 10
+        }
+    }
+
+    drop_weight = {
+        weight = 0
+    }
+}

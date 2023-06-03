@@ -1,0 +1,8 @@
+spriteTypes = {
+
+    spriteType = {
+        name = uva_united_terra
+        textureFile = "gfx/event_pictures/origins/origin_united_terra.dds"
+    }
+
+}

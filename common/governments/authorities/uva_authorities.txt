@@ -1,0 +1,33 @@
+auth_united_goverments = {
+    election_type = oligarchic
+    election_term_years = 40
+    can_have_emergency_elections = no
+    max_election_candidates = 4
+    can_reform = no
+    has_agendas = yes
+    ruler_council_position = councilor_ruler_democratic
+    possible = {
+        species_archetype = {
+            value = TERRA
+        }
+        ethics = {
+            NOR = {
+                value = ethic_gestalt_consciousness
+            }
+        }
+    }
+
+    country_modifier = {
+        empire_size_penalty_mult = -0.15
+        planet_crime_add = 5
+        country_base_originium_prime_produces_add = 5
+        country_base_sanity_produces_add = 100
+        country_government_civic_points_add = 1
+    }
+
+    random_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}

@@ -1,0 +1,7 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_uva_civilight_eterna_DWDB_221E_1"
+        textureFile = "gfx/event_pictures/arc/uva_civilight_eterna_DWDB_221E_1.dds"
+        masking_texture = "gfx/interface/situation_log/event_mask.dds"
+    }
+}

@@ -1,0 +1,75 @@
+uva_species_classes = {
+    archetype = TERRA
+    randomized = no
+    gender = yes
+
+    portrait_modding = no
+
+    leader_age_min = 15
+    leader_age_max = 25
+
+    portraits = {
+        "Ultra_Visionary_Arknights_caster"
+        "Ultra_Visionary_Arknights_defender"
+        "Ultra_Visionary_Arknights_guarder"
+        "Ultra_Visionary_Arknights_medic"
+        "Ultra_Visionary_Arknights_sniper"
+        "Ultra_Visionary_Arknights_specialist"
+        "Ultra_Visionary_Arknights_supporter"
+        "Ultra_Visionary_Arknights_vanguard"
+    }
+    non_randomized_portraits = {
+        "Ultra_Visionary_Arknights_caster"
+        "Ultra_Visionary_Arknights_defender"
+        "Ultra_Visionary_Arknights_guarder"
+        "Ultra_Visionary_Arknights_medic"
+        "Ultra_Visionary_Arknights_sniper"
+        "Ultra_Visionary_Arknights_specialist"
+        "Ultra_Visionary_Arknights_supporter"
+        "Ultra_Visionary_Arknights_vanguard"
+    }
+
+    possible = {
+        authority = {
+            NOT = {
+                value = auth_machine_intelligence
+                text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE
+            }
+        }
+    }
+
+    graphical_culture = mammalian_01
+    move_pop_sound_effect = "moving_pop_confirmation"
+    trait = "trait_improved_oripathy"
+}
+
+uva_species_classes_all = {
+    archetype = TERRA
+    randomized = no
+    gender = no
+
+    portrait_modding = no
+
+    leader_age_min = 15
+    leader_age_max = 25
+
+    portraits = {
+        "Ultra_Visionary_Arknights_ALL_leader"
+    }
+    non_randomized_portraits = {
+        "Ultra_Visionary_Arknights_ALL_leader"
+    }
+
+    possible = {
+        authority = {
+            NOT = {
+                value = auth_machine_intelligence
+                text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE
+            }
+        }
+    }
+
+    graphical_culture = mammalian_01
+    move_pop_sound_effect = "moving_pop_confirmation"
+    trait = "trait_improved_oripathy"
+}

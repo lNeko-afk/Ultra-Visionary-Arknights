@@ -1,0 +1,49 @@
+building_tragedy_cenotaph = {
+    base_buildtime = 9
+    can_build = no
+    can_demolish = no
+    can_be_disabled = no
+    can_be_ruined = no
+    category = government
+    potential = {
+        exists = owner
+        owner = {
+            is_regular_empire = yes
+        }
+        not = {
+            has_modifier = slave_colony
+        }
+    }
+
+    #upgrades = {
+    #
+    # }
+
+    resources = {
+        category = planet_buildings
+        produces = {
+            energy = 20
+            minerals = 20
+            food = 20
+            unity = 30
+            influence = 1
+            physics_research = 25
+            society_research = 25
+            engineering_research = 20
+            consumer_goods = 20
+            alloys = 15
+
+        }
+    }
+    planet_modifier = {
+        planet_amenities_add = 20
+        job_politician_add = 1
+        job_enforcer_add = 1
+        TERRA_pop_growth_speed = 1
+        planet_max_districts_add = 5
+        planet_max_buildings_add = 2
+    }
+    ai_weight = {
+        weight = 0
+    }
+}

@@ -1,0 +1,5 @@
+music = {
+    name = longtrail_1
+    file = longtral_1.ogg
+    volume = 1.00
+}

@@ -1,0 +1,311 @@
+civic_columbia_lab = {
+    modification = yes #能否被替换，默认否
+
+    potential = { #对于“限制”的逻辑判断
+        ethics = {
+            NOT = {
+                value = ethic_gestalt_consciousness
+            }
+        }
+    }
+    possible = { #对于“可用”的逻辑判断
+        authority = {
+            value = auth_united_goverments
+        }
+        ethics = {
+            NOR = {
+                text = civic_tooltip_not_spiritualist
+                value = ethic_spiritualist
+                value = ethic_fanatic_spiritualist
+            }
+        }
+    }
+    random_weight = { base = 0 }#AI 随机刷出率，支持逻辑判断
+    modifier = { #国家修正器
+        all_technology_research_speed = 0.30
+        science_ship_survey_speed = 0.25
+        species_leader_exp_gain = 1
+    }
+}
+
+#拉特兰圣教
+civic_laterano_religion = {
+    modification = yes #能否被替换，默认否
+
+    potential = { #对于“限制”的逻辑判断
+        ethics = {
+            NOT = {
+                value = ethic_gestalt_consciousness
+            }
+        }
+    }
+    possible = { #对于“可用”的逻辑判断
+        authority = {
+            value = auth_united_goverments
+        }
+        ethics = {
+            NOR = {
+                text = civic_tooltip_not_materialist
+                value = ethic_materialist
+                value = ethic_fanatic_materialist
+            }
+        }
+    }
+    random_weight = { base = 0 }#AI 随机刷出率，支持逻辑判断
+    modifier = { #国家修正器
+        country_unity_produces_mult = 0.30
+        country_unity_cost_mult = -0.05
+        pop_government_ethic_attraction = 0.50
+        pop_factions_produces_mult =0.25
+        pop_citizen_happiness = 0.05
+    }
+}
+
+civic_rhodes_island = {
+    modification = yes #能否被替换，默认否
+
+    potential = { #对于“限制”的逻辑判断
+        ethics = {
+            NOT = {
+                value = ethic_gestalt_consciousness
+            }
+        }
+    }
+    possible = { #对于“可用”的逻辑判断
+        authority = {
+            value = auth_united_goverments
+        }
+        ethics = {
+            NOR = {
+                text = civic_tooltip_not_authoritarian
+                value = ethic_authoritarian
+                value = ethic_fanatic_authoritarian
+            }
+        }
+    }
+    random_weight = { base = 0 }#AI 随机刷出率，支持逻辑判断
+    modifier = { #国家修正器
+        TERRA_pop_growth_speed = 0.25
+        leader_age =10
+        leader_skill_levels = 2
+        pop_citizen_happiness = 0.25
+        species_leader_exp_gain = 0.25
+    }
+}
+
+#大炎行政机构
+civic_great_yan = {
+    modification = yes #能否被替换，默认否
+
+    potential = { #对于“限制”的逻辑判断
+        ethics = {
+            NOT = {
+                value = ethic_gestalt_consciousness
+            }
+        }
+    }
+    possible = { #对于“可用”的逻辑判断
+        authority = {
+            value = auth_united_goverments
+        }
+        ethics = {
+            NOR = {
+                text = civic_tooltip_not_egalitarian
+                value = ethic_egalitarian
+                value = ethic_fanatic_egalitarian
+            }
+        }
+    }
+    random_weight = { base = 0 }#AI 随机刷出率，支持逻辑判断
+    modifier = { #国家修正器
+        country_unity_produces_mult = 0.25
+        country_starbase_influence_cost_distance_mult = -0.50
+        country_starbase_influence_cost_mult = -0.25
+        country_war_exhaustion_mult = -0.1
+        country_claim_influence_cost_mult = -0.25
+        empire_size_mult = -0.1
+    }
+}
+
+#军事委员会（卡兹戴尔，乌萨斯
+#非和平
+civic_military_committee = {
+    modification = yes #能否被替换，默认否
+
+    potential = { #对于“限制”的逻辑判断
+        ethics = {
+            NOT = {
+                value = ethic_gestalt_consciousness
+            }
+        }
+    }
+    possible = { #对于“可用”的逻辑判断
+        authority = {
+            value = auth_united_goverments
+        }
+        ethics = {
+            nor = {
+                text = civic_tooltip_not_pacifist
+                value = ethic_pacifist
+                value = ethic_fanatic_pacifist
+            }
+        }
+    }
+    random_weight = { base = 0 }#AI 随机刷出率，支持逻辑判断
+    modifier = { #国家修正器
+        army_attack_damage_mult = 0.25
+        army_defense_damage_mult = 0.25
+        army_morale = 0.25
+        ship_weapon_damage = 0.50
+        ship_armor_reduction = -0.25
+        ship_shield_reduction = -0.25
+    }
+}
+
+#无非军国
+
+#整合运动
+#非亲外
+civic_reunion_movement = {
+    modification = yes #能否被替换，默认否
+
+    potential = { #对于“限制”的逻辑判断
+        ethics = {
+            NOT = {
+                value = ethic_gestalt_consciousness
+            }
+        }
+    }
+    possible = { #对于“可用”的逻辑判断
+        authority = {
+            value = auth_united_goverments
+        }
+        ethics = {
+            nor = {
+                text = civic_tooltip_not_xenophile
+                value = ethic_xenophile
+                value = ethic_fanatic_xenophile
+            }
+        }
+    }
+    random_weight = { base = 0 }#AI 随机刷出率，支持逻辑判断
+    modifier = { #国家修正器
+        country_war_exhaustion_mult = -0.25
+        edicts_cost_mult = -0.50
+        edicts_upkeep_mult = -0.50
+        planet_jobs_worker_produces_mult = 0.10
+        country_naval_cap_mult = 0.10
+    }
+}
+
+#联合政府外交部
+#非排外
+civic_UTG_diplomacy_department = {
+    #外交态度，人口迁移
+    modification = yes #能否被替换，默认否
+
+    potential = { #对于“限制”的逻辑判断
+        ethics = {
+            NOT = {
+                value = ethic_gestalt_consciousness
+            }
+        }
+    }
+    possible = { #对于“可用”的逻辑判断
+        authority = {
+            value = auth_united_goverments
+        }
+        ethics = {
+            nor = {
+                text = civic_tooltip_not_xenophobe
+                value = ethic_xenophobe
+                value = ethic_fanatic_xenophobe
+            }
+        }
+    }
+    random_weight = { base = 0 }#AI 随机刷出率，支持逻辑判断
+    modifier = { #国家修正器
+        starbase_building_build_speed_mult = 0.25
+        starbase_trade_protection_add = 10
+        starbase_trade_collection_range_add = 20
+        pop_growth_from_immigration = 0.5
+        pop_resettlement_cost_mult =-0.5
+        trade_value_mult = 0.25
+    }
+}
+
+###########
+##通用国策##
+###########
+
+civic_armorless_union = {
+    modification = yes #能否被替换，默认否
+
+    potential = { #对于“限制”的逻辑判断
+        ethics = {
+            NOT = {
+                value = ethic_gestalt_consciousness
+            }
+        }
+    }
+    possible = { #对于“可用”的逻辑判断
+        authority = {
+            value = auth_united_goverments
+        }
+    }
+    random_weight = { base = 0 }#AI 随机刷出率，支持逻辑判断
+    modifier = { #国家修正器
+        intel_decryption_add = 3
+        intel_encryption_add = 3
+        planet_crime_mult = -0.10
+        spy_network_daily_value_mult = 0.50
+    }
+}
+
+civic_ram_billiton ={
+    modification = yes #能否被替换，默认否
+
+    potential = { #对于“限制”的逻辑判断
+        ethics = {
+            NOT = {
+                value = ethic_gestalt_consciousness
+            }
+        }
+    }
+    possible = { #对于“可用”的逻辑判断
+        authority = {
+            value = auth_united_goverments
+        }
+    }
+    random_weight = { base = 0 }#AI 随机刷出率，支持逻辑判断
+    modifier = { #国家修正器
+        country_base_originium_prime_produces_add = 10
+        planet_miners_minerals_produces_mult = 0.15
+    }
+}
+
+#物流联盟（企鹅，峯驰，谢拉格）
+civic_logistics_union = {
+    #基础龙门币收入，空间站
+    modification = yes #能否被替换，默认否
+
+    potential = { #对于“限制”的逻辑判断
+        ethics = {
+            NOT = {
+                value = ethic_gestalt_consciousness
+            }
+        }
+    }
+    possible = { #对于“可用”的逻辑判断
+        authority = {
+            value = auth_united_goverments
+        }
+    }
+    random_weight = { base = 0 }#AI 随机刷出率，支持逻辑判断
+    modifier = { #国家修正器
+        country_base_lung_men_dollaris_produces_add = 100
+        planet_building_build_speed_mult = 0.25
+        planet_decision_enact_speed_mult = 0.25
+        planet_buildings_upkeep_mult = -0.10
+    }
+}

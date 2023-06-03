@@ -1,0 +1,150 @@
+
+building_originium_prime_mine = {
+    base_buildtime = 360
+    category = resource
+    potential = {
+        exists = owner
+        owner = {
+            is_regular_empire = yes
+        }
+        not = {
+            has_modifier = slave_colony
+        }
+    }
+
+    allow = {
+        or = {
+            has_upgraded_capital = yes
+        }
+    }
+
+    planet_modifier = {
+        planet_miners_minerals_produces_mult = 0.05
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner={
+                has_trait = trait_improved_oripathy
+                has_authority = auth_united_goverments
+            }
+        }
+        modifier = {
+            job_originium_miner_add = 3
+        }
+    }
+    resources = {
+        category = planet_buildings
+        cost = {
+            minerals = 500
+            lung_men_dollaris = 500
+        }
+        upkeep = {
+            lung_men_dollaris = 20
+            energy = 5
+        }
+    }
+    triggered_desc = {
+        text = job_originium_miner_effect_desc
+    }
+    prerequisites = {
+        "tech_originium_mining"
+    }
+    ai_weight = {
+        weight = 1
+    }
+}
+
+building_emergency_sanity_strengthen_agentia_factory = {#理智加强液萃取站
+    base_buildtime = 360
+    category = resource
+    potential = {
+        exists = owner
+        owner = {
+            is_regular_empire = yes
+        }
+        not = {
+            has_modifier = slave_colony
+        }
+    }
+    allow = {
+        or = {
+            has_upgraded_capital = yes
+        }
+    }
+
+    upgrades = { building_emergency_sanity_concentrated_agentia_factory }
+
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner={
+                has_trait = trait_improved_oripathy
+                has_authority = auth_united_goverments
+            }
+        }
+        job_sanity_strengthen_agentia_producer_add = 2
+    }
+    resources = {
+        category = planet_buildings
+        cost = {
+            minerals = 500
+            lung_men_dollaris = 500
+        }
+        upkeep = {
+            energy = 5
+            lung_men_dollaris = 20
+        }
+    }
+    triggered_desc = {
+        text = job_sanity_strengthen_agentia_producer_desc
+    }
+}
+
+building_emergency_sanity_concentrated_agentia_factory = {#理智浓缩液萃取站
+    base_buildtime = 720
+    category = resource
+    potential = {
+        exists = owner
+        owner = {
+            is_regular_empire = yes
+        }
+        not = {
+            has_modifier = slave_colony
+        }
+    }
+    allow = {
+        or = {
+            has_upgraded_capital = yes
+        }
+    }
+    prerequisites = {
+        "tech_sanity_factory_1"
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner={
+                has_trait = trait_improved_oripathy
+                has_authority = auth_united_goverments
+            }
+        }
+        job_sanity_concentrated_agentia_producer_add = 2
+    }
+    resources = {
+        category = planet_buildings
+        cost = {
+            minerals = 1200
+            lung_men_dollaris = 1000
+        }
+        upkeep = {
+            energy = 10
+            lung_men_dollaris = 30
+        }
+    }
+    triggered_desc = {
+        text = job_sanity_concentrated_agentia_producer_desc
+    }
+}
+

@@ -1,0 +1,206 @@
+uva_1_system_initializer = {
+    name = "Arknights Core Solar System"
+    class = "sc_uva_star1"
+    init_effect = {
+        every_neighbor_system = {
+            set_star_flag = empire_cluster
+            every_neighbor_system = {
+                set_star_flag = empire_cluster
+            }
+        }
+    }
+    flags = {
+        empire_home_system
+        custom_system
+    }
+    usage = origin
+
+    planet = {
+        count = 1
+        name = "NAME_uva_star"
+        class = "pc_g_star"
+        orbit_distance = 0
+        orbit_angle = 0
+        size = 30
+        init_effect = {
+            clear_deposits = yes
+            add_deposit = d_energy_10
+            add_deposit = d_physics_5
+        }
+    }
+
+    change_orbit = 30
+    asteroid_belt = {
+        type = rocky_asteroid_belt
+        radius = 150
+    }
+
+    planet = { #塔罗Ⅰ
+        name = "NAME_uva_home_talo_1"
+        class = pc_gaia
+        orbit_distance = 30
+        orbit_angle = 0
+        size = 30
+        flags = {
+            uva_talo_1
+        }
+        has_ring = no
+        moon = { #黑月
+            name = "NAME_manmade_moon"
+            class = pc_barren_cold
+            size = 10
+            orbit_distance = 15
+            orbit_angle = {
+                min = 90
+                max = 270
+            }
+            deposit_blockers = none
+            modifiers = none
+            flags = {
+                uva_manmade_moon
+            }
+            init_effect = {
+                add_modifier = {
+                    modifier = "planet_uva_black_crown"
+                    days = -1
+                }
+            }
+        }
+        moon = {
+            name = "Name_uva_home_terra"
+            class = pc_continental
+            orbit_distance = 10
+            orbit_angle = {
+                min = 90
+                max = 270
+            }
+            flags = {
+                uva_terra_planet
+            }
+            size = 20
+            deposit_blockers = none
+            modifiers = none
+            has_ring = no
+            home_planet = yes
+            #init_effect = {
+            #    add_modifier = {
+            #
+            #    }
+            #}
+        }
+    }
+
+    planet = {
+        name = "NAME_uva_home_talo_2"
+        class = pc_gas_giant
+        size = 25
+        orbit_distance = 50
+        orbit_angle = {
+            min = 90
+            max = 270
+        }
+        deposit_blockers = none
+        modifiers = none
+        flags = {
+            uva_talo
+        }
+        init_effect = {
+            clear_deposits = yes
+            add_deposit = d_energy_3
+            add_deposit = d_exotic_gases_2
+        }
+        moon = {
+            name = "NAME_talo_innovation"
+            class = pc_continental
+            size = 16
+            orbit_distance = 20
+            orbit_angle = {
+                min = 90
+                max = 270
+            }
+            deposit_blockers = none
+            modifiers = none
+            flags = {
+                uva_talo_2_innovation
+            }
+            init_effect = {
+                clear_deposits = yes
+                add_modifier = {
+                    modifier = "pre-civilization_citizen_planet"
+                    days = -1
+                }
+            }
+        }
+    }
+
+    asteroid_belt = {
+        type = rocky_asteroid_belt
+        radius = 100
+    }
+
+    planet = {
+        name = "NAME_talo_3_barren"
+        class = pc_barren
+        size = 18
+        orbit_distance = 30
+        orbit_angle = {
+            min = 90
+            max = 270
+        }
+        flags = {
+            uva_talo_3_barren
+        }
+        has_ring = no
+        init_effect = {
+            clear_deposits = yes
+            add_deposit = d_rare_crystals_5
+            add_deposit = d_exotic_gases_5
+            add_deposit = d_volatile_motes_5
+        }
+    }
+
+    planet = {
+        name = "NAME_talo_4_frost"
+        class = pc_frozen
+        size = 15
+        orbit_distance = 20
+        orbit_angle = {
+            min = 90
+            max = 270
+        }
+        flags = {
+            uva_talo_4_frost
+        }
+        has_ring = yes
+        init_effect = {
+            clear_deposits = yes
+            add_deposit = d_minerals_5
+        }
+    }
+
+    asteroid_belt = {
+        type = icy_asteroid_belt
+        radius = 300
+    }
+
+    neighbor_system = {
+        trigger = {
+            num_guaranteed_colonies >= 2
+        }
+        hyperlane_jumps = {
+            min = 1
+            max = 3
+        }
+        initializer = "neighbor_t1"
+    }
+    neighbor_system = {
+        trigger = {
+            num_guaranteed_colonies >= 1
+        }
+        hyperlane_jumps = {
+            min = 1
+            max = 3
+        }
+        initializer = "neighbor_t1_first_colony"
+    }
+}

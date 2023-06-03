@@ -1,0 +1,172 @@
+#源石理论
+tech_originium_theory = {
+    cost = @tier0cost1
+    area = physics
+    tier = 0
+    start_tech = yes
+    category = { originium_theory }
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_ORIGINIUM_THEORY_TITTLE"
+            desc = "TECH_ORIGINIUM_THEORY_DESC"
+        }
+    }
+    modifier = {
+        planet_jobs_produces_mult = 0.05
+    }
+    weight_modifier = {
+        modifier = {
+            factor = 0
+            nor = {
+                is_TERRA_species = no
+            }
+        }
+    }
+
+    starting_potential = {
+        is_TERRA_species = yes
+    }
+
+    ai_weight = { factor = 0 }
+}
+
+#基础源石引擎
+tech_basic_originium_engine = {
+    area = physics
+    cost = @tier2cost3
+    tier = 1
+    category = { originium_theory }
+    prerequisites = {
+        "tech_cold_fusion_power"
+        "tech_originium_theory"
+    }
+    WEIGHT = @tier2weight3
+
+    gateway = power_generation
+
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_UNLOCK_BASIC_ORIGINIUM_ENGINE_TITTLE"
+            desc = "TECH_UNLOCK_BASIC_ORIGINIUM_ENGINE_DESC"
+        }
+    }
+
+    weight_modifier = {
+        factor = 2
+        modifier = {
+            factor = 2
+            has_technology = tech_cruisers
+        }
+        modifier = {
+            factor = value:tech_weight_likelihood
+            research_leader = {
+                area = physics
+                has_trait = "leader_trait_originium_theory"
+            }
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = physics
+                has_trait = "leader_trait_originium_theory"
+            }
+        }
+    }
+}
+
+#裂解源石供能技术
+tech_cracking_originium_energy_supply_technology = {
+    area = physics
+    cost = @tier3cost3
+    tier = 2
+    category = { originium_theory }
+    prerequisites = {
+        "tech_basic_originium_engine"
+        "tech_antimatter_power"
+    }
+    weight = @tier3weight3
+
+    gateway = power_generation
+
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_UNLOCK_CRACKING_ORIGINIUM_ENERGY_SUPPLY_TECHNOLOGY_TITTLE"
+            desc = "TECH_UNLOCK_CRACKING_ORIGINIUM_ENERGY_SUPPLY_TECHNOLOGY_DESC"
+        }
+    }
+
+    weight_modifier = {
+        factor = 2
+        modifier = {
+            factor = 2
+            has_technology = tech_battleships
+        }
+        modifier = {
+            factor = value:tech_weight_likelihood
+            research_leader = {
+                area = physics
+                has_trait = "leader_trait_originium_theory"
+            }
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = physics
+                has_trait = "leader_trait_originium_theory"
+            }
+        }
+    }
+}
+
+#聚源能发生器
+tech_shaped_originercy_generator = {
+    area = physics
+    cost = @tier4cost3
+    tier = 3
+    category = { originium_theory }
+    prerequisites = {
+        "tech_cracking_originium_energy_supply_technology"
+        "tech_zero_point_power"
+    }
+    weight = @tier4weight3
+
+    gateway = power_generation
+
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_SHAPED_ORIGINERCY_GENERATOR_TITTLE"
+            desc = "TECH_SHAPED_ORIGINERCY_GENERATOR_DESC"
+        }
+    }
+
+    weight_modifier = {
+        factor = 2
+        modifier = {
+            factor = 2
+            has_technology = tech_battleships
+        }
+        modifier = {
+            factor = value:tech_weight_likelihood
+            research_leader = {
+                area = physics
+                has_trait = "leader_trait_originium_theory"
+            }
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = physics
+                has_trait = "leader_trait_originium_theory"
+            }
+        }
+    }
+}

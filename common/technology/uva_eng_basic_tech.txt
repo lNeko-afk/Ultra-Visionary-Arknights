@@ -1,0 +1,31 @@
+
+tech_originium_mining = {
+    cost = @tier0cost1 #@指引用数值
+    area = engineering #社会学领域
+    tier = 0
+    start_tech = yes
+    category = { materials }
+    prereqfor_desc = { #文本
+        ship = {
+            title = "TECH_ORIGINIUM_MINING_TITLE"
+            desc = "TECH_ORIGNIUM_MINING_DESC"
+        }
+    }
+
+    weight_modifier = {
+        modifier = { #这里的默认范围是帝国，所以不需要表示范围的语句（例如 from/owner 等）
+            factor = 0 #factor 为乘法，即当没有唯物主义或者极端唯物主义时，权重乘以 0 倍
+            NOR = {
+                is_TERRA_species = no
+            }
+        }
+    }
+
+    starting_potential = {
+        is_TERRA_species = yes
+    }
+
+    ai_weight = {
+        factor = 0
+    }
+}
