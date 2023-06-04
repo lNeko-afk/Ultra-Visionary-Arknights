@@ -31,4 +31,4 @@
     2. qq邮箱：1044266087@qq.com
 
 2. **Remind**：
-    1. b站空间：https://space.bilibili.com/71487448/?spm_id_from=333.999.0.0
+    1. b站空间：https://space.bilibili.com/71487448/
