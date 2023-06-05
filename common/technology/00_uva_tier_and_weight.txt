@@ -1,5 +1,0 @@
-@tier6cost1 = 60000 @tier6cost2 = 65000 @tier6cost3 = 70000
-@tier7cost1 = 75000 @tier7cost2 = 80000 @tier7cost3 = 85000
-@tier8cost1 = 90000 @tier8cost2 = 95000 @tier8cost3 = 100000
-
-@tier6weight1 = 15 @tier6weight2 = 10 @tier6weight3 = 5

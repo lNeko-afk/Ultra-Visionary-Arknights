@@ -167,6 +167,7 @@ tech_sanity_factory_1 = {
 tech_rhodesisland_style_operator_management = {
     cost = @tier2cost1
     area = society
+    tier = 2
     category = { statecraft }
     prerequisites = {
         "tech_originium_theory"

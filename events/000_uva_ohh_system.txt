@@ -5,7 +5,7 @@ country_event = {   #初始弹窗
     is_triggered_only = yes
     title = "uva_ohh.1.name"
     desc = "uva_ohh.1.desc"
-    custom_gui = uva_ohh_normal_window
+    custom_gui = uva_ohh_first_contact_ui
     force_open = yes
     picture_event_data = {
         portrait = caster_01_1
@@ -27,13 +27,13 @@ country_event = {   #初始弹窗
 
     option = {
         name = "uva_ohh.1.a"
-        custom_gui = uva_ohh_normal_window_option
+        custom_gui = uva_event_basic_ui_option
         response_text = "uva_ohh.1.a_desc"
         is_dialog_only = yes
     }
     option = {
         name = "uva_ohh.1.b"
-        custom_gui = uva_ohh_normal_window_option
+        custom_gui = uva_event_basic_ui_option
         response_text = "uva_ohh.1.b_desc"
         is_dialog_only = yes
     }

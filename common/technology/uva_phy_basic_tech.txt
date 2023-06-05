@@ -256,7 +256,7 @@ tech_nonentropy_originercy_engine = {
         }
         modifier = {
             factor = value:tech_weight_likelihood
-            research_leader = {S
+            research_leader = {
                 area = physics
                 has_trait = "leader_trait_originium_theory"
             }

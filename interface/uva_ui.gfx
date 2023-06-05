@@ -1,5 +1,5 @@
 spriteTypes = {
-    #界面背景
+    ####界面背景###
     spriteType = {
         name = GFX_uva_ohh_normal_window_option
         textureFile = "gfx/ui/uva_operator_headhunter_normal_mainUI_option.dds"
@@ -24,6 +24,39 @@ spriteTypes = {
     spriteType = {
         name = GFX_uva_ohh_normal_window_dialogue
         textureFile = "gfx/ui/uva_operator_headhunter_normal_mainUI_text.dds"
+    }
 
+    ####事件/选项基本UI####
+    spriteType = {
+        name = GFX_uva_event_basic_ui
+        textureFile = "gfx/ui/uva_event_basic_ui.dds"
+    }
+    spriteType = {
+        name = GFX_uva_event_basic_ui_exitbutton
+        textureFile = "gfx/ui/uva_event_basic_ui_exitbutton.dds"
+        effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+        noOfFrames = 1
+    }
+    spriteType = {
+        name = GFX_uva_event_basic_ui_option
+        textureFile = "gfx/ui/uva_event_basic_ui_option.dds"
+        effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+        noOfFrames = 3
+    }
+    spriteType = {
+        name = GFX_uva_event_basic_ui_texture
+        textureFile = "gfx/ui/uva_event_basic_ui_texturebox.dds"
+    }
+
+    ####背景####
+    #专员寻访
+    spriteType = {
+        name = GFX_uva_ohh_first_contact
+        textureFile = "gfx/ui/uva_ohh_first_contact.dds"
+    }
+    #世界观
+    spriteType = {
+        name = GFX_uva_world_view
+        textureFile = "gfx/ui/uva_world_view.dds"
     }
 }
