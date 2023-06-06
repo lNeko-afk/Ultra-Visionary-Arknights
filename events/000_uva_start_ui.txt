@@ -1,0 +1,51 @@
+namespace = uva_start
+
+country_event = {
+    id = uva_start.0
+    is_triggered_only = yes
+    title = "uva_start.0.name"
+    desc = "uva_start.0.desc"
+    custom_gui = uva_world_view_ui
+    show_sound = event_default
+    force_open = yes
+    diplomatic = yes
+
+    picture_event_data = {
+        room = default_room
+        portrait = sniper_01_1
+    }
+
+    trigger ={
+        is_ai = no
+        is_TERRA_species = yes
+        not = { has_active_event = { uva_ohh.1 } }
+    }
+
+    immediate = {
+        set_country_flag = uva_start_world_view_flag
+    }
+
+    option = {
+        name = "uva_start.0.a"
+        custom_gui = uva_event_basic_ui_option
+        response_text = "uva_start.0.a_desc"
+        is_dialog_only = yes
+    }
+    option = {
+        name = "uva_start.0.b"
+        custom_gui = uva_event_basic_ui_option
+        response_text = "uva_start.0.b_desc"
+        is_dialog_only = yes
+    }
+    option = {
+        name = "uva_start.0.c"
+        custom_gui = uva_event_basic_ui_option
+        response_text = "uva_start.0.c_desc"
+        is_dialog_only = yes
+    }
+    option = {
+        name = "uva_start.0.d"
+        custom_gui = uva_event_basic_ui_option
+        is_dialog_only = yes
+    }
+}

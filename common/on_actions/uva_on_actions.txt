@@ -1,7 +1,7 @@
 on_game_start_country = {
     events = {
         uva_origin_utg.0
-        uva_ohh.1
+        uva_start.0
     }
 }
 on_game_start_planet = {
