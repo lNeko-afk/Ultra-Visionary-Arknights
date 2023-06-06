@@ -59,4 +59,9 @@ spriteTypes = {
         name = GFX_uva_world_view
         textureFile = "gfx/ui/uva_world_view.dds"
     }
+    #模组介绍
+    spriteType = {
+        name = "GFX_uva_world_mod_view"
+        textureFile = "gfx/ui/uva_world_mod_view.dds"
+    }
 }

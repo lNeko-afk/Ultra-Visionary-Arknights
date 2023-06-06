@@ -18,7 +18,7 @@ country_event = {
     trigger ={
         is_ai = no
         is_TERRA_species = yes
-        not = { has_active_event = { uva_ohh.1 } }
+        not = { has_active_event = { uva_start.0 } }
     }
 
     immediate = {
@@ -46,6 +46,39 @@ country_event = {
     option = {
         name = "uva_start.0.d"
         custom_gui = uva_event_basic_ui_option
+        hidden_effect = {
+            country_event = {
+                id = uva_start.1
+            }
+        }
         is_dialog_only = yes
     }
+}
+
+country_event = {
+    id = uva_start.1
+    is_triggered_only = yes
+    title = uva_start.1.name
+    desc = uva_start.1.desc
+    custom_gui = uva_world_mod_view
+    show_sound = event_default
+    force_open = yes
+    diplomatic = yes
+
+    picture_event_data = {
+        room = default_room
+        portrait = caster_01_1
+    }
+
+    trigger = {
+        is_ai = no
+        is_TERRA_species = yes
+        not = { has_active_event = { uva_start.1 } }
+    }
+
+    immediate = {
+        set_country_flag = uva_start_world_mod_view
+    }
+
+
 }
