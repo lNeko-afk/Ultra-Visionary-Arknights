@@ -5,10 +5,11 @@ tags={
 	"Economy"
 	"Events"
 	"Species"
-	"Spaceships"
 	"Technologies"
-	"Leaders"
 	"Utilities"
+	"Leaders"
+	"Graphics"
 }
 name="Ultra Visionary Arknights"
 supported_version="*.*.*"
+picture = thumbnail.png
