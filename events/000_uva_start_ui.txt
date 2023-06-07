@@ -80,5 +80,20 @@ country_event = {
         set_country_flag = uva_start_world_mod_view
     }
 
-
+    option = {
+        name = "uva_start.1.a"
+        custom_gui = uva_event_basic_ui_option
+        response_text = "uva_start.1.a_desc"
+        is_dialog_only = yes
+    }
+    option = {
+        name = "uva_start.1.b"
+        custom_gui = uva_event_basic_ui_option
+        hidden_effect = {
+            country_event = {
+                id = uva_ohh.1
+            }
+        }
+        is_dialog_only = yes
+    }
 }
