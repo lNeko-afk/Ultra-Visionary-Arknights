@@ -3,8 +3,10 @@
  originium_theory: "§H源石理论§!"
  originium_theory_desc: "源石基础理论，是泰拉近现代科技的基本支柱"
 
-#一阶段源石科技
+################一阶段源石科技################
+
  ######物理######
+ ##引擎
  tech_originium_theory: "§H源石理论§!"
  tech_originium_theory_desc: "源石基础理论，是泰拉近现代科技的基本支柱"
  TECH_ORIGINIUM_THEORY_TITTLE: "源石，苦难的开始"

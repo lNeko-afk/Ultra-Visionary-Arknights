@@ -51,7 +51,7 @@ country_event = {
                 id = uva_start.1
             }
         }
-        is_dialog_only = yes
+        default_hide_option = yes
     }
 }
 
@@ -94,6 +94,6 @@ country_event = {
                 id = uva_ohh.1
             }
         }
-        is_dialog_only = yes
+        default_hide_option = yes
     }
 }

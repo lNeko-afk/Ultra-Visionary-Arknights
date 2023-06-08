@@ -1,14 +1,12 @@
 version="0.0.1"
 tags={
-	"Buildings"
-	"Diplomacy"
-	"Economy"
 	"Events"
+	"Economy"
+	"Diplomacy"
+	"Buildings"
 	"Species"
 	"Technologies"
-	"Utilities"
-	"Graphics"
 	"Leaders"
 }
 name="Ultra Visionary Arknights"
-supported_version="3.8.*"
+supported_version="3.8.3"
