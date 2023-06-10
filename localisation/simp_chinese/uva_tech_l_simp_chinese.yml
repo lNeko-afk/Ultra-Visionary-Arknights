@@ -1,77 +1,95 @@
 ﻿l_simp_chinese:
 #科技分类
- originium_theory: "§H源石理论§!"
- originium_theory_desc: "源石基础理论，是泰拉近现代科技的基本支柱"
+ originium_theory:0 "§H源石理论§!"
+ originium_theory_desc:0 "源石基础理论，是泰拉近现代科技的基本支柱"
 
 ################一阶段源石科技################
 
+ ###############
  ######物理######
+ ###############
+ 
+ ##激光武器
+ tech_arts_lasers:0 "§T技艺激光发射器§!"
+ tech_arts_lasers_desc:0 "由源石技艺激发的激光武器，比常规激光武器能量更大，杀伤性更强。"
+
+ tech_originercy_laser_refractor:0 "§M源能激光折射器§!"
+ tech_originercy_laser_refractor_desc:0 "技艺激光发射器的进阶武器，将激光进行多段折射并用源石技艺不停增幅激光强度，达到更高的杀伤力"
+
+ tech_originercy_refraction_lance:0 "§I源能折射光矛§!"
+ tech_originercy_refraction_lance_desc:0 "通过源石技艺折射技术，改进光矛武器，使光矛武器更具穿透性，射程更大，威力更远。"
+
+ tech_reform_laser_stream:0 "§H重整光束流§!"
+ tech_reform_laser_stream_desc:0 "对光束能量重新整合并再度增幅，极大的减少了源能的利用率，光矛武器更具备杀伤性"
+ 
+ 
+ 
  ##引擎
- tech_originium_theory: "§H源石理论§!"
- tech_originium_theory_desc: "源石基础理论，是泰拉近现代科技的基本支柱"
- TECH_ORIGINIUM_THEORY_TITTLE: "源石，苦难的开始"
- TECH_ORIGINIUM_THEORY_DESC: "泰拉种群科技的起源。"
+ tech_originium_theory:0 "§H源石理论§!"
+ tech_originium_theory_desc:0 "源石基础理论，是泰拉近现代科技的基本支柱"
+ TECH_ORIGINIUM_THEORY_TITTLE:0 "源石，苦难的开始"
+ TECH_ORIGINIUM_THEORY_DESC:0 "泰拉种群科技的起源。"
 
- tech_basic_originium_engine: "§M基础源石引擎§!"
- tech_basic_originium_engine_desc: "基于源石的引擎，由最常规的方式功能"
- TECH_UNLOCK_BASIC_ORIGINIUM_ENGINE_TITTLE: "§H解锁部件：§!$tech_basic_originium_engine$"
- TECH_UNLOCK_BASIC_ORIGINIUM_ENGINE_DESC: "§H$tech_basic_originium_engine$§!\n$tech_basic_originium_engine_desc$"
+ tech_basic_originium_engine:0 "§M基础源石引擎§!"
+ tech_basic_originium_engine_desc:0 "基于源石的引擎，由最常规的方式功能"
+ TECH_UNLOCK_BASIC_ORIGINIUM_ENGINE_TITTLE:0 "§H解锁部件：§!$tech_basic_originium_engine$"
+ TECH_UNLOCK_BASIC_ORIGINIUM_ENGINE_DESC:0 "§H$tech_basic_originium_engine$§!\n$tech_basic_originium_engine_desc$"
 
- tech_cracking_originium_energy_supply_technology: "§Y裂解源石供能技术§!"
- tech_cracking_originium_energy_supply_technology_desc: "通过直接将源石连带源石所含信息直接裂解，以此产生大量能量"
- TECH_UNLOCK_CRACKING_ORIGINIUM_ENERGY_SUPPLY_TECHNOLOGY_TITTLE: "§H解锁部件：§!$tech_cracking_originium_energy_supply_technology$"
- TECH_UNLOCK_CRACKING_ORIGINIUM_ENERGY_SUPPLY_TECHNOLOGY_DESC: "$tech_cracking_originium_energy_supply_technology$\n$tech_cracking_originium_energy_supply_technology_desc$"
+ tech_cracking_originium_energy_supply_technology:0 "§Y裂解源石供能技术§!"
+ tech_cracking_originium_energy_supply_technology_desc:0 "通过直接将源石连带源石所含信息直接裂解，以此产生大量能量"
+ TECH_UNLOCK_CRACKING_ORIGINIUM_ENERGY_SUPPLY_TECHNOLOGY_TITTLE:0 "§H解锁部件：§!$tech_cracking_originium_energy_supply_technology$"
+ TECH_UNLOCK_CRACKING_ORIGINIUM_ENERGY_SUPPLY_TECHNOLOGY_DESC:0 "$tech_cracking_originium_energy_supply_technology$\n$tech_cracking_originium_energy_supply_technology_desc$"
 
- tech_shaped_originercy_generator: "§R聚§H源§Y能§G发§B生§M器§!"
- tech_shaped_originercy_generator_desc: "与低效的直接摧毁源石不同，新式技术可以将源石能量直接转化"
- TECH_SHAPED_ORIGINERCY_GENERATOR_TITTLE: "§H解锁部件：§!$tech_shaped_originercy_generator$"
- TECH_SHAPED_ORIGINERCY_GENERATOR_DESC: "$tech_shaped_originercy_generator$\n$tech_shaped_originercy_generator_desc$"
+ tech_shaped_originercy_generator:0 "§R聚§H源§Y能§G发§B生§M器§!"
+ tech_shaped_originercy_generator_desc:0 "与低效的直接摧毁源石不同，新式技术可以将源石能量直接转化"
+ TECH_SHAPED_ORIGINERCY_GENERATOR_TITTLE:0 "§H解锁部件：§!$tech_shaped_originercy_generator$"
+ TECH_SHAPED_ORIGINERCY_GENERATOR_DESC:0 "$tech_shaped_originercy_generator$\n$tech_shaped_originercy_generator_desc$"
 
- tech_subspace_originercy_engine: "§R亚空间源能引擎§!"
- tech_subspace_originercy_engine_desc: "如今，凭借源石的强大能量，我们已经能够从亚空间抽取能量，以供我们的舰船使用"
- TECH_SUBSPACE_ORIGINERCY_ENGINE_TITTLE: "§H解锁部件：§!$tech_subspace_originercy_engine$"
- TECH_SUBSPACE_ORIGINERCY_ENGINE_DESE: "$tech_subspace_originercy_engine_desc$"
+ tech_subspace_originercy_engine:0 "§R亚空间源能引擎§!"
+ tech_subspace_originercy_engine_desc:0 "如今，凭借源石的强大能量，我们已经能够从亚空间抽取能量，以供我们的舰船使用"
+ TECH_SUBSPACE_ORIGINERCY_ENGINE_TITTLE:0 "§H解锁部件：§!$tech_subspace_originercy_engine$"
+ TECH_SUBSPACE_ORIGINERCY_ENGINE_DESE:0 "$tech_subspace_originercy_engine_desc$"
 
- tech_nonentropy_originercy_engine: "§R非熵源能引擎§!"
- tech_nonentropy_originercy_engine_desc: "非熵，超脱正常思维的名词。通过非熵技术，我们可以实现无熵变甚至是熵减。"
- TECH_NONENTROPY_ORIGINERCY_ENGINE_TITTLE: "§H解锁部件：§!$tech_nonentropy_originercy_engine$"
- TECH_NONENTROPY_ORIGINERCY_ENGINE_DESC: "$tech_nonentropy_originercy_engine_desc$"
+ tech_nonentropy_originercy_engine:0 "§R非熵源能引擎§!"
+ tech_nonentropy_originercy_engine_desc:0 "非熵，超脱正常思维的名词。通过非熵技术，我们可以实现无熵变甚至是熵减。"
+ TECH_NONENTROPY_ORIGINERCY_ENGINE_TITTLE:0 "§H解锁部件：§!$tech_nonentropy_originercy_engine$"
+ TECH_NONENTROPY_ORIGINERCY_ENGINE_DESC:0 "$tech_nonentropy_originercy_engine_desc$"
 
  ######社会######
  ##营养学
- tech_sanity_factory_0: "§G营养提取技术§!"
- tech_sanity_factory_0_desc: "从食品中提取营养恢复体力与理智"
- TECH_SANITY_FACTORY_0_TITLE: "绿瓶的，好喝的！"
- TECH_SANITY_FACTORY_0_DESC: "从食品中提取营养恢复体力与理智"
+ tech_sanity_factory_0:0 "§G营养提取技术§!"
+ tech_sanity_factory_0_desc:0 "从食品中提取营养恢复体力与理智"
+ TECH_SANITY_FACTORY_0_TITLE:0 "绿瓶的，好喝的！"
+ TECH_SANITY_FACTORY_0_DESC:0 "从食品中提取营养恢复体力与理智"
 
- tech_originercy_forced_ripening: "§G源能催熟§!"
- tech_originercy_forced_ripening_desc: "给植物生长提供额外的能量，既能够保证质量也能提升效率"
- TECH_ORIGINERCY_FORCED_RIPENING_TITTLE: "这玩意可比转基因更靠谱！"
- TECH_ORIGINERCY_FORCED_RIPENING_DESC: "给植物生长提供额外的能量，既能够保证质量也能提升效率"
+ tech_originercy_forced_ripening:0 "§G源能催熟§!"
+ tech_originercy_forced_ripening_desc:0 "给植物生长提供额外的能量，既能够保证质量也能提升效率"
+ TECH_ORIGINERCY_FORCED_RIPENING_TITTLE:0 "这玩意可比转基因更靠谱！"
+ TECH_ORIGINERCY_FORCED_RIPENING_DESC:0 "给植物生长提供额外的能量，既能够保证质量也能提升效率"
 
- tech_originercy_synthetic_starch: "§G合成淀粉§!"
- tech_originercy_synthetic_starch_desc: "利用源能合成物质，合成淀粉是先例"
- TECH_ORIGINERCY_SYNTHETIC_STARCH_TITTLE: "不好吃不好喝不好用"
- TECH_ORIGINERCY_SYNTHETIC_STARCH_DESC: "利用源能合成物质，合成淀粉是先例"
+ tech_originercy_synthetic_starch:0 "§G合成淀粉§!"
+ tech_originercy_synthetic_starch_desc:0 "利用源能合成物质，合成淀粉是先例"
+ TECH_ORIGINERCY_SYNTHETIC_STARCH_TITTLE:0 "不好吃不好喝不好用"
+ TECH_ORIGINERCY_SYNTHETIC_STARCH_DESC:0 "利用源能合成物质，合成淀粉是先例"
 
- tech_sanity_factory_1: "§G营养浓缩技术§!"
- tech_sanity_factory_1_desc: "性价比极高的理智液，两单位小麦就能提供抵一人的体力！"
- TECH_SANITY_FACTORY_1_TITLE: "横扫饥饿，做回博士！"
- TECH_SANITY_FACTORY_1_DESC: "性价比极高的理智液，两单位小麦就能提供抵一人的体力！"
+ tech_sanity_factory_1:0 "§G营养浓缩技术§!"
+ tech_sanity_factory_1_desc:0 "性价比极高的理智液，两单位小麦就能提供抵一人的体力！"
+ TECH_SANITY_FACTORY_1_TITLE:0 "横扫饥饿，做回博士！"
+ TECH_SANITY_FACTORY_1_DESC:0 "性价比极高的理智液，两单位小麦就能提供抵一人的体力！"
 
  ##递质学
 
  ##领袖学
- tech_rhodesisland_style_operator_management: "§M罗德岛式干员管理§!"
- tech_rhodesisland_style_operator_management_desc: "借鉴了罗德岛医药组织的干员管理模式，更为合理的优化了领袖组织"
- TECH_RHODESISLAND_STYLE_OPERATOR_MANAGEMENT_TITTLE: "懂不懂罗德岛博士的含金量啊！"
- TECH_RHODESISLAND_STYLE_OPERATOR_MANAGEMENT_DESC: "借鉴了罗德岛医药组织的干员管理模式，更为合理的优化了领袖组织"
+ tech_rhodesisland_style_operator_management:0 "§M罗德岛式干员管理§!"
+ tech_rhodesisland_style_operator_management_desc:0 "借鉴了罗德岛医药组织的干员管理模式，更为合理的优化了领袖组织"
+ TECH_RHODESISLAND_STYLE_OPERATOR_MANAGEMENT_TITTLE:0 "懂不懂罗德岛博士的含金量啊！"
+ TECH_RHODESISLAND_STYLE_OPERATOR_MANAGEMENT_DESC:0 "借鉴了罗德岛医药组织的干员管理模式，更为合理的优化了领袖组织"
 
 
  ######工程######
- tech_originium_mining: "§H源石开采技术§!"
- tech_originium_mining_desc: "源石开采技术，泰拉世界的核心科技"
- TECH_ORIGINIUM_MINING_TITLE: "泰拉掌握核心科技！"
- TECH_ORIGNIUM_MINING_DESC: "源石开采技术，泰拉世界的核心科技"
+ tech_originium_mining:0 "§H源石开采技术§!"
+ tech_originium_mining_desc:0 "源石开采技术，泰拉世界的核心科技"
+ TECH_ORIGINIUM_MINING_TITLE:0 "泰拉掌握核心科技！"
+ TECH_ORIGNIUM_MINING_DESC:0 "源石开采技术，泰拉世界的核心科技"
 
 

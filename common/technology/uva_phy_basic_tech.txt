@@ -38,6 +38,157 @@ tech_originium_theory = {
     ai_weight = { factor = 0 }
 }
 
+##############
+####激光武器####
+##############
+
+tech_arts_lasers = {
+    area = physics
+    cost = @tier3cost1
+    tier = 3
+    category = { originium_theory }
+    ai_update_type = military
+    prerequisites = {
+        tech_originium_theory
+        tech_lasers_3
+    }
+    weight = @tier3weight1
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+tech_originercy_laser_refractor = {
+    area = physics
+    cost = @tier4cost1
+    tier = 4
+    category = { originium_theory }
+    ai_update_type = military
+    prerequisites = {
+        tech_arts_lasers
+        tech_lasers_4
+    }
+    weight = @tier4weight1
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+tech_originercy_refraction_lance = {
+    area = physics
+    cost = @tier4cost2
+    tier = 4
+    category = { originium_theory }
+    ai_update_type = military
+    prerequisites = {
+        tech_originercy_laser_refractor
+        tech_energy_lance_1
+        tech_battleships
+    }
+    weight = @tier4cost2
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+tech_reform_laser_stream = {
+    area = physics
+    cost = @tier5cost2
+    tier = 5
+    category = { originium_theory }
+    ai_update_type = military
+    prerequisites = {
+        tech_originercy_refraction_lance
+        tech_originercy_laser_refractor
+        tech_energy_lance_2
+    }
+    weight = @tier5weight2
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+##############
+####双穿武器####
+##############
+
+
+
+
+
+
 #############
 #####引擎#####
 #############
@@ -162,97 +313,6 @@ tech_shaped_originercy_generator = {
         modifier = {
             factor = 2
             has_technology = tech_battleships
-        }
-        modifier = {
-            factor = value:tech_weight_likelihood
-            research_leader = {
-                area = physics
-                has_trait = "leader_trait_originium_theory"
-            }
-        }
-    }
-
-    ai_weight = {
-        modifier = {
-            factor = 1.25
-            research_leader = {
-                area = physics
-                has_trait = "leader_trait_originium_theory"
-            }
-        }
-    }
-}
-
-tech_subspace_originercy_engine = {
-    area = physics
-    cost = @tier5cost3
-    tier = 5
-    category = { originium_theory }
-    prerequisites = {
-        "tech_shaped_originercy_generator"
-        ####飞升科技
-    }
-    weight = @tier5weight1
-
-    gateway = power_generation
-
-    prereqfor_desc = {
-        ship = {
-            title = "TECH_SUBSPACE_ORIGINERCY_ENGINE_TITTLE"
-            desc = "TECH_SUBSPACE_ORIGINERCY_ENGINE_DESE"
-        }
-    }
-    weight_modifier = {
-        factor = 2
-        modifier = {
-            factor = 2
-            has_technology = tech_titans
-        }
-        modifier = {
-            factor = value:tech_weight_likelihood
-            research_leader = {
-                area = physics
-                has_trait = "leader_trait_originium_theory"
-            }
-        }
-    }
-
-    ai_weight = {
-        modifier = {
-            factor = 1.25
-            research_leader = {
-                area = physics
-                has_trait = "leader_trait_originium_theory"
-            }
-        }
-    }
-
-}
-
-tech_nonentropy_originercy_engine = {
-    area = physics
-    cost = @tier6cost1
-    tier = 6
-    category = { originium_theory }
-    prerequisites = {
-        tech_subspace_originercy_engine
-    }
-    weight = @tier5weight2
-
-    gateway = power_generation
-
-    prereqfor_desc = {
-        ship = {
-            title = "TECH_NONENTROPY_ORIGINERCY_ENGINE_TITTLE"
-            desc = "TECH_NONENTROPY_ORIGINERCY_ENGINE_DESC"
-        }
-    }
-
-    weight_modifier = {
-        factor = 2
-        modifier = {
-            factor = 2
-            has_technology = tech_titans
         }
         modifier = {
             factor = value:tech_weight_likelihood

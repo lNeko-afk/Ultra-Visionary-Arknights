@@ -1,0 +1,102 @@
+##########二阶段进阶科技
+
+@tier6cost1 = 60000 @tier6cost2 = 65000 @tier6cost3 = 70000
+@tier7cost1 = 75000 @tier7cost2 = 80000 @tier7cost3 = 85000
+@tier8cost1 = 90000 @tier8cost2 = 95000 @tier8cost3 = 100000
+
+@tier6weight1 = 15 @tier6weight2 = 10 @tier6weight3 = 5
+
+###########
+####引擎####
+###########
+
+tech_subspace_originercy_engine = {
+    area = physics
+    cost = @tier5cost3
+    tier = 5
+    category = { originium_theory }
+    prerequisites = {
+        "tech_shaped_originercy_generator"
+        ####飞升科技
+    }
+    weight = @tier5weight1
+
+    gateway = power_generation
+
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_SUBSPACE_ORIGINERCY_ENGINE_TITTLE"
+            desc = "TECH_SUBSPACE_ORIGINERCY_ENGINE_DESE"
+        }
+    }
+    weight_modifier = {
+        factor = 2
+        modifier = {
+            factor = 2
+            has_technology = tech_titans
+        }
+        modifier = {
+            factor = value:tech_weight_likelihood
+            research_leader = {
+                area = physics
+                has_trait = "leader_trait_originium_theory"
+            }
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = physics
+                has_trait = "leader_trait_originium_theory"
+            }
+        }
+    }
+
+}
+
+tech_nonentropy_originercy_engine = {
+    area = physics
+    cost = @tier6cost1
+    tier = 6
+    category = { originium_theory }
+    prerequisites = {
+        tech_subspace_originercy_engine
+    }
+    weight = @tier5weight2
+
+    gateway = power_generation
+
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_NONENTROPY_ORIGINERCY_ENGINE_TITTLE"
+            desc = "TECH_NONENTROPY_ORIGINERCY_ENGINE_DESC"
+        }
+    }
+
+    weight_modifier = {
+        factor = 2
+        modifier = {
+            factor = 2
+            has_technology = tech_titans
+        }
+        modifier = {
+            factor = value:tech_weight_likelihood
+            research_leader = {
+                area = physics
+                has_trait = "leader_trait_originium_theory"
+            }
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = physics
+                has_trait = "leader_trait_originium_theory"
+            }
+        }
+    }
+}
