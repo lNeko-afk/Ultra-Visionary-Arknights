@@ -280,8 +280,87 @@ portraits = {
     medic_21_2= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_絮雨_2.dds"}
     medic_21_3= { textureFile= "gfx/models/portraits/rhodes_island/medic/立绘_絮雨_skin1.dds"}
 
-    sniper_01_1={textureFile="gfx/models/portraits/rhodes_island/sniper/立绘_克洛丝_1.dds"}
-    sniper_01_2={textureFile="gfx/models/portraits/rhodes_island/sniper/立绘_克洛丝_skin1.dds"}
+    sniper_1_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_克洛丝_1.dds"}
+    sniper_1_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_克洛丝_skin1.dds"}
+    sniper_2_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_四月_1.dds"}
+    sniper_2_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_四月_2.dds"}
+    sniper_2_3= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_四月_skin1.dds"}
+    sniper_3_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_埃拉托_1.dds"}
+    sniper_3_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_埃拉托_2.dds"}
+    sniper_4_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_奥斯塔_1.dds"}
+    sniper_4_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_奥斯塔_2.dds"}
+    sniper_4_3= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_奥斯塔_skin1.dds"}
+    sniper_5_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_子月_1.dds"}
+    sniper_5_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_子月_2.dds"}
+    sniper_6_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_守林人_1.dds"}
+    sniper_6_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_守林人_2.dds"}
+    sniper_6_3= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_守林人_skin1.dds"}
+    sniper_6_4= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_守林人_skin2.dds"}
+    sniper_7_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_安哲拉_1.dds"}
+    sniper_7_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_安哲拉_2.dds"}
+    sniper_7_3= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_安哲拉_skin1.dds"}
+    sniper_8_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_安德切尔_1.dds"}
+    sniper_8_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_安德切尔_skin1.dds"}
+    sniper_9_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_安比尔_1.dds"}
+    sniper_9_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_安比尔_2.dds"}
+    sniper_10_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_寒芒克洛丝_1.dds"}
+    sniper_10_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_寒芒克洛丝_2.dds"}
+    sniper_10_3= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_寒芒克洛丝_skin1.dds"}
+    sniper_11_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_巡林者_1.dds"}
+    sniper_12_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_慑砂_1.dds"}
+    sniper_12_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_慑砂_2.dds"}
+    sniper_13_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_截云_1.dds"}
+    sniper_13_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_截云_2.dds"}
+    sniper_14_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_承曦格雷伊_1.dds"}
+    sniper_14_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_承曦格雷伊_2.dds"}
+    sniper_15_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_普罗旺斯_1.dds"}
+    sniper_15_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_普罗旺斯_2.dds"}
+    sniper_15_3= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_普罗旺斯_skin1.dds"}
+    sniper_15_4= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_普罗旺斯_skin2.dds"}
+    sniper_16_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_杰西卡_1.dds"}
+    sniper_16_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_杰西卡_2.dds"}
+    sniper_16_3= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_杰西卡_skin1.dds"}
+    sniper_16_4= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_杰西卡_skin2.dds"}
+    sniper_16_5= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_杰西卡_skin3.dds"}
+    sniper_17_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_松果_1.dds"}
+    sniper_17_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_松果_2.dds"}
+    sniper_17_3= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_松果_skin1.dds"}
+    sniper_18_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_梅_1.dds"}
+    sniper_18_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_梅_2.dds"}
+    sniper_19_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_正义骑士号_1.dds"}
+    sniper_20_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_流星_1.dds"}
+    sniper_20_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_流星_2.dds"}
+    sniper_20_3= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_流星_skin1.dds"}
+    sniper_21_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_灰喉_1.dds"}
+    sniper_21_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_灰喉_2.dds"}
+    sniper_21_3= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_灰喉_skin1.dds"}
+    sniper_22_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_灰烬_1.dds"}
+    sniper_22_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_灰烬_2.dds"}
+    sniper_22_3= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_灰烬_skin1.dds"}
+    sniper_23_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_熔泉_1.dds"}
+    sniper_23_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_熔泉_2.dds"}
+    sniper_24_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_白金_1.dds"}
+    sniper_24_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_白金_2.dds"}
+    sniper_24_3= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_白金_skin1.dds"}
+    sniper_25_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_白雪_1.dds"}
+    sniper_25_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_白雪_2.dds"}
+    sniper_25_3= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_白雪_skin1.dds"}
+    sniper_26_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_空爆_1.dds"}
+    sniper_27_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_红云_1.dds"}
+    sniper_27_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_红云_2.dds"}d
+    sniper_28_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_蓝毒_1.dds"}
+    sniper_28_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_蓝毒_2.dds"}
+    sniper_28_3= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_蓝毒_skin1.dds"}
+    sniper_29_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_送葬人_1.dds"}
+    sniper_29_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_送葬人_2.dds"}
+    sniper_29_3= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_送葬人_skin1.dds"}
+    sniper_30_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_酸糖_1.dds"}
+    sniper_30_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_酸糖_2.dds"}
+    sniper_31_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_铅踝_1.dds"}
+    sniper_31_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_铅踝_2.dds"}
+    sniper_32_1= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_陨星_1.dds"}
+    sniper_32_2= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_陨星_2.dds"}
+    sniper_32_3= { textureFile= "gfx/models/portraits/rhodes_island/sniper/立绘_陨星_skin1.dds"}
 
     specialist_01_1 = { }
 
