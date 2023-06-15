@@ -9,7 +9,7 @@ country_event = {   #初始弹窗
     force_open = yes
     picture_event_data = {
         portrait = caster_01_1
-        room = aquatics_room
+        room = default_room
     }
     show_sound = event_default
 
@@ -47,5 +47,37 @@ country_event = {   #初始弹窗
         name = "uva_ohh.1.d"
         custom_gui = uva_event_basic_ui_option
         default_hide_option = yes
+        hidden_effect = {
+            country_event ={
+                id = uva_ohh.10
+            }
+        }
     }
+}
+
+country_event = {
+    id = uva_ohh.10
+    is_triggered_only = yes
+    title = "uva_ohh.10.name"
+    desc = "uva_ohh.10.desc"
+    custom_gui =
+    show_sound = event_default
+    force_open = yes
+    picture_event_data = {
+        portrait = caster_01_1
+        room = default_room
+    }
+    diplomatic =yes
+
+    trigger = {
+        is_ai = no
+        is_TERRA_species = yes
+        not = { has_active_event = { uva_ohh.10 } }
+    }
+
+    immediate = {
+        set_country_flag = uva_ohh_flag
+    }
+
+    option =
 }

@@ -1,0 +1,10 @@
+tradition_uva_civilight_eterna ={
+    tree_template = tree_11_12
+    adoption_bonus = tr_uva_civilight_eterna
+    finish_bonus = tr_uva_civilight_eterna_finish
+    traditions = {  }
+
+    potential = {  }
+
+    ai_weight = {  }
+}
