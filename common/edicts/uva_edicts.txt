@@ -45,3 +45,24 @@
 #        ship_weapon_damage = 0.2
 #    }
 #}
+uva_how_do_we_live = {
+    length = -1
+    resources = {
+        category = edicts
+        cost = {
+            influence = 50
+        }
+    }
+    icon = "GFX_edict_type_policy"
+
+    modifier = {
+        country_base_unity_produces_add = 20
+    }
+
+    potential = {
+        has_tradition = tr_uva_eternal_adopt
+    }
+    ai_weight = {
+        weight = 1
+    }
+}

@@ -1,0 +1,112 @@
+#	possible = { has_tradition = ... }				# AND trigger, scope: country
+#	unlocks_agenda = agenda_name					# Only used to generate the tooltip that it unlocks this Agenda.
+#	modifier = {}									# applied to country
+#	on_enabled = {}									# scope: country
+#	ai_weight = {}									# scope: country
+# tradition_swap = {
+# 	name = tr_my_easter_bunny_tradition
+# 	inherit_effects = yes	#default: no; set to yes if you are giving it a modifier or want tr_my_easter_bunny_tradition_desc to be used
+# 	inherit_icon = yes		#default: no
+# 	inherit_name = yes		#default: no; also sets whether tr_my_easter_bunny_tradition_delayed is used for the description
+# 	trigger = { }
+# 	modifier = { }
+# 	weight = { }		#if there are multiple options, the one with the highest weight is picked
+# }
+
+#文明的存续-采用
+tr_uva_eternal_adopt = {
+    custom_tooltip = tr_uva_eternal_adopt_desc
+    modifier = {
+        pop_happiness_positive = -0.02
+    }
+}
+
+#文明的存续-完成
+tr_uva_eternal_finish = {
+    modifier = {
+        pop_happiness_positive = 0.02
+        country_trade_fee = -0.10
+        country_base_influence_produces_add = 1
+        TERRA_pop_growth_speed = 0.20
+    }
+}
+
+tr_uva_years_of_confusion ={
+    modifier = {
+        TERRA_pop_growth_speed = -0.20
+        all_technology_research_speed = -0.10
+        explosive_speed_mult = -0.20
+    }
+
+    ai_weight = {
+        factor = 1000
+    }
+}
+
+tr_uva_centennial_unification={
+    possible = {
+        has_tradition = tr_uva_years_of_confusion
+    }
+
+    modifier = {
+        country_unity_produces_mult = 0.15
+    }
+
+    ai_weight = { factor = 5000 }
+}
+
+tr_uva_millennium_of_suffering={
+    possible = {
+        has_tradition = tr_uva_centennial_unification
+    }
+
+    modifier = {
+        country_government_civic_points_add = 2
+        explosive_speed_mult = 0.3
+    }
+
+    ai_weight = { factor = 5000 }
+}
+
+tr_uva_ever_silence={
+    possible = {
+        has_tradition = tr_uva_millennium_of_suffering
+    }
+
+    modifier = {
+        envoys_add = 2
+        damage_vs_country_type_swarm_mult = 0.5
+        damage_vs_country_type_extradimensional_mult = 0.5
+        damage_vs_country_type_extradimensional_2_mult = 0.5
+        damage_vs_country_type_extradimensional_3_mult = 0.5
+        damage_vs_country_type_ai_empire_mult = 0.5
+        damage_vs_country_type_gray_goo_mult = 0.5
+        damage_vs_player_crisis_mult = 0.5
+
+        ##################
+        ####对观察者伤害####
+        ##################
+    }
+
+    ai_weight = {
+        factor = 5000
+    }
+}
+
+tr_uva_permanent_eternal={
+    possible = {
+        has_tradition = tr_uva_ever_silence
+    }
+
+    modifier = {
+        all_technology_research_speed = 0.50
+        ship_weapon_damage = 0.33
+        ship_armor_mult = 0.33
+        ship_shield_mult = 0.33
+        ship_hull_mult = 0.33
+    }
+
+    ai_weight = {
+        factor = 10000
+    }
+}

@@ -1,11 +1,11 @@
 ﻿l_simp_chinese:
- tradition_uva_eterna:0 "存续"
- tradition_uva_eterna_desc:0 "随着前文明这个概念为大众所认知，对我们文明的存在的合理性与意义的思考甚至否定，成为大地上主要的思潮。泰拉立于宇宙之间，首先要解决的问题，也就出现在了我们面前——文明的存续与如何存续。"
- tr_uva_eterna_adopt:0 "存续传统"
- tr_uva_eterna_adopt_desc:0 ""
+ tradition_uva_eternal:0 "存续"
+ tradition_uva_eternal_desc:0 "随着前文明这个概念为大众所认知，对我们文明的存在的合理性与意义的思考甚至否定，成为大地上主要的思潮。泰拉立于宇宙之间，首先要解决的问题，也就出现在了我们面前——文明的存续与如何存续。"
+ tr_uva_eternal_adopt:0 "存续传统"
+ tr_uva_eternal_adopt_desc:0 "§H解锁法令:§!$edict_uva_how_do_we_live$\n§Y$MOD_POP_CITIZEN_HAPPINESS$§!减少§R2%§!"
 
- tr_uva_eterna_finish:0 "存续传统已完成"
- tr_uva_eterna_finish_desc:0 ""
+ tr_uva_eternal_finish:0 "存续传统已完成"
+ tr_uva_eternal_finish_desc:0 ""
 
  tr_uva_years_of_confusion:0 "十年的迷茫"
  tr_uva_years_of_confusion_desc:0 ""

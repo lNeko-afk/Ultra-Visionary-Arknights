@@ -1,14 +1,14 @@
-tradition_uva_eterna ={
+tradition_uva_eternal ={
     desc = {
         trigger = {
             is_TERRA_species = yes
         }
-        text =  tradition_uva_eterna_desc
+        text =  tradition_uva_eternal_desc
     }
 
     tree_template = tree_11_12
-    adoption_bonus = tr_uva_eterna_adopt
-    finish_bonus = tr_uva_eterna_finish
+    adoption_bonus = tr_uva_eternal_adopt
+    finish_bonus = tr_uva_eternal_finish
     traditions = {
         "tr_uva_years_of_confusion"
         "tr_uva_centennial_unification"

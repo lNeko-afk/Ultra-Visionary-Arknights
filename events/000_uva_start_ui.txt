@@ -12,7 +12,7 @@ country_event = {
 
     picture_event_data = {
         room = default_room
-        portrait = sniper_01_1
+        portrait = sniper_1_1
     }
 
     trigger ={
