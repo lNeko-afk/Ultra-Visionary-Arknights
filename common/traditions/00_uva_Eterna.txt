@@ -14,12 +14,31 @@
 # }
 
 #文明的存续-采用
-tr_uva_civilight_eterna = {
+tr_uva_eterna_adopt = {
     unlocks_agenda =
 }
 
 #文明的存续-完成
-tr_uva_civilight_eterna_finish = {
+tr_uva_eterna_finish = {
 
 }
 
+tr_uva_years_of_confusion ={
+
+}
+
+tr_uva_centennial_unification={
+
+}
+
+tr_uva_millennium_of_suffering={
+
+}
+
+tr_uva_ever_silence={
+
+}
+
+tr_uva_permanent_eternal={
+
+}

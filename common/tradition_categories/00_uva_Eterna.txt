@@ -1,10 +1,32 @@
-tradition_uva_civilight_eterna ={
+tradition_uva_eterna ={
+    desc = {
+        trigger = {
+            is_TERRA_species = yes
+        }
+        text =  tradition_uva_eterna_desc
+    }
+
     tree_template = tree_11_12
-    adoption_bonus = tr_uva_civilight_eterna
-    finish_bonus = tr_uva_civilight_eterna_finish
-    traditions = {  }
+    adoption_bonus = tr_uva_eterna_adopt
+    finish_bonus = tr_uva_eterna_finish
+    traditions = {
+        "tr_uva_years_of_confusion"
+        "tr_uva_centennial_unification"
+        "tr_uva_millennium_of_suffering"
+        "tr_uva_ever_silence"
+        "tr_uva_permanent_eternal"
 
-    potential = {  }
+    }
 
-    ai_weight = {  }
+    potential = {
+        has_authority = auth_united_goverments
+        has_origin = origin_united_terra
+        nor = {
+            is_TERRA_species = no
+        }
+    }
+
+    ai_weight = {
+        factor = 5
+    }
 }
