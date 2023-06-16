@@ -1,0 +1,30 @@
+spriteTypes ={
+    spriteType = {
+        name = "GFX_tradition_category_bg_tradition_uva_eternal"
+        textureFile = "gfx/interface/traditions/tradition_category_tittle_uva_eternal.dds"
+    }
+    spriteType = {
+        name = "GFX_tradition_category_icon_tradition_uva_eternal"
+        textureFile = "gfx/interface/traditions/tradition_icon_uva_eternal.dds"
+    }
+    spriteType = {
+        name = "GFX_tr_uva_years_of_confusion"
+        textureFile = "gfx/interface/traditions/tr_uva_years_of_confusion.dds"
+    }
+    spriteType = {
+        name = "GFX_tr_uva_centennial_unification"
+        textureFile = "gfx/interface/traditions/tr_uva_centennial_unification.dds"
+    }
+    spriteType = {
+        name = "GFX_tr_uva_millennium_of_suffering"
+        textureFile = "gfx/interface/traditions/tr_uva_millennium_of_suffering.dds"
+    }
+    spriteType = {
+        name = "GFX_tr_uva_ever_silence"
+        textureFile = "gfx/interface/traditions/tr_uva_ever_silence.dds"
+    }
+    spriteType = {
+        name = "GFX_tr_uva_permanent_eternal"
+        textureFile = "gfx/interface/traditions/tr_uva_permanent_eternal.dds"
+    }
+}

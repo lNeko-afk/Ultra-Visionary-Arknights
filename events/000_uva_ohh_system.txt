@@ -43,16 +43,16 @@ country_event = {   #初始弹窗
         response_text = "uva_ohh.1.c_desc"
         is_dialog_only = yes
     }
-    option = {
-        name = "uva_ohh.1.d"
-        custom_gui = uva_event_basic_ui_option
-        default_hide_option = yes
-        hidden_effect = {
-            country_event ={
-                id = uva_ohh.10
-            }
-        }
-    }
+    #option = {
+    #    name = "uva_ohh.1.d"
+    #    custom_gui = uva_event_basic_ui_option
+    #    default_hide_option = yes
+    #    hidden_effect = {
+    #        country_event ={
+    #            id = uva_ohh.10
+    #        }
+    #    }
+    #}
 }
 
 country_event = {

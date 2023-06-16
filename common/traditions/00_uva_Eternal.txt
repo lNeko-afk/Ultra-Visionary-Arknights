@@ -62,7 +62,7 @@ tr_uva_millennium_of_suffering={
 
     modifier = {
         country_government_civic_points_add = 2
-        explosive_speed_mult = 0.3
+        science_ship_survey_speed = 0.33
     }
 
     ai_weight = { factor = 5000 }

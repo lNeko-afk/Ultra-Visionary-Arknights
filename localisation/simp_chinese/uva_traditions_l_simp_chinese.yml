@@ -8,13 +8,16 @@
  tr_uva_eternal_finish_desc:0 ""
 
  tr_uva_years_of_confusion:0 "十年的迷茫"
- tr_uva_years_of_confusion_desc:0 ""
+ tr_uva_years_of_confusion_delayed:0 ""
 
  tr_uva_centennial_unification:0 "百年的统一"
+ tr_uva_centennial_unification_delayed:0 ""
 
  tr_uva_millennium_of_suffering:0 "千年的苦难"
+ tr_uva_millennium_of_suffering_delayed:0 ""
 
  tr_uva_ever_silence:0 "万年的寂灭"
+ 
 
  tr_uva_permanent_eternal:0 "永恒的存续"
 
