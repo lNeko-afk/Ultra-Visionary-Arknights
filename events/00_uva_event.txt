@@ -1,0 +1,24 @@
+namespace = uva
+
+
+##### 飞升源石起源 #####
+#### 源石理论科技获取 ####
+country_event = {
+    id = uva.100
+    title = "uva.100.name"
+    desc = "uva.100.desc"
+    picture = GFX_azur04
+    show_sound = event_mind_over_matter
+    is_triggered_only = yes
+    immediate = {
+
+    }
+    option = {
+        name = uva.100.a
+        add_research_option = tech_originium_theory
+        add_tech_progress = {
+            tech = tech_originium_theory
+            progress = 1
+        }
+    }
+}

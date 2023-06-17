@@ -1,6 +1,14 @@
 ﻿l_simp_chinese:
  mod_country_base_originium_prime_produces_add:0 "每月£originium_prime£§H至纯源石§!"
+ mod_country_base_crystalline_electronic_unit_produces_add:0 "每月£crystalline_electronic_unit£§g电子晶体单元§!"
+ mod_country_base_d32_steel_produces_add:0 "每月£d32_steel£§ED32钢§!"
+ mod_country_base_bipolar_nanoflake_produces_add:0 "每月£bipolar_nanoflake£§P双极纳米片§!"
+ mod_country_base_polymerization_preparation_produces_add:0 "每月£polymerization_preparation£§G聚合剂§!"
+ mod_country_base_calcined_concretion_produces_add:0 "每月£calcined_concretion£§M烧结核凝晶§!"
  mod_country_base_sanity_produces_add:0 "每月£sanity£§T理智§!"
  mod_country_base_lung_men_dollaris_produces_add:0 "每月£lung_men_dollaris£§l龙门币§!"
  country_lung_men_dollaris_produces_add: "每月龙门币"
  mod_TERRA_pop_growth_speed:0 "§lTERRA§!人口增长速度"
+
+
+

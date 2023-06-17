@@ -1,0 +1,38 @@
+ap_uva_1 = {
+    on_enabled = {
+        custom_tooltip = "uva_ap_1.tooltip"
+        hidden_effect = {
+            country_event = {
+                id = uva.100
+            }
+        }
+    }
+    modifier = {
+        leaders_upkeep_mult = -0.05
+        country_base_crystalline_electronic_unit_produces_add = 2
+        country_base_d32_steel_produces_add = 2
+        country_base_bipolar_nanoflake_produces_add = 2
+        country_base_polymerization_preparation_produces_add = 2
+        country_base_calcined_concretion_produces_add = 2
+    }
+
+    possible = {
+        custom_tooltip = {
+            fail_text = "requires_uva_authority"
+            uva_default_govement_trigger = yes
+        }
+        custom_tooltip = {
+            fail_text = "reuires_uva_originium_trait"
+            has_trait = trait_improved_oripathy
+        }
+    }
+    potential = {
+        NOT = {
+            has_ascension_perk = ap_uva_1
+        }
+        uva_default_govement_trigger = yes
+    }
+    ai_weight = {
+        factor = 0
+    }
+}

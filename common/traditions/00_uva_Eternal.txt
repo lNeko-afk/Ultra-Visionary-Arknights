@@ -28,6 +28,7 @@ tr_uva_eternal_finish = {
         country_trade_fee = -0.10
         country_base_influence_produces_add = 1
         TERRA_pop_growth_speed = 0.20
+        ascension_perks_add = 1
     }
 }
 

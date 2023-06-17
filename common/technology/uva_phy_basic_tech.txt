@@ -11,7 +11,7 @@ tech_originium_theory = {
     cost = @tier0cost1
     area = physics
     tier = 0
-    start_tech = yes
+    weight = @tier1weight1
     category = { originium_theory }
     prereqfor_desc = {
         ship = {
@@ -29,10 +29,6 @@ tech_originium_theory = {
                 is_TERRA_species = no
             }
         }
-    }
-
-    starting_potential = {
-        is_TERRA_species = yes
     }
 
     ai_weight = { factor = 0 }
