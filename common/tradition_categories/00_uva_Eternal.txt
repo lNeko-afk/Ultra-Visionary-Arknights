@@ -15,7 +15,6 @@ tradition_uva_eternal ={
         "tr_uva_millennium_of_suffering"
         "tr_uva_ever_silence"
         "tr_uva_permanent_eternal"
-
     }
 
     potential = {

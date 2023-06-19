@@ -13,5 +13,13 @@ spriteTypes = {
         name = "GFX_ship_part_originium_reactor_T3"
         textureFile = "gfx/interface/icons/ship_parts/ship_part_originium_reactor_3.dds"
     }
+    spriteType = {
+        name = "GFX_ship_part_originium_reactor_T4"
+        textureFile = "gfx/interface/icons/ship_parts/ship_part_originium_reactor_4.dds"
+    }
+    spriteType = {
+        name = "GFX_ship_part_originium_reactor_T5"
+        textureFile = "gfx/interface/icons/ship_parts/ship_part_originium_reactor_5.dds"
+    }
 
 }

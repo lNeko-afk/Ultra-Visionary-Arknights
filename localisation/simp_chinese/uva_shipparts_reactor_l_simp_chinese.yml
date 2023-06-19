@@ -1,25 +1,48 @@
 ﻿l_simp_chinese:
  #基础源石引擎
- uva_shippart_reactor_Core1_T1: "基础源石引擎"
- uva_shippart_reactor_Core2_T1: "基础源石引擎"
- uva_shippart_reactor_Core3_T1: "基础源石引擎"
- uva_shippart_reactor_Core4_T1: "基础源石引擎"
- uva_shippart_reactor_Core5_T1: "基础源石引擎"
- uva_shippart_reactor_Core6_T1: "基础源石引擎"
- uva_shippart_reactor_Core7_T1: "基础源石引擎"
+ uva_shippart_reactor_Core1_T1: "§M基础源石引擎§!"
+ uva_shippart_reactor_Core2_T1: "§M基础源石引擎§!"
+ uva_shippart_reactor_Core3_T1: "§M基础源石引擎§!"
+ uva_shippart_reactor_Core4_T1: "§M基础源石引擎§!"
+ uva_shippart_reactor_Core5_T1: "§M基础源石引擎§!"
+ uva_shippart_reactor_Core6_T1: "§M基础源石引擎§!"
+ uva_shippart_reactor_Core7_T1: "§M基础源石引擎§!"
  #源能裂解引擎
- uva_shippart_reactor_Core1_T2: "源能裂解引擎"
- uva_shippart_reactor_Core2_T2: "源能裂解引擎"
- uva_shippart_reactor_Core3_T2: "源能裂解引擎"
- uva_shippart_reactor_Core4_T2: "源能裂解引擎"
- uva_shippart_reactor_Core5_T2: "源能裂解引擎"
- uva_shippart_reactor_Core6_T2: "源能裂解引擎"
- uva_shippart_reactor_Core7_T2: "源能裂解引擎"
+ uva_shippart_reactor_Core1_T2: "§Y裂解源石供能技术§!"
+ uva_shippart_reactor_Core2_T2: "§Y裂解源石供能技术§!"
+ uva_shippart_reactor_Core3_T2: "§Y裂解源石供能技术§!"
+ uva_shippart_reactor_Core4_T2: "§Y裂解源石供能技术§!"
+ uva_shippart_reactor_Core5_T2: "§Y裂解源石供能技术§!"
+ uva_shippart_reactor_Core6_T2: "§Y裂解源石供能技术§!"
+ uva_shippart_reactor_Core7_T2: "§Y裂解源石供能技术§!"
  #聚源能发生器
- uva_shippart_reactor_Core1_T3: "聚源能发生器"
- uva_shippart_reactor_Core2_T3: "聚源能发生器"
- uva_shippart_reactor_Core3_T3: "聚源能发生器"
- uva_shippart_reactor_Core4_T3: "聚源能发生器"
- uva_shippart_reactor_Core5_T3: "聚源能发生器"
- uva_shippart_reactor_Core6_T3: "聚源能发生器"
- uva_shippart_reactor_Core7_T3: "聚源能发生器"
+ uva_shippart_reactor_Core1_T3: "§R聚§H源§Y能§G发§B生§M器§!"
+ uva_shippart_reactor_Core2_T3: "§R聚§H源§Y能§G发§B生§M器§!"
+ uva_shippart_reactor_Core3_T3: "§R聚§H源§Y能§G发§B生§M器§!"
+ uva_shippart_reactor_Core4_T3: "§R聚§H源§Y能§G发§B生§M器§!"
+ uva_shippart_reactor_Core5_T3: "§R聚§H源§Y能§G发§B生§M器§!"
+ uva_shippart_reactor_Core6_T3: "§R聚§H源§Y能§G发§B生§M器§!"
+ uva_shippart_reactor_Core7_T3: "§R聚§H源§Y能§G发§B生§M器§!"
+ #亚空间源能引擎
+ uva_shippart_reactor_Core1_T4: "§R亚空间源能引擎§!"
+ uva_shippart_reactor_Core2_T4: "§R亚空间源能引擎§!"
+ uva_shippart_reactor_Core3_T4: "§R亚空间源能引擎§!"
+ uva_shippart_reactor_Core4_T4: "§R亚空间源能引擎§!"
+ uva_shippart_reactor_Core5_T4: "§R亚空间源能引擎§!"
+ uva_shippart_reactor_Core6_T4: "§R亚空间源能引擎§!"
+ uva_shippart_reactor_Core7_T4: "§R亚空间源能引擎§!"
+ #非熵能源引擎
+ uva_shippart_reactor_Core1_T5: "§R非熵源能引擎§!"
+ uva_shippart_reactor_Core2_T5: "§R非熵源能引擎§!"
+ uva_shippart_reactor_Core3_T5: "§R非熵源能引擎§!"
+ uva_shippart_reactor_Core4_T5: "§R非熵源能引擎§!"
+ uva_shippart_reactor_Core5_T5: "§R非熵源能引擎§!"
+ uva_shippart_reactor_Core6_T5: "§R非熵源能引擎§!"
+ uva_shippart_reactor_Core7_T5: "§R非熵源能引擎§!"
+
+
+
+
+
+
+

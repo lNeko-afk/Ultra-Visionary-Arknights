@@ -1,3 +1,5 @@
+####基础源石引擎####
+
 utility_component_template = {
     key = "uva_shippart_reactor_Core1_T1"
     size = small
@@ -235,7 +237,6 @@ utility_component_template = {
 
 ####源能裂解引擎####
 
-
 utility_component_template = {
     key = "uva_shippart_reactor_Core1_T2"
     size = small
@@ -461,6 +462,714 @@ utility_component_template = {
         military_station_large
     }
     upgrades_to = "uva_shippart_reactor_Core7_T3"
+
+    ai_weight = {
+        weight = 10
+        modifier = {
+            factor = 0
+            uva_default_govement_trigger = no
+        }
+    }
+}
+
+####聚源能发生器####
+
+utility_component_template = {
+    key = "uva_shippart_reactor_Core1_T3"
+    size = small
+    icon = "GFX_ship_part_originium_reactor_T3"
+    icon_frame = 1
+    power = 450
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 44
+            originium_prime = 12
+            lung_men_dollaris = 24
+        }
+        upkeep = {
+            energy = 0.44
+            alloys = 0.044
+        }
+    }
+
+    prerequisites = { "tech_shaped_originercy_generator" }
+    component_set = "power_core"
+    size_restriction = { corvette frigate colonizer lithoid_colonizer sponsored_colonizer colony_vessel constructor engineer_vessel science explorer_vessel transport crisis_corvette offspring_corvette }
+    upgrades_to = "uva_shippart_reactor_Core1_T4"
+
+    ai_weight = {
+        weight = 10
+        modifier = {
+            factor = 0
+            uva_default_govement_trigger = no
+        }
+    }
+}
+utility_component_template = {
+    key = "uva_shippart_reactor_Core2_T3"
+    size = small
+    icon = "GFX_ship_part_originium_reactor_T3"
+    icon_frame = 1
+    power = 900
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 88
+            originium_prime = 24
+            lung_men_dollaris = 48
+        }
+        upkeep = {
+            energy = 0.44
+            alloys = 0.044
+        }
+    }
+
+    prerequisites = { "tech_shaped_originercy_generator" }
+    component_set = "power_core"
+    size_restriction = { destroyer crisis_destroyer offspring_destroyer }
+    upgrades_to = "uva_shippart_reactor_Core2_T4"
+
+    ai_weight = {
+        weight = 10
+        modifier = {
+            factor = 0
+            uva_default_govement_trigger = no
+        }
+    }
+}
+
+utility_component_template = {
+    key = "uva_shippart_reactor_Core3_T3"
+    size = small
+    icon = "GFX_ship_part_originium_reactor_T3"
+    icon_frame = 1
+    power = 1750
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 176
+            originium_prime = 48
+            lung_men_dollaris = 96
+        }
+        upkeep = {
+            energy = 1.76
+            alloys = 0.176
+        }
+    }
+
+    prerequisites = { "tech_shaped_originercy_generator" }
+    component_set = "power_core"
+    size_restriction = { cruiser crisis_cruiser offspring_cruiser }
+    upgrades_to = "uva_shippart_reactor_Core3_T4"
+
+    ai_weight = {
+        weight = 10
+        modifier = {
+            factor = 0
+            uva_default_govement_trigger = no
+        }
+    }
+}
+
+utility_component_template = {
+    key = "uva_shippart_reactor_Core4_T3"
+    size = small
+    icon = "GFX_ship_part_originium_reactor_T3"
+    icon_frame = 1
+    power = 3400
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 352
+            originium_prime = 96
+            lung_men_dollaris = 172
+        }
+        upkeep = {
+            energy = 3
+            alloys = 0.3
+        }
+    }
+
+    prerequisites = { "tech_shaped_originercy_generator" }
+    component_set = "power_core"
+    size_restriction = { battleship offspring_battleship }
+    upgrades_to = "uva_shippart_reactor_Core4_T4"
+
+    ai_weight = {
+        weight = 10
+        modifier = {
+            factor = 0
+            uva_default_govement_trigger = no
+        }
+    }
+}
+
+utility_component_template = {
+    key = "uva_shippart_reactor_Core5_T3"
+    size = small
+    icon = "GFX_ship_part_originium_reactor_T3"
+    icon_frame = 1
+    power = 6650
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 700
+            originium_prime = 180
+            lung_men_dollaris = 340
+        }
+        upkeep = {
+            energy = 7
+            alloys = 0.7
+        }
+    }
+
+    prerequisites = { "tech_shaped_originercy_generator" }
+    component_set = "power_core"
+    size_restriction = { titan payback_warship }
+    upgrades_to = "uva_shippart_reactor_Core5_T4"
+
+    ai_weight = {
+        weight = 10
+        modifier = {
+            factor = 0
+            uva_default_govement_trigger = no
+        }
+    }
+}
+
+utility_component_template = {
+    key = "uva_shippart_reactor_Core6_T3"
+    size = small
+    icon = "GFX_ship_part_originium_reactor_T3"
+    icon_frame = 1
+    power = 23000
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 2400
+            originium_prime = 600
+            lung_men_dollaris = 1200
+        }
+        upkeep = {
+            energy = 20
+            alloys = 2
+        }
+    }
+
+    prerequisites = { "tech_shaped_originercy_generator" }
+    component_set = "power_core"
+    size_restriction = { juggernaut star_eater }
+    upgrades_to = "uva_shippart_reactor_Core6_T4"
+
+    ai_weight = {
+        weight = 10
+        modifier = {
+            factor = 0
+            uva_default_govement_trigger = no
+        }
+    }
+}
+
+utility_component_template = {
+    key = "uva_shippart_reactor_Core7_T3"
+    size = small
+    icon = "GFX_ship_part_originium_reactor_T3"
+    icon_frame = 1
+    power = 1250
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 88
+            originium_prime = 24
+            lung_men_dollaris = 49
+        }
+        upkeep = {
+            energy = 0.48
+            alloys = 0.048
+        }
+    }
+
+    prerequisites = { "tech_shaped_originercy_generator" }
+    component_set = "power_core"
+    size_restriction = {
+        military_station_small
+        military_station_medium
+        military_station_large
+    }
+    upgrades_to = "uva_shippart_reactor_Core7_T4"
+
+    ai_weight = {
+        weight = 10
+        modifier = {
+            factor = 0
+            uva_default_govement_trigger = no
+        }
+    }
+}
+
+####亚空间源能引擎####
+
+utility_component_template = {
+    key = "uva_shippart_reactor_Core1_T4"
+    size = small
+    icon = "GFX_ship_part_originium_reactor_T4"
+    icon_frame = 1
+    power = 1200
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 80
+            originium_prime = 20
+            lung_men_dollaris = 40
+        }
+        upkeep = {
+            energy = 0.80
+            alloys = 0.080
+        }
+    }
+
+    prerequisites = { "tech_subspace_originercy_engine" }
+    component_set = "power_core"
+    size_restriction = { corvette frigate colonizer lithoid_colonizer sponsored_colonizer colony_vessel constructor engineer_vessel science explorer_vessel transport crisis_corvette offspring_corvette }
+    upgrades_to = "uva_shippart_reactor_Core1_T5"
+
+    ai_weight = {
+        weight = 10
+        modifier = {
+            factor = 0
+            uva_default_govement_trigger = no
+        }
+    }
+}
+utility_component_template = {
+    key = "uva_shippart_reactor_Core2_T4"
+    size = small
+    icon = "GFX_ship_part_originium_reactor_T4"
+    icon_frame = 1
+    power = 2500
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 160
+            originium_prime = 45
+            lung_men_dollaris = 90
+        }
+        upkeep = {
+            energy = 1.60
+            alloys = 0.160
+        }
+    }
+
+    prerequisites = { "tech_subspace_originercy_engine" }
+    component_set = "power_core"
+    size_restriction = { destroyer crisis_destroyer offspring_destroyer }
+    upgrades_to = "uva_shippart_reactor_Core2_T5"
+
+    ai_weight = {
+        weight = 10
+        modifier = {
+            factor = 0
+            uva_default_govement_trigger = no
+        }
+    }
+}
+
+utility_component_template = {
+    key = "uva_shippart_reactor_Core3_T4"
+    size = small
+    icon = "GFX_ship_part_originium_reactor_T4"
+    icon_frame = 1
+    power = 5200
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 350
+            originium_prime = 90
+            lung_men_dollaris = 180
+        }
+        upkeep = {
+            energy = 3.5
+            alloys = 0.35
+        }
+    }
+
+    prerequisites = { "tech_subspace_originercy_engine" }
+    component_set = "power_core"
+    size_restriction = { cruiser crisis_cruiser offspring_cruiser }
+    upgrades_to = "uva_shippart_reactor_Core3_T5"
+
+    ai_weight = {
+        weight = 10
+        modifier = {
+            factor = 0
+            uva_default_govement_trigger = no
+        }
+    }
+}
+
+utility_component_template = {
+    key = "uva_shippart_reactor_Core4_T4"
+    size = small
+    icon = "GFX_ship_part_originium_reactor_T4"
+    icon_frame = 1
+    power = 10500
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 700
+            originium_prime = 180
+            lung_men_dollaris = 350
+        }
+        upkeep = {
+            energy = 6
+            alloys = 0.6
+        }
+    }
+
+    prerequisites = { "tech_subspace_originercy_engine" }
+    component_set = "power_core"
+    size_restriction = { battleship offspring_battleship }
+    upgrades_to = "uva_shippart_reactor_Core4_T5"
+
+    ai_weight = {
+        weight = 10
+        modifier = {
+            factor = 0
+            uva_default_govement_trigger = no
+        }
+    }
+}
+
+utility_component_template = {
+    key = "uva_shippart_reactor_Core5_T4"
+    size = small
+    icon = "GFX_ship_part_originium_reactor_T4"
+    icon_frame = 1
+    power = 14000
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 1400
+            originium_prime = 350
+            lung_men_dollaris = 600
+        }
+        upkeep = {
+            energy = 14
+            alloys = 1.4
+        }
+    }
+
+    prerequisites = { "tech_subspace_originercy_engine" }
+    component_set = "power_core"
+    size_restriction = { titan payback_warship }
+    upgrades_to = "uva_shippart_reactor_Core5_T5"
+
+    ai_weight = {
+        weight = 10
+        modifier = {
+            factor = 0
+            uva_default_govement_trigger = no
+        }
+    }
+}
+
+utility_component_template = {
+    key = "uva_shippart_reactor_Core6_T4"
+    size = small
+    icon = "GFX_ship_part_originium_reactor_T4"
+    icon_frame = 1
+    power = 48000
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 4800
+            originium_prime = 600
+            lung_men_dollaris = 1200
+        }
+        upkeep = {
+            energy = 40
+            alloys = 4
+        }
+    }
+
+    prerequisites = { "tech_subspace_originercy_engine" }
+    component_set = "power_core"
+    size_restriction = { juggernaut star_eater }
+    upgrades_to = "uva_shippart_reactor_Core6_T5"
+
+    ai_weight = {
+        weight = 10
+        modifier = {
+            factor = 0
+            uva_default_govement_trigger = no
+        }
+    }
+}
+
+utility_component_template = {
+    key = "uva_shippart_reactor_Core7_T4"
+    size = small
+    icon = "GFX_ship_part_originium_reactor_T4"
+    icon_frame = 1
+    power = 2500
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 160
+            originium_prime = 40
+            lung_men_dollaris = 90
+        }
+        upkeep = {
+            energy = 0.90
+            alloys = 0.090
+        }
+    }
+
+    prerequisites = { "tech_subspace_originercy_engine" }
+    component_set = "power_core"
+    size_restriction = {
+        military_station_small
+        military_station_medium
+        military_station_large
+    }
+    upgrades_to = "uva_shippart_reactor_Core7_T5"
+
+    ai_weight = {
+        weight = 10
+        modifier = {
+            factor = 0
+            uva_default_govement_trigger = no
+        }
+    }
+}
+
+####非熵源能引擎####
+
+utility_component_template = {
+    key = "uva_shippart_reactor_Core1_T5"
+    size = small
+    icon = "GFX_ship_part_originium_reactor_T5"
+    icon_frame = 1
+    power = 2500
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 160
+            originium_prime = 40
+            lung_men_dollaris = 80
+        }
+        upkeep = {
+            energy = 1.6
+            alloys = 0.16
+        }
+    }
+
+    prerequisites = { "tech_nonentropy_originercy_engine" }
+    component_set = "power_core"
+    size_restriction = { corvette frigate colonizer lithoid_colonizer sponsored_colonizer colony_vessel constructor engineer_vessel science explorer_vessel transport crisis_corvette offspring_corvette }
+    upgrades_to = "uva_shippart_reactor_Core1_T6"
+
+    ai_weight = {
+        weight = 10
+        modifier = {
+            factor = 0
+            uva_default_govement_trigger = no
+        }
+    }
+}
+utility_component_template = {
+    key = "uva_shippart_reactor_Core2_T5"
+    size = small
+    icon = "GFX_ship_part_originium_reactor_T5"
+    icon_frame = 1
+    power = 5200
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 320
+            originium_prime = 90
+            lung_men_dollaris = 180
+        }
+        upkeep = {
+            energy = 3.2
+            alloys = 0.320
+        }
+    }
+
+    prerequisites = { "tech_nonentropy_originercy_engine" }
+    component_set = "power_core"
+    size_restriction = { destroyer crisis_destroyer offspring_destroyer }
+    upgrades_to = "uva_shippart_reactor_Core2_T6"
+
+    ai_weight = {
+        weight = 10
+        modifier = {
+            factor = 0
+            uva_default_govement_trigger = no
+        }
+    }
+}
+
+utility_component_template = {
+    key = "uva_shippart_reactor_Core3_T5"
+    size = small
+    icon = "GFX_ship_part_originium_reactor_T5"
+    icon_frame = 1
+    power = 11000
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 700
+            originium_prime = 180
+            lung_men_dollaris = 360
+        }
+        upkeep = {
+            energy = 7
+            alloys = 0.7
+        }
+    }
+
+    prerequisites = { "tech_nonentropy_originercy_engine" }
+    component_set = "power_core"
+    size_restriction = { cruiser crisis_cruiser offspring_cruiser }
+    upgrades_to = "uva_shippart_reactor_Core3_T6"
+
+    ai_weight = {
+        weight = 10
+        modifier = {
+            factor = 0
+            uva_default_govement_trigger = no
+        }
+    }
+}
+
+utility_component_template = {
+    key = "uva_shippart_reactor_Core4_T5"
+    size = small
+    icon = "GFX_ship_part_originium_reactor_T5"
+    icon_frame = 1
+    power = 22000
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 1400
+            originium_prime = 350
+            lung_men_dollaris = 700
+        }
+        upkeep = {
+            energy = 12
+            alloys = 1.2
+        }
+    }
+
+    prerequisites = { "tech_nonentropy_originercy_engine" }
+    component_set = "power_core"
+    size_restriction = { battleship offspring_battleship }
+    upgrades_to = "uva_shippart_reactor_Core4_T6"
+
+    ai_weight = {
+        weight = 10
+        modifier = {
+            factor = 0
+            uva_default_govement_trigger = no
+        }
+    }
+}
+
+utility_component_template = {
+    key = "uva_shippart_reactor_Core5_T5"
+    size = small
+    icon = "GFX_ship_part_originium_reactor_T5"
+    icon_frame = 1
+    power = 30000
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 2800
+            originium_prime = 700
+            lung_men_dollaris = 1200
+        }
+        upkeep = {
+            energy = 28
+            alloys = 2.8
+        }
+    }
+
+    prerequisites = { "tech_nonentropy_originercy_engine" }
+    component_set = "power_core"
+    size_restriction = { titan payback_warship }
+    upgrades_to = "uva_shippart_reactor_Core5_T6"
+
+    ai_weight = {
+        weight = 10
+        modifier = {
+            factor = 0
+            uva_default_govement_trigger = no
+        }
+    }
+}
+
+utility_component_template = {
+    key = "uva_shippart_reactor_Core6_T5"
+    size = small
+    icon = "GFX_ship_part_originium_reactor_T5"
+    icon_frame = 1
+    power = 100000
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 9600
+            originium_prime = 1200
+            lung_men_dollaris = 2400
+        }
+        upkeep = {
+            energy = 80
+            alloys = 8
+        }
+    }
+
+    prerequisites = { "tech_nonentropy_originercy_engine" }
+    component_set = "power_core"
+    size_restriction = { juggernaut star_eater }
+    upgrades_to = "uva_shippart_reactor_Core6_T6"
+
+    ai_weight = {
+        weight = 10
+        modifier = {
+            factor = 0
+            uva_default_govement_trigger = no
+        }
+    }
+}
+
+utility_component_template = {
+    key = "uva_shippart_reactor_Core7_T5"
+    size = small
+    icon = "GFX_ship_part_originium_reactor_T5"
+    icon_frame = 1
+    power = 5200
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 320
+            originium_prime = 80
+            lung_men_dollaris = 180
+        }
+        upkeep = {
+            energy = 1.80
+            alloys = 0.180
+        }
+    }
+
+    prerequisites = { "tech_nonentropy_originercy_engine" }
+    component_set = "power_core"
+    size_restriction = {
+        military_station_small
+        military_station_medium
+        military_station_large
+    }
+    upgrades_to = "uva_shippart_reactor_Core7_T6"
 
     ai_weight = {
         weight = 10
