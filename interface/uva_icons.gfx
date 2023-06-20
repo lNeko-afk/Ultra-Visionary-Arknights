@@ -1,6 +1,27 @@
 spriteTypes = {
 
-    #舰船反应堆
+    ####能量武器####
+    ##激光武器##
+    spriteType = {
+        name = "GFX_uva_lasers_1"
+        textureFile = "gfx/interface/icons/ship_parts/ship_part_uva_lasers_1.dds"
+    }
+    spriteType = {
+        name = "GFX_uva_lasers_2"
+        textureFile = "gfx/interface/icons/ship_parts/ship_part_uva_lasers_2.dds"
+    }
+
+    ##光矛武器##
+    spriteType = {
+        name = "GFX_uva_lasers_lance_1"
+        textureFile = "gfx/interface/icons/ship_parts/ship_part_uva_lasers_lance_1.dds"
+    }
+    spriteType = {
+        name = "GFX_uva_lasers_lance_2"
+        textureFile = "gfx/interface/icons/ship_parts/ship_part_uva_lasers_lance_2.dds"
+    }
+
+    ####舰船反应堆####
     spriteType = {
         name = "GFX_ship_part_originium_reactor_T1"
         textureFile = "gfx/interface/icons/ship_parts/ship_part_originium_reactor_1.dds"

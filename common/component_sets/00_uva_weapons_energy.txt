@@ -1,0 +1,6 @@
+component_set = {
+    key = "UVA_ARTS_LASERS"
+
+    icon = "GFX_uva_lasers_1"
+    icon_frame = 1
+}
