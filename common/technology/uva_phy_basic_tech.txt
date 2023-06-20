@@ -106,6 +106,10 @@ tech_originercy_laser_refractor = {
     }
 }
 
+#############
+#####光矛#####
+#############
+
 tech_originercy_refraction_lance = {
     area = physics
     cost = @tier4cost2
@@ -176,14 +180,57 @@ tech_reform_laser_stream = {
     }
 }
 
-##############
+###############
+#####投射炮#####
+###############
+
+#粒子投射炮
+tech_particle_projectile_gun = {
+
+}
+
+#晦明投射炮
+tech_huiming_projectile_gun = {
+
+}
+
+###############
 ####双穿武器####
-##############
+###############
 
+#技艺裂解炮
+tech_arts_cracking_cannon = {
 
+}
 
+#质能裂解炮
+tech_mass_energy_cracking_cannon = {
 
+}
 
+#聚源能电弧发射器 X
+tech_concentrated_energy_arc_emitter = {
+
+}
+
+#秽蚀电弧发射器 X
+tech_erosion_arc_emitter = {
+
+}
+
+####################
+#####等粒子发射器#####
+####################
+
+#技艺等离子发射器
+tech_arts_plasma_launcher = {
+
+}
+
+#聚源能等离子炮射器
+tech_concentrated_arts_plasma_launcher = {
+
+}
 
 #############
 #####引擎#####
