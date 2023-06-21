@@ -121,7 +121,7 @@ tech_originercy_refraction_lance = {
         tech_energy_lance_1
         tech_battleships
     }
-    weight = @tier4cost2
+    weight = @tier4weight2
 
     weight_modifier = {
         modifier = {
@@ -186,12 +186,67 @@ tech_reform_laser_stream = {
 
 #粒子投射炮
 tech_particle_projectile_gun = {
+    area = physics
+    cost = @tier4cost2
+    tier = 4
+    category = { originium_theory}
+    prerequisites = {
+        tech_originercy_laser_refractor
+        tech_energy_torpedoes_1
+    }
+    weight = @tier4weight2
 
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #晦明投射炮
 tech_huiming_projectile_gun = {
+    area = physics
+    cost = @tier5cost2
+    tier = 5
+    category = { originium_theory}
+    prerequisites = {
+        tech_particle_projectile_gun
+    }
+    weight = @tier5weight2
 
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 ###############
@@ -200,22 +255,130 @@ tech_huiming_projectile_gun = {
 
 #技艺裂解炮
 tech_arts_cracking_cannon = {
+    area = physics
+    cost = @tier2cost2
+    tier = 2
+    category = { originium_theory}
+    prerequisites = {
+        tech_disruptors_1
+    }
+    weight = @tier2weight2
 
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #质能裂解炮
 tech_mass_energy_cracking_cannon = {
+    area = physics
+    cost = @tier3cost2
+    tier = 3
+    category = { originium_theory}
+    prerequisites = {
+        tech_arts_cracking_cannon
+    }
+    weight = @tier3weight2
 
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #聚源能电弧发射器 X
 tech_concentrated_energy_arc_emitter = {
+    area = physics
+    cost = @tier4cost2
+    tier = 4
+    category = { originium_theory}
+    prerequisites = {
+        tech_mass_energy_cracking_cannon
+    }
+    weight = @tier4weight2
 
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #秽蚀电弧发射器 X
 tech_erosion_arc_emitter = {
+    area = physics
+    cost = @tier5cost2
+    tier = 5
+    category = { originium_theory}
+    prerequisites = {
+        tech_concentrated_energy_arc_emitter
+    }
+    weight = @tier5weight2
 
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 ####################
@@ -224,12 +387,66 @@ tech_erosion_arc_emitter = {
 
 #技艺等离子发射器
 tech_arts_plasma_launcher = {
+    area = physics
+    cost = @tier2cost2
+    tier = 2
+    category = { originium_theory}
+    prerequisites = {
+        tech_plasma_1
+    }
+    weight = @tier2weight2
 
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #聚源能等离子炮射器
 tech_concentrated_arts_plasma_launcher = {
+    area = physics
+    cost = @tier3cost2
+    tier = 3
+    category = { originium_theory}
+    prerequisites = {
+        tech_arts_plasma_launcher
+    }
+    weight = @tier3weight2
 
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #############
