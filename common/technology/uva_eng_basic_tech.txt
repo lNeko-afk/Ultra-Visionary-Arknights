@@ -1,7 +1,7 @@
 
 tech_originium_mining = {
-    cost = @tier0cost1 #@指引用数值
-    area = engineering #社会学领域
+    area = engineering
+    cost = @tier0cost1
     tier = 0
     start_tech = yes
     category = { materials }
@@ -25,6 +25,126 @@ tech_originium_mining = {
         is_TERRA_species = yes
     }
 
+    ai_weight = {
+        factor = 0
+    }
+}
+tech_bipolar_nanoflake_factory={
+    area = engineering
+    cost = @tier2cost2
+    tier = 2
+    category = { originium_theory }
+    weight = @tier2weight2
+    prereqfor_desc = { #文本
+        ship = {
+            title = "TECH_BIPOLAR_NANOFLAKE_FACTORY_TITLE"
+            desc = "TECH_PRODUCE_BIOPOLAR_NANOFLAKE_DESC"
+        }
+    }
+
+    PREREQUISITES = { tech_originium_mining }
+
+    weight_modifier = {
+        modifier = {
+            factor = 0
+        }
+    }
+    ai_weight = {
+        factor = 0
+    }
+}
+tech_polymerization_preparation_factory ={
+    area = engineering
+    cost = @tier2cost2
+    tier = 2
+    category = { originium_theory }
+    weight = @tier2weight2
+    prereqfor_desc = { #文本
+        ship = {
+            title = "TECH_POLYMERIZATION_PREPARATION_FACTORY_TITLE"
+            desc = "TECH_PRODUCE_POLYMERIZATION_PREPARATION_DESC"
+        }
+    }
+
+    PREREQUISITES = { tech_originium_mining }
+
+    weight_modifier = {
+        modifier = {
+            factor = 0
+        }
+    }
+    ai_weight = {
+        factor = 0
+    }
+}
+tech_D32_steel_factory={
+    area = engineering
+    cost = @tier2cost2
+    tier = 2
+    category = { originium_theory }
+    weight = @tier2weight2
+    prereqfor_desc = { #文本
+        ship = {
+            title = "TECH_D32_STEEL_FACTORY_TITLE"
+            desc = "TECH_PRODUCE_D32_STEEL_DESC"
+        }
+    }
+
+    PREREQUISITES = { tech_originium_mining }
+
+    weight_modifier = {
+        modifier = {
+            factor = 0
+        }
+    }
+    ai_weight = {
+        factor = 0
+    }
+}
+tech_calcined_concretion_factory={
+    area = engineering
+    cost = @tier2cost2
+    tier = 2
+    category = { originium_theory }
+    weight = @tier2weight2
+    prereqfor_desc = { #文本
+        ship = {
+            title = "TECH_CALCINED_CONCRETION_FACTORY_TITLE"
+            desc = "TECH_PRODUCE_CALCINED_CONCRETION_DESC"
+        }
+    }
+
+    PREREQUISITES = { tech_originium_mining }
+
+    weight_modifier = {
+        modifier = {
+            factor = 0
+        }
+    }
+    ai_weight = {
+        factor = 0
+    }
+}
+tech_crystalline_electronic_unit_factory={
+    area = engineering
+    cost = @tier2cost2
+    tier = 2
+    category = { originium_theory }
+    weight = @tier2weight2
+    prereqfor_desc = { #文本
+        ship = {
+            title = "TECH_CRYSTALLINE_ELECTRONIC_UNIT_FACTORY_TITLE"
+            desc = "TECH_PRODUCE_CRYSTALLINE_ELECTRONIC_UNIT_DESC"
+        }
+    }
+
+    PREREQUISITES = { tech_originium_mining }
+
+    weight_modifier = {
+        modifier = {
+            factor = 0
+        }
+    }
     ai_weight = {
         factor = 0
     }
