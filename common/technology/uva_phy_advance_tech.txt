@@ -17,7 +17,8 @@ tech_subspace_originercy_engine = {
     category = { originium_theory }
     prerequisites = {
         "tech_shaped_originercy_generator"
-        ####飞升科技
+        "tech_short_distance_wrap_device"
+        "tech_originium_theory"
     }
     weight = @tier5weight1
 
@@ -63,6 +64,7 @@ tech_nonentropy_originercy_engine = {
     category = { originium_theory }
     prerequisites = {
         tech_subspace_originercy_engine
+        "tech_fundamental_originency_warp_engine"
     }
     weight = @tier5weight2
 
@@ -99,4 +101,13 @@ tech_nonentropy_originercy_engine = {
             }
         }
     }
+}
+
+##跃迁引擎
+tech_fundamental_originency_warp_engine = {
+
+}
+
+tech_space_originerncy_warp_engine = {
+
 }
