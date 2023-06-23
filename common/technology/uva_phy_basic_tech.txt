@@ -34,6 +34,8 @@ tech_originium_theory = {
     ai_weight = { factor = 0 }
 }
 
+
+
 ##############
 ####激光武器####
 ##############
@@ -593,3 +595,164 @@ tech_shaped_originercy_generator = {
         }
     }
 }
+
+#源能超空间跳跃节点
+tech_originercy_hyperspace_leap_drive = {
+
+}
+
+#超空间“白域”
+tech_hyperspace_white_domain ={
+
+}
+
+#短途跃迁装置
+tech_short_distance_wrap_device = {
+
+}
+
+################
+#####电力科技#####
+################
+
+#源能供电
+tech_originercy_power_supply = {
+
+}
+
+#源石电容器
+tech_originium_capacitor = {
+
+}
+
+#石棺-源能发电机
+tech_sarcophagus_originercy_generator = {
+
+}
+
+#源能超导运用
+tech_originercy_applied_superconductivity = {
+
+}
+
+#############
+#####护盾#####
+#############
+
+#技艺护盾
+tech_arts_shield = {
+
+}
+
+#技艺偏转护盾
+tech_arts_deflector ={
+
+}
+
+#偏转力场护盾
+tech_deflection_foce_shield = {
+
+}
+
+###############
+#####点防御#####
+###############
+
+#碎片炮台
+tech_fragment_battery = {
+
+}
+
+#冰雹炮台
+tech_hali_battery= {
+
+}
+
+#天雷炮台
+tech_thunder_battery ={
+
+}
+
+################
+#####科研建筑#####
+################
+
+#联合政府研究院
+tech_utg_academy = {
+
+}
+
+#科研移动城市
+tech_scientific_nomadic_city = {
+
+}
+
+#"克丽斯腾"研究院
+tech_Kristen_research_institute = {
+
+}
+
+####################
+#####舰载支援系统#####
+####################
+
+#舰载支援系统
+tech_shiphome_support_system = {
+
+}
+
+#改进型
+tech_improved_shiphome_support_system = {
+
+}
+
+#先进型
+tech_advanced_shiphome_support_system= {
+
+}
+
+################
+#####行星护盾#####
+################
+
+#“星荚”级护盾
+tech_star_pod ={
+
+}
+
+#“星种”级护盾
+tech_star_seed = {
+
+}
+
+################
+#####人工质能#####
+################
+
+#“律法”
+tech_the_law = {
+
+}
+
+#PTRS-“律法”体系
+tech_PRTS_law_system = {
+
+}
+
+#OGAS系统
+tech_OGAS_system = {
+
+}
+
+#律法辅助殖民船
+tech_law_supported_colony_ship = {
+
+}
+
+#“天使”战斗计算机
+tech_ANGEL_combat_computer = {
+    
+}
+
+
+
