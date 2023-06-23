@@ -324,16 +324,12 @@ portrait_groups = {
                     sniper_17_3
                     sniper_18_1
                     sniper_18_2
-                    sniper_19_1
                     sniper_20_1
                     sniper_20_2
                     sniper_20_3
                     sniper_21_1
                     sniper_21_2
                     sniper_21_3
-                    sniper_22_1
-                    sniper_22_2
-                    sniper_22_3
                     sniper_23_1
                     sniper_23_2
                     sniper_24_1
@@ -358,8 +354,162 @@ portrait_groups = {
                     sniper_32_1
                     sniper_32_2
                     sniper_32_3
-                    
-                    
+                    specialist_1_1
+                    specialist_2_1
+                    specialist_2_2
+                    specialist_2_3
+                    specialist_3_1
+                    specialist_3_2
+                    specialist_3_3
+                    specialist_4_1
+                    specialist_4_2
+                    specialist_4_3
+                    specialist_5_1
+                    specialist_5_2
+                    specialist_5_3
+                    specialist_6_1
+                    specialist_6_2
+                    specialist_6_3
+                    specialist_6_4
+                    specialist_7_1
+                    specialist_7_2
+                    specialist_7_3
+                    specialist_7_4
+                    specialist_8_1
+                    specialist_8_2
+                    specialist_8_3
+                    specialist_9_1
+                    specialist_9_2
+                    specialist_9_3
+                    specialist_9_4
+                    specialist_10_1
+                    specialist_10_2
+                    specialist_10_3
+                    specialist_11_1
+                    specialist_11_2
+                    specialist_11_3
+                    specialist_12_1
+                    specialist_12_2
+                    specialist_12_3
+                    specialist_13_1
+                    specialist_13_2
+                    specialist_13_3
+                    specialist_14_1
+                    specialist_15_1
+                    specialist_15_2
+                    specialist_15_3
+                    specialist_16_1
+                    specialist_16_2
+                    specialist_17_1
+                    specialist_17_2
+                    specialist_17_3
+                    specialist_18_1
+                    specialist_18_2
+                    specialist_18_3
+                    specialist_19_1
+                    specialist_19_2
+                    specialist_19_3
+                    specialist_20_1
+                    specialist_20_2
+                    specialist_20_3
+                    specialist_20_4
+                    supporter_1_1
+                    supporter_1_2
+                    supporter_2_1
+                    supporter_3_1
+                    supporter_3_2
+                    supporter_3_3
+                    supporter_4_1
+                    supporter_4_2
+                    supporter_5_1
+                    supporter_5_2
+                    supporter_6_1
+                    supporter_6_2
+                    supporter_6_3
+                    supporter_7_1
+                    supporter_7_2
+                    supporter_8_1
+                    supporter_8_2
+                    supporter_8_3
+                    supporter_9_1
+                    supporter_9_2
+                    supporter_9_3
+                    supporter_10_1
+                    supporter_10_2
+                    supporter_10_3
+                    supporter_11_1
+                    supporter_12_1
+                    supporter_12_2
+                    supporter_12_3
+                    supporter_13_1
+                    supporter_13_2
+                    supporter_13_3
+                    supporter_14_1
+                    supporter_14_2
+                    supporter_14_3
+                    supporter_15_1
+                    supporter_15_2
+                    supporter_15_3
+                    supporter_16_1
+                    supporter_16_2
+                    supporter_16_3
+                    supporter_17_1
+                    supporter_17_2
+                    supporter_17_3
+                    supporter_17_4
+                    supporter_18_1
+                    supporter_18_2
+                    supporter_18_3
+                    vanguard_1_1
+                    vanguard_1_2
+                    vanguard_1_3
+                    vanguard_1_4
+                    vanguard_2_1
+                    vanguard_3_1
+                    vanguard_3_2
+                    vanguard_3_3
+                    vanguard_3_4
+                    vanguard_4_1
+                    vanguard_4_2
+                    vanguard_4_3
+                    vanguard_4_4
+                    vanguard_5_1
+                    vanguard_5_2
+                    vanguard_5_3
+                    vanguard_6_1
+                    vanguard_6_2
+                    vanguard_6_3
+                    vanguard_6_4
+                    vanguard_7_1
+                    vanguard_7_2
+                    vanguard_7_3
+                    vanguard_8_1
+                    vanguard_8_2
+                    vanguard_8_3
+                    vanguard_9_1
+                    vanguard_9_2
+                    vanguard_9_3
+                    vanguard_10_1
+                    vanguard_10_2
+                    vanguard_10_3
+                    vanguard_10_4
+                    vanguard_11_1
+                    vanguard_12_1
+                    vanguard_12_2
+                    vanguard_13_1
+                    vanguard_13_2
+                    vanguard_13_3
+                    vanguard_13_4
+                    vanguard_14_1
+                    vanguard_14_2
+                    vanguard_14_3
+                    vanguard_15_1
+                    vanguard_15_2
+                    vanguard_16_1
+                    vanguard_16_2
+                    vanguard_17_1
+                    vanguard_17_2
+                    vanguard_18_1
                 }
             }
         }
@@ -686,16 +836,12 @@ portrait_groups = {
                     sniper_17_3
                     sniper_18_1
                     sniper_18_2
-                    sniper_19_1
                     sniper_20_1
                     sniper_20_2
                     sniper_20_3
                     sniper_21_1
                     sniper_21_2
                     sniper_21_3
-                    sniper_22_1
-                    sniper_22_2
-                    sniper_22_3
                     sniper_23_1
                     sniper_23_2
                     sniper_24_1
@@ -720,8 +866,165 @@ portrait_groups = {
                     sniper_32_1
                     sniper_32_2
                     sniper_32_3
-                    
-                    
+                    specialist_1_1
+                    specialist_2_1
+                    specialist_2_2
+                    specialist_2_3
+                    specialist_3_1
+                    specialist_3_2
+                    specialist_3_3
+                    specialist_4_1
+                    specialist_4_2
+                    specialist_4_3
+                    specialist_5_1
+                    specialist_5_2
+                    specialist_5_3
+                    specialist_6_1
+                    specialist_6_2
+                    specialist_6_3
+                    specialist_6_4
+                    specialist_7_1
+                    specialist_7_2
+                    specialist_7_3
+                    specialist_7_4
+                    specialist_8_1
+                    specialist_8_2
+                    specialist_8_3
+                    specialist_9_1
+                    specialist_9_2
+                    specialist_9_3
+                    specialist_9_4
+                    specialist_10_1
+                    specialist_10_2
+                    specialist_10_3
+                    specialist_11_1
+                    specialist_11_2
+                    specialist_11_3
+                    specialist_12_1
+                    specialist_12_2
+                    specialist_12_3
+                    specialist_13_1
+                    specialist_13_2
+                    specialist_13_3
+                    specialist_14_1
+                    specialist_15_1
+                    specialist_15_2
+                    specialist_15_3
+                    specialist_16_1
+                    specialist_16_2
+                    specialist_17_1
+                    specialist_17_2
+                    specialist_17_3
+                    specialist_18_1
+                    specialist_18_2
+                    specialist_18_3
+                    specialist_19_1
+                    specialist_19_2
+                    specialist_19_3
+                    specialist_20_1
+                    specialist_20_2
+                    specialist_20_3
+                    specialist_20_4
+
+                    supporter_1_1
+                    supporter_1_2
+                    supporter_2_1
+                    supporter_3_1
+                    supporter_3_2
+                    supporter_3_3
+                    supporter_4_1
+                    supporter_4_2
+                    supporter_5_1
+                    supporter_5_2
+                    supporter_6_1
+                    supporter_6_2
+                    supporter_6_3
+                    supporter_7_1
+                    supporter_7_2
+                    supporter_8_1
+                    supporter_8_2
+                    supporter_8_3
+                    supporter_9_1
+                    supporter_9_2
+                    supporter_9_3
+                    supporter_10_1
+                    supporter_10_2
+                    supporter_10_3
+                    supporter_11_1
+                    supporter_12_1
+                    supporter_12_2
+                    supporter_12_3
+                    supporter_13_1
+                    supporter_13_2
+                    supporter_13_3
+                    supporter_14_1
+                    supporter_14_2
+                    supporter_14_3
+                    supporter_15_1
+                    supporter_15_2
+                    supporter_15_3
+                    supporter_16_1
+                    supporter_16_2
+                    supporter_16_3
+                    supporter_17_1
+                    supporter_17_2
+                    supporter_17_3
+                    supporter_17_4
+                    supporter_18_1
+                    supporter_18_2
+                    supporter_18_3
+                    vanguard_1_1
+                    vanguard_1_2
+                    vanguard_1_3
+                    vanguard_1_4
+                    vanguard_2_1
+                    vanguard_3_1
+                    vanguard_3_2
+                    vanguard_3_3
+                    vanguard_3_4
+                    vanguard_4_1
+                    vanguard_4_2
+                    vanguard_4_3
+                    vanguard_4_4
+                    vanguard_5_1
+                    vanguard_5_2
+                    vanguard_5_3
+                    vanguard_6_1
+                    vanguard_6_2
+                    vanguard_6_3
+                    vanguard_6_4
+                    vanguard_7_1
+                    vanguard_7_2
+                    vanguard_7_3
+                    vanguard_8_1
+                    vanguard_8_2
+                    vanguard_8_3
+                    vanguard_9_1
+                    vanguard_9_2
+                    vanguard_9_3
+                    vanguard_10_1
+                    vanguard_10_2
+                    vanguard_10_3
+                    vanguard_10_4
+                    vanguard_11_1
+                    vanguard_12_1
+                    vanguard_12_2
+                    vanguard_13_1
+                    vanguard_13_2
+                    vanguard_13_3
+                    vanguard_13_4
+                    vanguard_14_1
+                    vanguard_14_2
+                    vanguard_14_3
+                    vanguard_15_1
+                    vanguard_15_2
+                    vanguard_16_1
+                    vanguard_16_2
+                    vanguard_17_1
+                    vanguard_17_2
+                    vanguard_18_1
+
+
                 }
             }
         }
@@ -1048,16 +1351,12 @@ portrait_groups = {
                     sniper_17_3
                     sniper_18_1
                     sniper_18_2
-                    sniper_19_1
                     sniper_20_1
                     sniper_20_2
                     sniper_20_3
                     sniper_21_1
                     sniper_21_2
                     sniper_21_3
-                    sniper_22_1
-                    sniper_22_2
-                    sniper_22_3
                     sniper_23_1
                     sniper_23_2
                     sniper_24_1
@@ -1082,8 +1381,164 @@ portrait_groups = {
                     sniper_32_1
                     sniper_32_2
                     sniper_32_3
-                    
-                    
+                    specialist_1_1
+                    specialist_2_1
+                    specialist_2_2
+                    specialist_2_3
+                    specialist_3_1
+                    specialist_3_2
+                    specialist_3_3
+                    specialist_4_1
+                    specialist_4_2
+                    specialist_4_3
+                    specialist_5_1
+                    specialist_5_2
+                    specialist_5_3
+                    specialist_6_1
+                    specialist_6_2
+                    specialist_6_3
+                    specialist_6_4
+                    specialist_7_1
+                    specialist_7_2
+                    specialist_7_3
+                    specialist_7_4
+                    specialist_8_1
+                    specialist_8_2
+                    specialist_8_3
+                    specialist_9_1
+                    specialist_9_2
+                    specialist_9_3
+                    specialist_9_4
+                    specialist_10_1
+                    specialist_10_2
+                    specialist_10_3
+                    specialist_11_1
+                    specialist_11_2
+                    specialist_11_3
+                    specialist_12_1
+                    specialist_12_2
+                    specialist_12_3
+                    specialist_13_1
+                    specialist_13_2
+                    specialist_13_3
+                    specialist_14_1
+                    specialist_15_1
+                    specialist_15_2
+                    specialist_15_3
+                    specialist_16_1
+                    specialist_16_2
+                    specialist_17_1
+                    specialist_17_2
+                    specialist_17_3
+                    specialist_18_1
+                    specialist_18_2
+                    specialist_18_3
+                    specialist_19_1
+                    specialist_19_2
+                    specialist_19_3
+                    specialist_20_1
+                    specialist_20_2
+                    specialist_20_3
+                    specialist_20_4
+                    supporter_1_1
+                    supporter_1_2
+                    supporter_2_1
+                    supporter_3_1
+                    supporter_3_2
+                    supporter_3_3
+                    supporter_4_1
+                    supporter_4_2
+                    supporter_5_1
+                    supporter_5_2
+                    supporter_6_1
+                    supporter_6_2
+                    supporter_6_3
+                    supporter_7_1
+                    supporter_7_2
+                    supporter_8_1
+                    supporter_8_2
+                    supporter_8_3
+                    supporter_9_1
+                    supporter_9_2
+                    supporter_9_3
+                    supporter_10_1
+                    supporter_10_2
+                    supporter_10_3
+                    supporter_11_1
+                    supporter_12_1
+                    supporter_12_2
+                    supporter_12_3
+                    supporter_13_1
+                    supporter_13_2
+                    supporter_13_3
+                    supporter_14_1
+                    supporter_14_2
+                    supporter_14_3
+                    supporter_15_1
+                    supporter_15_2
+                    supporter_15_3
+                    supporter_16_1
+                    supporter_16_2
+                    supporter_16_3
+                    supporter_17_1
+                    supporter_17_2
+                    supporter_17_3
+                    supporter_17_4
+                    supporter_18_1
+                    supporter_18_2
+                    supporter_18_3
+                    vanguard_1_1
+                    vanguard_1_2
+                    vanguard_1_3
+                    vanguard_1_4
+                    vanguard_2_1
+                    vanguard_3_1
+                    vanguard_3_2
+                    vanguard_3_3
+                    vanguard_3_4
+                    vanguard_4_1
+                    vanguard_4_2
+                    vanguard_4_3
+                    vanguard_4_4
+                    vanguard_5_1
+                    vanguard_5_2
+                    vanguard_5_3
+                    vanguard_6_1
+                    vanguard_6_2
+                    vanguard_6_3
+                    vanguard_6_4
+                    vanguard_7_1
+                    vanguard_7_2
+                    vanguard_7_3
+                    vanguard_8_1
+                    vanguard_8_2
+                    vanguard_8_3
+                    vanguard_9_1
+                    vanguard_9_2
+                    vanguard_9_3
+                    vanguard_10_1
+                    vanguard_10_2
+                    vanguard_10_3
+                    vanguard_10_4
+                    vanguard_11_1
+                    vanguard_12_1
+                    vanguard_12_2
+                    vanguard_13_1
+                    vanguard_13_2
+                    vanguard_13_3
+                    vanguard_13_4
+                    vanguard_14_1
+                    vanguard_14_2
+                    vanguard_14_3
+                    vanguard_15_1
+                    vanguard_15_2
+                    vanguard_16_1
+                    vanguard_16_2
+                    vanguard_17_1
+                    vanguard_17_2
+                    vanguard_18_1
+
+
                 }
             }
         }
@@ -1362,7 +1817,8 @@ portrait_groups = {
                     medic_20_1
                     medic_21_1
                     medic_21_2
-                    medic_21_3sniper_1_1
+                    medic_21_3
+                    sniper_1_1
                     sniper_1_2
                     sniper_2_1
                     sniper_2_2
@@ -1409,16 +1865,12 @@ portrait_groups = {
                     sniper_17_3
                     sniper_18_1
                     sniper_18_2
-                    sniper_19_1
                     sniper_20_1
                     sniper_20_2
                     sniper_20_3
                     sniper_21_1
                     sniper_21_2
                     sniper_21_3
-                    sniper_22_1
-                    sniper_22_2
-                    sniper_22_3
                     sniper_23_1
                     sniper_23_2
                     sniper_24_1
@@ -1443,6 +1895,163 @@ portrait_groups = {
                     sniper_32_1
                     sniper_32_2
                     sniper_32_3
+                    specialist_1_1
+                    specialist_2_1
+                    specialist_2_2
+                    specialist_2_3
+                    specialist_3_1
+                    specialist_3_2
+                    specialist_3_3
+                    specialist_4_1
+                    specialist_4_2
+                    specialist_4_3
+                    specialist_5_1
+                    specialist_5_2
+                    specialist_5_3
+                    specialist_6_1
+                    specialist_6_2
+                    specialist_6_3
+                    specialist_6_4
+                    specialist_7_1
+                    specialist_7_2
+                    specialist_7_3
+                    specialist_7_4
+                    specialist_8_1
+                    specialist_8_2
+                    specialist_8_3
+                    specialist_9_1
+                    specialist_9_2
+                    specialist_9_3
+                    specialist_9_4
+                    specialist_10_1
+                    specialist_10_2
+                    specialist_10_3
+                    specialist_11_1
+                    specialist_11_2
+                    specialist_11_3
+                    specialist_12_1
+                    specialist_12_2
+                    specialist_12_3
+                    specialist_13_1
+                    specialist_13_2
+                    specialist_13_3
+                    specialist_14_1
+                    specialist_15_1
+                    specialist_15_2
+                    specialist_15_3
+                    specialist_16_1
+                    specialist_16_2
+                    specialist_17_1
+                    specialist_17_2
+                    specialist_17_3
+                    specialist_18_1
+                    specialist_18_2
+                    specialist_18_3
+                    specialist_19_1
+                    specialist_19_2
+                    specialist_19_3
+                    specialist_20_1
+                    specialist_20_2
+                    specialist_20_3
+                    specialist_20_4
+                    supporter_1_1
+                    supporter_1_2
+                    supporter_2_1
+                    supporter_3_1
+                    supporter_3_2
+                    supporter_3_3
+                    supporter_4_1
+                    supporter_4_2
+                    supporter_5_1
+                    supporter_5_2
+                    supporter_6_1
+                    supporter_6_2
+                    supporter_6_3
+                    supporter_7_1
+                    supporter_7_2
+                    supporter_8_1
+                    supporter_8_2
+                    supporter_8_3
+                    supporter_9_1
+                    supporter_9_2
+                    supporter_9_3
+                    supporter_10_1
+                    supporter_10_2
+                    supporter_10_3
+                    supporter_11_1
+                    supporter_12_1
+                    supporter_12_2
+                    supporter_12_3
+                    supporter_13_1
+                    supporter_13_2
+                    supporter_13_3
+                    supporter_14_1
+                    supporter_14_2
+                    supporter_14_3
+                    supporter_15_1
+                    supporter_15_2
+                    supporter_15_3
+                    supporter_16_1
+                    supporter_16_2
+                    supporter_16_3
+                    supporter_17_1
+                    supporter_17_2
+                    supporter_17_3
+                    supporter_17_4
+                    supporter_18_1
+                    supporter_18_2
+                    supporter_18_3
+                    vanguard_1_1
+                    vanguard_1_2
+                    vanguard_1_3
+                    vanguard_1_4
+                    vanguard_2_1
+                    vanguard_3_1
+                    vanguard_3_2
+                    vanguard_3_3
+                    vanguard_3_4
+                    vanguard_4_1
+                    vanguard_4_2
+                    vanguard_4_3
+                    vanguard_4_4
+                    vanguard_5_1
+                    vanguard_5_2
+                    vanguard_5_3
+                    vanguard_6_1
+                    vanguard_6_2
+                    vanguard_6_3
+                    vanguard_6_4
+                    vanguard_7_1
+                    vanguard_7_2
+                    vanguard_7_3
+                    vanguard_8_1
+                    vanguard_8_2
+                    vanguard_8_3
+                    vanguard_9_1
+                    vanguard_9_2
+                    vanguard_9_3
+                    vanguard_10_1
+                    vanguard_10_2
+                    vanguard_10_3
+                    vanguard_10_4
+                    vanguard_11_1
+                    vanguard_12_1
+                    vanguard_12_2
+                    vanguard_13_1
+                    vanguard_13_2
+                    vanguard_13_3
+                    vanguard_13_4
+                    vanguard_14_1
+                    vanguard_14_2
+                    vanguard_14_3
+                    vanguard_15_1
+                    vanguard_15_2
+                    vanguard_16_1
+                    vanguard_16_2
+                    vanguard_17_1
+                    vanguard_17_2
+                    vanguard_18_1
+
                 }
             }
         }
@@ -1769,16 +2378,12 @@ portrait_groups = {
                     sniper_17_3
                     sniper_18_1
                     sniper_18_2
-                    sniper_19_1
                     sniper_20_1
                     sniper_20_2
                     sniper_20_3
                     sniper_21_1
                     sniper_21_2
                     sniper_21_3
-                    sniper_22_1
-                    sniper_22_2
-                    sniper_22_3
                     sniper_23_1
                     sniper_23_2
                     sniper_24_1
@@ -1803,6 +2408,164 @@ portrait_groups = {
                     sniper_32_1
                     sniper_32_2
                     sniper_32_3
+                    specialist_1_1
+                    specialist_2_1
+                    specialist_2_2
+                    specialist_2_3
+                    specialist_3_1
+                    specialist_3_2
+                    specialist_3_3
+                    specialist_4_1
+                    specialist_4_2
+                    specialist_4_3
+                    specialist_5_1
+                    specialist_5_2
+                    specialist_5_3
+                    specialist_6_1
+                    specialist_6_2
+                    specialist_6_3
+                    specialist_6_4
+                    specialist_7_1
+                    specialist_7_2
+                    specialist_7_3
+                    specialist_7_4
+                    specialist_8_1
+                    specialist_8_2
+                    specialist_8_3
+                    specialist_9_1
+                    specialist_9_2
+                    specialist_9_3
+                    specialist_9_4
+                    specialist_10_1
+                    specialist_10_2
+                    specialist_10_3
+                    specialist_11_1
+                    specialist_11_2
+                    specialist_11_3
+                    specialist_12_1
+                    specialist_12_2
+                    specialist_12_3
+                    specialist_13_1
+                    specialist_13_2
+                    specialist_13_3
+                    specialist_14_1
+                    specialist_15_1
+                    specialist_15_2
+                    specialist_15_3
+                    specialist_16_1
+                    specialist_16_2
+                    specialist_17_1
+                    specialist_17_2
+                    specialist_17_3
+                    specialist_18_1
+                    specialist_18_2
+                    specialist_18_3
+                    specialist_19_1
+                    specialist_19_2
+                    specialist_19_3
+                    specialist_20_1
+                    specialist_20_2
+                    specialist_20_3
+                    specialist_20_4
+                    supporter_1_1
+                    supporter_1_2
+                    supporter_2_1
+                    supporter_3_1
+                    supporter_3_2
+                    supporter_3_3
+                    supporter_4_1
+                    supporter_4_2
+                    supporter_5_1
+                    supporter_5_2
+                    supporter_6_1
+                    supporter_6_2
+                    supporter_6_3
+                    supporter_7_1
+                    supporter_7_2
+                    supporter_8_1
+                    supporter_8_2
+                    supporter_8_3
+                    supporter_9_1
+                    supporter_9_2
+                    supporter_9_3
+                    supporter_10_1
+                    supporter_10_2
+                    supporter_10_3
+                    supporter_11_1
+                    supporter_12_1
+                    supporter_12_2
+                    supporter_12_3
+                    supporter_13_1
+                    supporter_13_2
+                    supporter_13_3
+                    supporter_14_1
+                    supporter_14_2
+                    supporter_14_3
+                    supporter_15_1
+                    supporter_15_2
+                    supporter_15_3
+                    supporter_16_1
+                    supporter_16_2
+                    supporter_16_3
+                    supporter_17_1
+                    supporter_17_2
+                    supporter_17_3
+                    supporter_17_4
+                    supporter_18_1
+                    supporter_18_2
+                    supporter_18_3
+                    vanguard_1_1
+                    vanguard_1_2
+                    vanguard_1_3
+                    vanguard_1_4
+                    vanguard_2_1
+                    vanguard_3_1
+                    vanguard_3_2
+                    vanguard_3_3
+                    vanguard_3_4
+                    vanguard_4_1
+                    vanguard_4_2
+                    vanguard_4_3
+                    vanguard_4_4
+                    vanguard_5_1
+                    vanguard_5_2
+                    vanguard_5_3
+                    vanguard_6_1
+                    vanguard_6_2
+                    vanguard_6_3
+                    vanguard_6_4
+                    vanguard_7_1
+                    vanguard_7_2
+                    vanguard_7_3
+                    vanguard_8_1
+                    vanguard_8_2
+                    vanguard_8_3
+                    vanguard_9_1
+                    vanguard_9_2
+                    vanguard_9_3
+                    vanguard_10_1
+                    vanguard_10_2
+                    vanguard_10_3
+                    vanguard_10_4
+                    vanguard_11_1
+                    vanguard_12_1
+                    vanguard_12_2
+                    vanguard_13_1
+                    vanguard_13_2
+                    vanguard_13_3
+                    vanguard_13_4
+                    vanguard_14_1
+                    vanguard_14_2
+                    vanguard_14_3
+                    vanguard_15_1
+                    vanguard_15_2
+                    vanguard_16_1
+                    vanguard_16_2
+                    vanguard_17_1
+                    vanguard_17_2
+                    vanguard_18_1
+
+
                 }
             }
         }
