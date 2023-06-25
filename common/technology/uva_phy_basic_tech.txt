@@ -119,7 +119,7 @@ tech_originercy_refraction_lance = {
     prerequisites = {
         tech_originercy_laser_refractor
         tech_energy_lance_1
-        tech_battleships
+        "tech_battleships"
     }
     weight = @tier4weight2
 
@@ -593,3 +593,884 @@ tech_shaped_originercy_generator = {
         }
     }
 }
+<<<<<<< Updated upstream
+=======
+
+#源能超空间跳跃节点
+tech_originercy_hyperspace_leap_drive = {
+    area = physics
+    cost = @tier2cost3
+    tier = 2
+    category = { originium_theory }
+    prerequisites = {
+        tech_hyper_drive_2
+    }
+    weight = @tier2weight3
+
+
+    weight_modifier = {
+        factor = 2
+        modifier = {
+            factor = 2
+            has_technology = tech_battleships
+        }
+        modifier = {
+            factor = value:tech_weight_likelihood
+            research_leader = {
+                area = physics
+                has_trait = "leader_trait_originium_theory"
+            }
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = physics
+                has_trait = "leader_trait_originium_theory"
+            }
+        }
+    }
+}
+
+#超空间“白域”
+tech_hyperspace_white_domain ={
+    area = physics
+    cost = @tier3cost3
+    tier = 3
+    category = { originium_theory }
+    prerequisites = {
+        tech_originercy_hyperspace_leap_drive
+    }
+    weight = @tier3weight3
+
+
+    weight_modifier = {
+        factor = 2
+        modifier = {
+            factor = 2
+            has_technology = tech_battleships
+        }
+        modifier = {
+            factor = value:tech_weight_likelihood
+            research_leader = {
+                area = physics
+                has_trait = "leader_trait_originium_theory"
+            }
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = physics
+                has_trait = "leader_trait_originium_theory"
+            }
+        }
+    }
+}
+
+#短途跃迁装置
+tech_short_distance_wrap_device = {
+    area = physics
+    cost = @tier4cost3
+    tier = 4
+    category = { originium_theory }
+    prerequisites = {
+        tech_hyperspace_white_domain
+    }
+
+    weight = @tier4weight3
+
+    weight_modifier = {
+        factor = 2
+        modifier = {
+            factor = 2
+            has_technology = tech_battleships
+        }
+        modifier = {
+            factor = value:tech_weight_likelihood
+            research_leader = {
+                area = physics
+                has_trait = "leader_trait_originium_theory"
+            }
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = physics
+                has_trait = "leader_trait_originium_theory"
+            }
+        }
+    }
+}
+
+################
+#####电力科技#####
+################
+
+#源能供电
+tech_originercy_power_supply = {
+    cost = @tier1cost3
+    area = physics
+    tier = 1
+    category = { originium_theory }
+    prerequisites = { tech_power_plant_1 }
+    weight = @tier1weight3
+
+    modifier = {
+        planet_technician_energy_produces_mult = 0.2
+        starbase_constructions_energy_produces_mult = 0.10
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_tradition = tr_prosperity_adopt
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+#源石电容器
+tech_originium_capacitor = {
+    cost = @tier2cost3
+    area = physics
+    tier = 2
+    category = { originium_theory }
+    prerequisites = { tech_originercy_power_supply }
+    weight = @tier2weight3
+
+    modifier = {
+        planet_technician_energy_produces_mult = 0.2
+        starbase_constructions_energy_produces_mult = 0.10
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_tradition = tr_prosperity_adopt
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+#石棺-源能发电机
+tech_originium_capacitor = {
+    cost = @tier3cost3
+    area = physics
+    tier = 3
+    category = { originium_theory }
+    prerequisites = { tech_originercy_power_supply }
+    weight = @tier3weight3
+
+    modifier = {
+        planet_technician_energy_produces_mult = 0.2
+        starbase_constructions_energy_produces_mult = 0.10
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_tradition = tr_prosperity_adopt
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+#源能超导运用
+tech_originercy_applied_superconductivity = {
+    cost = @tier4cost3
+    area = physics
+    tier = 4
+    category = { originium_theory }
+    prerequisites = { tech_originercy_power_supply }
+    weight = @tier4weight3
+
+    modifier = {
+        planet_technician_energy_produces_mult = 0.2
+        starbase_constructions_energy_produces_mult = 0.10
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_tradition = tr_prosperity_adopt
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+#############
+#####护盾#####
+#############
+
+#技艺护盾
+tech_arts_shield = {
+    area = physics
+    cost = @tier2cost3
+    tier = 2
+    category = { originium_theory }
+    prerequisites = { "tech_shields_3" }
+    weight = @tier2weight3
+
+    weight_modifier = {
+        factor = 1.25
+        modifier = {
+            factor = 1.5
+            is_specialist_subject_type = { TYPE = bulwark }
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+#技艺偏转护盾
+tech_arts_deflector ={
+    area = physics
+    cost = @tier3cost3
+    tier = 3
+    category = { originium_theory }
+    prerequisites = { "tech_arts_shield" }
+    weight = @tier3weight3
+
+    weight_modifier = {
+        factor = 1.25
+        modifier = {
+            factor = 1.5
+            is_specialist_subject_type = { TYPE = bulwark }
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+#偏转力场护盾
+tech_deflection_foce_shield = {
+    area = physics
+    cost = @tier4cost3
+    tier = 4
+    category = { originium_theory }
+    prerequisites = { "tech_arts_shield" }
+    weight = @tier4weight3
+
+    weight_modifier = {
+        factor = 1.25
+        modifier = {
+            factor = 1.5
+            is_specialist_subject_type = { TYPE = bulwark }
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+###############
+#####点防御#####
+###############
+
+#碎片炮台
+tech_fragment_battery = {
+    area = physics
+    tier = 2
+    cost = @tier2cost3
+    category = { originium_theory }
+    prerequisites = { "tech_pd_tracking_2" }
+    weight = @tier2weight3
+
+    # unlocks point defence 2
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+#冰雹炮台
+tech_hali_battery= {
+    area = physics
+    tier = 3
+    cost = @tier3cost3
+    category = { originium_theory }
+    prerequisites = { "tech_fragment_battery" }
+    weight = @tier3weight3
+
+    # unlocks point defence 2
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+#天雷炮台
+tech_thunder_battery ={
+    area = physics
+    tier = 4
+    cost = @tier4cost3
+    category = { originium_theory }
+    prerequisites = { "tech_hali_battery" }
+    weight = @tier4weight3
+
+    # unlocks point defence 2
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+################
+#####科研建筑#####
+################
+
+#联合政府研究院
+tech_utg_academy = {
+    area = physics
+    category = { originium_theory }
+    tier = 1
+    cost = @tier1cost3
+    prerequisites = { "tech_basic_science_lab_2" }
+    weight = @tier1weight3
+
+    # unlocks upgraded labs
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.5
+            is_specialist_subject_type = { TYPE = scholarium }
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+#科研移动城市
+tech_scientific_nomadic_city = {
+    area = physics
+    category = { originium_theory }
+    tier = 3
+    cost = @tier3cost3
+    prerequisites = { "tech_basic_science_lab_3" }
+    weight = @tier3weight3
+
+    # unlocks upgraded labs
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.5
+            is_specialist_subject_type = { TYPE = scholarium }
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+#"克丽斯腾"研究院
+tech_Kristen_research_institute = {
+    area = physics
+    category = { originium_theory }
+    tier = 3
+    cost = @tier3cost3
+    prerequisites = { "tech_basic_science_lab_3" }
+    weight = @tier3weight3
+
+    # unlocks upgraded labs
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.5
+            is_specialist_subject_type = { TYPE = scholarium }
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+####################
+#####舰载支援系统#####
+####################
+
+#舰载支援系统
+tech_shiphome_support_system = {
+    area = physics
+    tier = 1
+    cost = @tier1cost2
+    category = { originium_theory }
+    ai_update_type = military
+    is_rare = yes
+    prerequisites = {  }
+    weight = @tier1weight2
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+#改进型
+tech_improved_shiphome_support_system = {
+    area = physics
+    tier = 2
+    cost = @tier2cost2
+    category = { originium_theory }
+    ai_update_type = military
+    is_rare = yes
+    prerequisites = { tech_shiphome_support_system }
+    weight = @tier2weight2
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+#先进型
+tech_advanced_shiphome_support_system= {
+    area = physics
+    tier = 3
+    cost = @tier3cost2
+    category = { originium_theory }
+    ai_update_type = military
+    is_rare = yes
+    prerequisites = { tech_improved_shiphome_support_system }
+    weight = @tier3weight2
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+################
+#####行星护盾#####
+################
+
+#“星荚”级护盾
+tech_star_pod ={
+    area = physics
+    cost = @tier3cost3
+    tier = 3
+    category = { originium_theory }
+    ai_update_type = all
+    is_rare = yes
+    prerequisites = { "tech_planetary_shield_generator" }
+    weight = @tier3weight3
+
+    weight_modifier = {
+        factor = 0.5
+        modifier = {
+            factor = 0.5
+            NOR = {
+                has_trait_in_council = { TRAIT = leader_trait_expertise_field_manipulation }
+                has_trait_in_council = { TRAIT = leader_trait_curator }
+                has_trait_in_council = { TRAIT = leader_trait_spark_of_genius }
+                has_trait_in_council = { TRAIT = leader_trait_spark_of_genius_2 }
+            }
+        }
+        modifier = {
+            factor = @ap_technological_ascendancy_rare_tech
+            has_ascension_perk = ap_technological_ascendancy
+        }
+        modifier = {
+            factor = @federation_perk_factor
+            has_federation = yes
+            federation = {
+                has_federation_perk = rare_tech_boost
+                any_member = { has_technology = tech_planetary_shield_generator }
+            }
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+#“星种”级护盾
+tech_star_seed = {
+    area = physics
+    cost = @tier4cost3
+    tier = 4
+    category = { originium_theory }
+    ai_update_type = all
+    is_rare = yes
+    prerequisites = { "tech_planetary_shield_generator" }
+    weight = @tier4weight3
+
+    weight_modifier = {
+        factor = 0.5
+        modifier = {
+            factor = 0.5
+            NOR = {
+                has_trait_in_council = { TRAIT = leader_trait_expertise_field_manipulation }
+                has_trait_in_council = { TRAIT = leader_trait_curator }
+                has_trait_in_council = { TRAIT = leader_trait_spark_of_genius }
+                has_trait_in_council = { TRAIT = leader_trait_spark_of_genius_2 }
+            }
+        }
+        modifier = {
+            factor = @ap_technological_ascendancy_rare_tech
+            has_ascension_perk = ap_technological_ascendancy
+        }
+        modifier = {
+            factor = @federation_perk_factor
+            has_federation = yes
+            federation = {
+                has_federation_perk = rare_tech_boost
+                any_member = { has_technology = tech_planetary_shield_generator }
+            }
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+################
+#####人工质能#####
+################
+
+#“律法”
+tech_the_law = {
+    area = physics
+    tier = 2
+    cost = @tier2cost1
+    category = { originium_theory }
+    prerequisites = { "tech_administrative_ai" }
+    weight = @tier1weight1
+
+    modifier = {
+        all_technology_research_speed = 0.1
+    }
+
+    weight_modifier = {
+
+        modifier = {
+            factor = 1.5
+            is_specialist_subject_type = { TYPE = scholarium }
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+#PTRS-“律法”体系
+tech_PRTS_law_system = {
+    area = physics
+    tier = 3
+    cost = @tier3cost3
+    category = { originium_theory }
+    prerequisites = { "tech_the_law" }
+    weight = @tier3weight3
+
+    modifier = {
+        all_technology_research_speed = 0.1
+    }
+
+    potential = {
+        NOT = { has_ethic = ethic_gestalt_consciousness }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.5
+            is_specialist_subject_type = { TYPE = scholarium }
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+#OGAS系统
+tech_OGAS_system = {
+    area = physics
+    tier = 3
+    cost = @tier3cost3
+    category = { originium_theory }
+    prerequisites = { "tech_the_law" }
+    weight = @tier3weight3
+
+    modifier = {
+        all_technology_research_speed = 0.1
+    }
+
+    potential = {
+        NOT = { has_ethic = ethic_gestalt_consciousness }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.5
+            is_specialist_subject_type = { TYPE = scholarium }
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+#律法辅助殖民船
+tech_law_supported_colony_ship = {
+    cost = @tier3cost3
+    area = physics
+    tier = 3
+    category = { computing }
+    prerequisites = { "tech_self_aware_logic" "tech_cryostasis_1" }
+    weight = @tier3weight3
+
+    modifier = {
+        planet_colony_development_speed_mult = 0.8
+    }
+
+    weight_modifier = {
+
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+#“天使”战斗计算机
+tech_ANGEL_combat_computer = {
+    area = physics
+    tier = 3
+    cost = @tier3cost3
+    category = { originium_theory }
+    prerequisites = { "tech_the_law" }
+    weight = @tier3weight3
+
+    modifier = {
+        all_technology_research_speed = 0.1
+    }
+
+    potential = {
+        NOT = { has_ethic = ethic_gestalt_consciousness }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.5
+            is_specialist_subject_type = { TYPE = scholarium }
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
+
+
+
+>>>>>>> Stashed changes
