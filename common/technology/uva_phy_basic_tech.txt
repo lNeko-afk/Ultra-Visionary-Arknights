@@ -604,11 +604,7 @@ tech_originercy_hyperspace_leap_drive = {
     category = { originium_theory }
     prerequisites = {
         tech_hyper_drive_2
-    }
-    weight = @tier2weight3
-
         "tech_cracking_originium_energy_supply_technology"
-        "tech_zero_point_power"
     }
     weight = @tier4weight3
 
@@ -818,11 +814,6 @@ tech_originium_capacitor = {
         }
     }
 
-
-}
-
-#石棺-源能发电机
-tech_sarcophagus_originercy_generator = {
 
 }
 
@@ -1367,8 +1358,8 @@ tech_the_law = {
     }
 }
 
-#PTRS-“律法”体系
-tech_PRTS_law_system = {
+#PTRS-“律法”辅助科研
+tech_PRTS_law_research_support = {
     area = physics
     tier = 3
     cost = @tier3cost3
@@ -1408,7 +1399,8 @@ tech_OGAS_system = {
     weight = @tier3weight3
 
     modifier = {
-        all_technology_research_speed = 0.1
+        planet_jobs_alloys_produces_mult = 0.30
+        planet_jobs_consummer_goods_produces_mult = 0.30
     }
 
     potential = {
