@@ -1455,7 +1455,7 @@ tech_ANGEL_combat_computer = {
     weight = @tier3weight3
 
     modifier = {
-        all_technology_research_speed = 0.1
+        all_technology_research_speed = 0.25
     }
 
     potential = {
