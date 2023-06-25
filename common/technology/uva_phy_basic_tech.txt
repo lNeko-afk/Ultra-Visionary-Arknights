@@ -34,6 +34,8 @@ tech_originium_theory = {
     ai_weight = { factor = 0 }
 }
 
+
+
 ##############
 ####激光武器####
 ##############
@@ -605,6 +607,12 @@ tech_originercy_hyperspace_leap_drive = {
     }
     weight = @tier2weight3
 
+        "tech_cracking_originium_energy_supply_technology"
+        "tech_zero_point_power"
+    }
+    weight = @tier4weight3
+
+    gateway = power_generation
 
     weight_modifier = {
         factor = 2
@@ -809,6 +817,13 @@ tech_originium_capacitor = {
             factor = 0
         }
     }
+
+
+}
+
+#石棺-源能发电机
+tech_sarcophagus_originercy_generator = {
+
 }
 
 #源能超导运用

@@ -11,6 +11,8 @@ guiTypes = {
     ##############
     ####按钮定义####
     ##############
+
+    #按钮备案
     containerWindowType = {
         name = "uva_ohh_normal_window_option"
         position = { x = 0 y = 0  }
@@ -34,6 +36,7 @@ guiTypes = {
         }
     }
 
+    #返回键
     containerWindowType = {
         name = "uva_event_basic_ui_option"
         position = { x= 0 y=0 }
@@ -338,6 +341,7 @@ guiTypes = {
         }
     }
 
+    #作者的b话
     containerWindowType = {
         name = "uva_world_mod_view"
         orientation = center

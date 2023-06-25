@@ -21,8 +21,30 @@
 
  tech_reform_laser_stream:0 "§H重整光束流§!"
  tech_reform_laser_stream_desc:0 "对光束能量重新整合并再度增幅，极大的减少了源能的利用率，光矛武器更具备杀伤性"
+
+ tech_particle_projectile_gun:0 "§T粒子投射炮§!"
+ tech_particle_projectile_gun_desc: "超高速的能量炮弹，比一般质子投射炮增强了数倍"
+
+ tech_huiming_projectile_gun:0 "§M晦明投射炮§!"
+ tech_huiming_projectile_gun_desc:0 "古老的大炎智慧，让这款武器具有极大的杀伤性。"
+
+ tech_arts_cracking_cannon:0 "§T技艺裂解炮§!"
+ tech_arts_cracking_cannon_desc: "源石技艺加强过的裂解炮，能够穿透护盾与装甲。"
+
+ tech_mass_energy_cracking_cannon:0 "§M质能裂解炮§!"
+ tech_mass_energy_cracking_cannon_desc:0 "强化版的技艺裂解炮，能够传统质能，精准命中目标船体。"
+
+ tech_concentrated_energy_arc_emitter:0 "§M聚源能电弧发射器§!"
+ tech_concentrated_energy_arc_emitter_desc:0 "将源能聚集起来，用改进型电弧发射器的载体将之发射出去，能制成极大杀伤性的战略武器"
  
- 
+ tech_erosion_arc_emitter:0 "§H秽蚀电弧发射器§!"
+ tech_erosion_arc_emitter_desc:0 "结合了萨卡兹古老巫术以及源石技艺，与先进的电弧发射器，将电弧武器的威力再度上升一个高度"
+
+ tech_arts_plasma_launcher:0 "§T技艺等离子发射器§!"
+ tech_arts_plasma_launcher_desc:0 "技艺加强后的等离子体，具有更高的毁灭能力。针对大型舰船的装甲更有效。"
+
+ tech_concentrated_arts_plasma_launcher:0 "§M聚源能等离子炮射器§!"
+ tech_concentrated_arts_plasma_launcher_desc:0 "源能聚集后利用技艺加强的等离子武器，这种等离子抛射体极其致命"
  
  ##引擎
  tech_originium_theory:0 "§H源石理论§!"
