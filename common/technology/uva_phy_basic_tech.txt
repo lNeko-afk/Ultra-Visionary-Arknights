@@ -593,8 +593,6 @@ tech_shaped_originercy_generator = {
         }
     }
 }
-<<<<<<< Updated upstream
-=======
 
 #源能超空间跳跃节点
 tech_originercy_hyperspace_leap_drive = {
@@ -1471,6 +1469,3 @@ tech_ANGEL_combat_computer = {
     }
 }
 
-
-
->>>>>>> Stashed changes
