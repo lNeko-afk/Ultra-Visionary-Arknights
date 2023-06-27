@@ -52,6 +52,13 @@ tech_arts_lasers = {
     }
     weight = @tier3weight1
 
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_ARTS_LASERS_TITLE"
+            desc = "TECH_ARTS_LASERS_DESC"
+        }
+    }
+
     weight_modifier = {
         modifier = {
             factor = 1.25
@@ -85,6 +92,13 @@ tech_originercy_laser_refractor = {
         tech_lasers_4
     }
     weight = @tier4weight1
+
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_ORIGINERCY_LASER_REFRACTOR_TITLE"
+            desc = "TECH_ORIGINERCY_LASER_REFRACTOR_DESC"
+        }
+    }
 
     weight_modifier = {
         modifier = {
@@ -125,6 +139,13 @@ tech_originercy_refraction_lance = {
     }
     weight = @tier4weight2
 
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_ORIGINERCY_REFRACTION_LANCE_TITLE"
+            desc = "TECH_ORIGINERCY_REFRACTION_LANCE_DESC"
+        }
+    }
+
     weight_modifier = {
         modifier = {
             factor = 1.25
@@ -159,6 +180,13 @@ tech_reform_laser_stream = {
         tech_energy_lance_2
     }
     weight = @tier5weight2
+
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_REFORM_LASER_STREAM_TITLE"
+            desc = "TECH_REFORM_LASER_STREAM_DESC"
+        }
+    }
 
     weight_modifier = {
         modifier = {
@@ -198,6 +226,13 @@ tech_particle_projectile_gun = {
     }
     weight = @tier4weight2
 
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_PARTICLE_PROJECTILE_GUN_TITLE"
+            desc = "TECH_PARTICLE_PROJECTILE_GUN_DESC"
+        }
+    }
+
     weight_modifier = {
         modifier = {
             factor = 1.25
@@ -229,6 +264,13 @@ tech_huiming_projectile_gun = {
         tech_particle_projectile_gun
     }
     weight = @tier5weight2
+
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_HUIMING_PROJECTILE_GUN_TITLE"
+            desc = "TECH_HUIMING_PROJECTILE_GUN_DESC"
+        }
+    }
 
     weight_modifier = {
         modifier = {
@@ -266,6 +308,13 @@ tech_arts_cracking_cannon = {
     }
     weight = @tier2weight2
 
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_ARTS_CRACKING_CANNON_TITLE"
+            desc = "TECH_ARTS_CRACKING_CANNON_DESC"
+        }
+    }
+
     weight_modifier = {
         modifier = {
             factor = 1.25
@@ -297,6 +346,13 @@ tech_mass_energy_cracking_cannon = {
         tech_arts_cracking_cannon
     }
     weight = @tier3weight2
+
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_MASS_ENERGY_CRACKING_CANNON_TITLE"
+            desc = "TECH_MASS_ENERGY_CRACKING_CANNON_DESC"
+        }
+    }
 
     weight_modifier = {
         modifier = {
@@ -330,6 +386,13 @@ tech_concentrated_energy_arc_emitter = {
     }
     weight = @tier4weight2
 
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_CONCENTRATED_ENERGY_ARC_EMITTER_TITLE"
+            desc = "TECH_CONCENTRATED_ENERGY_ARC_EMITTER_DESC"
+        }
+    }
+
     weight_modifier = {
         modifier = {
             factor = 1.25
@@ -361,6 +424,13 @@ tech_erosion_arc_emitter = {
         tech_concentrated_energy_arc_emitter
     }
     weight = @tier5weight2
+
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_EROSION_ARC_EMITTER_TITLE"
+            desc = "TECH_EROSION_ARC_EMITTER_DESC"
+        }
+    }
 
     weight_modifier = {
         modifier = {
@@ -398,6 +468,13 @@ tech_arts_plasma_launcher = {
     }
     weight = @tier2weight2
 
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_ARTS_PLASMA_LAUNCHER_TITLE"
+            desc = "TECH_ARTS_PLASMA_LAUNCHER_DESC"
+        }
+    }
+
     weight_modifier = {
         modifier = {
             factor = 1.25
@@ -429,6 +506,13 @@ tech_concentrated_arts_plasma_launcher = {
         tech_arts_plasma_launcher
     }
     weight = @tier3weight2
+
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_CONCENTRATED_ARTS_PLASMA_LAUNCHER_TITLE"
+            desc ="TECH_CONCENTRATED_ARTS_PLASMA_LAUNCHER_DESC"
+        }
+    }
 
     weight_modifier = {
         modifier = {
@@ -596,6 +680,10 @@ tech_shaped_originercy_generator = {
     }
 }
 
+################
+#####驱动引擎#####
+################
+
 #源能超空间跳跃节点
 tech_originercy_hyperspace_leap_drive = {
     area = physics
@@ -608,7 +696,12 @@ tech_originercy_hyperspace_leap_drive = {
     }
     weight = @tier4weight3
 
-    gateway = power_generation
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_ORIGINERCY_HYPERSPACE_LEAP_DRIVE_TITLE"
+            desc = "TECH_ORIGINERCY_HYPERSPACE_LEAP_DRIVE_DESC"
+        }
+    }
 
     weight_modifier = {
         factor = 2
@@ -647,6 +740,12 @@ tech_hyperspace_white_domain ={
     }
     weight = @tier3weight3
 
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_TECH_HYPERSPACE_WHITE_DOMAIN_TITLE"
+            desc = "TECH_TECH_HYPERSPACE_WHITE_DOMAIN_DESC"
+        }
+    }
 
     weight_modifier = {
         factor = 2
@@ -685,6 +784,13 @@ tech_short_distance_wrap_device = {
     }
 
     weight = @tier4weight3
+
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_SHORT_DISTANCE_WRAP_DEVICE_TITLE"
+            desc = "TECH_SHORT_DISTANCE_WRAP_DEVICE_DESC"
+        }
+    }
 
     weight_modifier = {
         factor = 2
@@ -783,7 +889,7 @@ tech_originium_capacitor = {
 }
 
 #石棺-源能发电机
-tech_originium_capacitor = {
+tech_sarcophagus_originercy_generator = {
     cost = @tier3cost3
     area = physics
     tier = 3
@@ -863,6 +969,13 @@ tech_arts_shield = {
     prerequisites = { "tech_shields_3" }
     weight = @tier2weight3
 
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_ARTS_SHIELD_TITLE"
+            desc = "TECH_ARTS_SHIELD_DESC"
+        }
+    }
+
     weight_modifier = {
         factor = 1.25
         modifier = {
@@ -890,6 +1003,13 @@ tech_arts_deflector ={
     prerequisites = { "tech_arts_shield" }
     weight = @tier3weight3
 
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_ARTS_DEFLECTOR_TITLE"
+            desc = "TECH_ARTS_DEFLECTOR_DESC"
+        }
+    }
+
     weight_modifier = {
         factor = 1.25
         modifier = {
@@ -916,6 +1036,13 @@ tech_deflection_foce_shield = {
     category = { originium_theory }
     prerequisites = { "tech_arts_shield" }
     weight = @tier4weight3
+
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_DEFLECTION_FOCE_SHIELD_TITLE"
+            desc = "TECH_DEFLECTION_FOCE_SHIELD_DESC"
+        }
+    }
 
     weight_modifier = {
         factor = 1.25
@@ -947,6 +1074,13 @@ tech_fragment_battery = {
     category = { originium_theory }
     prerequisites = { "tech_pd_tracking_2" }
     weight = @tier2weight3
+
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_FRAGMENT_BATTERY_TITLE"
+            desc = "TECH_FRAGMENT_BATTERY_DESC"
+        }
+    }
 
     # unlocks point defence 2
 
@@ -980,6 +1114,13 @@ tech_hali_battery= {
     prerequisites = { "tech_fragment_battery" }
     weight = @tier3weight3
 
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_HALI_BATTERY_TITLE"
+            desc = "TECH_HALI_BATTERY_DESC"
+        }
+    }
+
     # unlocks point defence 2
 
     weight_modifier = {
@@ -1011,6 +1152,13 @@ tech_thunder_battery ={
     category = { originium_theory }
     prerequisites = { "tech_hali_battery" }
     weight = @tier4weight3
+
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_THUNDER_BATTERY_TITLE"
+            desc = "TECH_THUNDER_BATTERY_DESC"
+        }
+    }
 
     # unlocks point defence 2
 
@@ -1141,6 +1289,13 @@ tech_shiphome_support_system = {
     prerequisites = {  }
     weight = @tier1weight2
 
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_SHIPHOME_SUPPORT_SYSTEM_TITLE"
+            desc = "TECH_SHIPHOME_SUPPORT_SYSTEM_DESC"
+        }
+    }
+
     weight_modifier = {
         modifier = {
             factor = 1.25
@@ -1173,6 +1328,13 @@ tech_improved_shiphome_support_system = {
     prerequisites = { tech_shiphome_support_system }
     weight = @tier2weight2
 
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_IMPROVED_SHIPHOME_SUPPORT_SYSTEM_TITLE"
+            desc = "TECH_IMPROVED_SHIPHOME_SUPPORT_SYSTEM_DESC"
+        }
+    }
+
     weight_modifier = {
         modifier = {
             factor = 1.25
@@ -1204,6 +1366,13 @@ tech_advanced_shiphome_support_system= {
     is_rare = yes
     prerequisites = { tech_improved_shiphome_support_system }
     weight = @tier3weight2
+
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_ADVANCED_SHIPHOME_SUPPORT_SYSTEM_TITLE"
+            desc = "TECH_ADVANCED_SHIPHOME_SUPPORT_SYSTEM_DESC"
+        }
+    }
 
     weight_modifier = {
         modifier = {
@@ -1336,7 +1505,7 @@ tech_the_law = {
     weight = @tier1weight1
 
     modifier = {
-        all_technology_research_speed = 0.1
+        all_technology_research_speed = 0.15
     }
 
     weight_modifier = {
@@ -1368,7 +1537,8 @@ tech_PRTS_law_research_support = {
     weight = @tier3weight3
 
     modifier = {
-        all_technology_research_speed = 0.1
+        all_technology_research_speed = 0.2
+        science_ship_survey_speed = 0.33
     }
 
     potential = {
@@ -1400,7 +1570,7 @@ tech_OGAS_system = {
 
     modifier = {
         planet_jobs_alloys_produces_mult = 0.30
-        planet_jobs_consummer_goods_produces_mult = 0.30
+        planet_jobs_consumer_goods_produces_mult = 0.30
     }
 
     potential = {
@@ -1453,6 +1623,13 @@ tech_ANGEL_combat_computer = {
     category = { originium_theory }
     prerequisites = { "tech_the_law" }
     weight = @tier3weight3
+
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_ANGEL_COMBAT_COMPUTER_TITLE"
+            desc = "TECH_ANGEL_COMBAT_COMPUTER_DESC"
+        }
+    }
 
     modifier = {
         all_technology_research_speed = 0.25

@@ -12,40 +12,64 @@
  ##激光武器
  tech_arts_lasers:0 "§T技艺激光发射器§!"
  tech_arts_lasers_desc:0 "由源石技艺激发的激光武器，比常规激光武器能量更大，杀伤性更强。"
+ TECH_ARTS_LASERS_TITLE:0 "§H解锁部件：§!"
+ TECH_ARTS_LASERS_DESC:0 ""
 
  tech_originercy_laser_refractor:0 "§M源能激光折射器§!"
  tech_originercy_laser_refractor_desc:0 "技艺激光发射器的进阶武器，将激光进行多段折射并用源石技艺不停增幅激光强度，达到更高的杀伤力"
+ TECH_ORIGINERCY_LASER_REFRACTOR_TITLE:0 "§H解锁部件：§!"
+ TECH_ORIGINERCY_LASER_REFRACTOR_DESC:0 ""
 
  tech_originercy_refraction_lance:0 "§I源能折射光矛§!"
  tech_originercy_refraction_lance_desc:0 "通过源石技艺折射技术，改进光矛武器，使光矛武器更具穿透性，射程更大，威力更远。"
+ TECH_ORIGINERCY_REFRACTION_LANCE_TITLE:0 "§H解锁部件：§!"
+ TECH_ORIGINERCY_REFRACTION_LANCE_DESC:0 ""
 
  tech_reform_laser_stream:0 "§H重整光束流§!"
  tech_reform_laser_stream_desc:0 "对光束能量重新整合并再度增幅，极大的减少了源能的利用率，光矛武器更具备杀伤性"
+ TECH_REFORM_LASER_STREAM_TITLE:0 "§H解锁部件：§!"
+ TECH_REFORM_LASER_STREAM_DESC:0 ""
 
  tech_particle_projectile_gun:0 "§T粒子投射炮§!"
  tech_particle_projectile_gun_desc: "超高速的能量炮弹，比一般质子投射炮增强了数倍"
+ TECH_PARTICLE_PROJECTILE_GUN_TITLE:0 "§H解锁部件：§!"
+ TECH_PARTICLE_PROJECTILE_GUN_DESC:0 ""
 
  tech_huiming_projectile_gun:0 "§M晦明投射炮§!"
  tech_huiming_projectile_gun_desc:0 "古老的大炎智慧，让这款武器具有极大的杀伤性。"
+ TECH_HUIMING_PROJECTILE_GUN_TITLE:0 "§H解锁部件：§!"
+ TECH_HUIMING_PROJECTILE_GUN_DESC:0 ""
 
  tech_arts_cracking_cannon:0 "§T技艺裂解炮§!"
- tech_arts_cracking_cannon_desc: "源石技艺加强过的裂解炮，能够穿透护盾与装甲。"
+ tech_arts_cracking_cannon_desc:0 "源石技艺加强过的裂解炮，能够穿透护盾与装甲。"
+ TECH_ARTS_CRACKING_CANNON_TITLE:0 "§H解锁部件：§!"
+ TECH_ARTS_CRACKING_CANNON_DESC:0 ""
 
  tech_mass_energy_cracking_cannon:0 "§M质能裂解炮§!"
  tech_mass_energy_cracking_cannon_desc:0 "强化版的技艺裂解炮，能够传统质能，精准命中目标船体。"
+ TECH_MASS_ENERGY_CRACKING_CANNON_TITLE:0 "§H解锁部件：§!"
+ TECH_MASS_ENERGY_CRACKING_CANNON_DESC:0 ""
 
  tech_concentrated_energy_arc_emitter:0 "§M聚源能电弧发射器§!"
  tech_concentrated_energy_arc_emitter_desc:0 "将源能聚集起来，用改进型电弧发射器的载体将之发射出去，能制成极大杀伤性的战略武器"
- 
+ TECH_CONCENTRATED_ENERGY_ARC_EMITTER_TITLE:0 "§H解锁部件：§!"
+ TECH_CONCENTRATED_ENERGY_ARC_EMITTER_DESC:0 ""
+
  tech_erosion_arc_emitter:0 "§H秽蚀电弧发射器§!"
  tech_erosion_arc_emitter_desc:0 "结合了萨卡兹古老巫术以及源石技艺，与先进的电弧发射器，将电弧武器的威力再度上升一个高度"
+ TECH_EROSION_ARC_EMITTER_TITLE:0 "§H解锁部件：§!"
+ TECH_EROSION_ARC_EMITTER_DESC:0 ""
 
  tech_arts_plasma_launcher:0 "§T技艺等离子发射器§!"
  tech_arts_plasma_launcher_desc:0 "技艺加强后的等离子体，具有更高的毁灭能力。针对大型舰船的装甲更有效。"
+ TECH_ARTS_PLASMA_LAUNCHER_TITLE:0 "§H解锁部件：§!"
+ TECH_ARTS_PLASMA_LAUNCHER_DESC:0 ""
 
  tech_concentrated_arts_plasma_launcher:0 "§M聚源能等离子炮射器§!"
  tech_concentrated_arts_plasma_launcher_desc:0 "源能聚集后利用技艺加强的等离子武器，这种等离子抛射体极其致命"
- 
+ TECH_CONCENTRATED_ARTS_PLASMA_LAUNCHER_TITLE:0 "§H解锁部件：§!"
+ TECH_CONCENTRATED_ARTS_PLASMA_LAUNCHER_DESC:0 ""
+
  ##引擎
  tech_originium_theory:0 "§H源石理论§!"
  tech_originium_theory_desc:0 "源石基础理论，是泰拉近现代科技的基本支柱"
@@ -76,6 +100,123 @@
  tech_nonentropy_originercy_engine_desc:0 "非熵，超脱正常思维的名词。通过非熵技术，我们可以实现无熵变甚至是熵减。"
  TECH_NONENTROPY_ORIGINERCY_ENGINE_TITTLE:0 "§H解锁部件：§!$tech_nonentropy_originercy_engine$"
  TECH_NONENTROPY_ORIGINERCY_ENGINE_DESC:0 "$tech_nonentropy_originercy_engine_desc$"
+
+ ##驱动引擎
+ tech_originercy_hyperspace_leap_drive:0 "§B源能超空间跳跃节点§!"
+ tech_originercy_hyperspace_leap_drive_desc:0 "利用源能开启超空间航道，比传统的FTL引擎更加高效"
+ TECH_ORIGINERCY_HYPERSPACE_LEAP_DRIVE_TITLE:0 "§H解锁部件：§!"
+ TECH_ORIGINERCY_HYPERSPACE_LEAP_DRIVE_DESC:0 ""
+
+ tech_hyperspace_white_domain:0 "§I超空间“白域§!”"
+ tech_hyperspace_white_domain_desc:0 "与黑域相反，白域是一种可以长时间使用的超光速航道，我们可以利用源石科技，开辟这种航道，从而提高我们的航行效率"
+ TECH_TECH_HYPERSPACE_WHITE_DOMAIN_TITLE:0 "§H解锁部件：§!"
+ TECH_TECH_HYPERSPACE_WHITE_DOMAIN_DESC:0 ""
+
+ tech_short_distance_wrap_device:0 "§H短途跃迁装置§!"
+ tech_short_distance_wrap_device_desc:0 "”白域“装置向我们展示了新的可能性，短途跃迁装置就是这可能性的衍生。我们可以利用源石技术，进一步开发”白域“装置，以实现距离几个星系的跃迁"
+ TECH_SHORT_DISTANCE_WRAP_DEVICE_TITLE:0 "§H解锁部件：§!"
+ TECH_SHORT_DISTANCE_WRAP_DEVICE_DESC:0 ""
+
+ ##电力科技
+ tech_originercy_power_supply:0 "源能供电"
+ tech_originercy_power_supply_desc:0 "源能始终是泰拉最为核心的功能方式，这一点随着对源石认识的增进而得到深化。"
+
+ tech_originium_capacitor:0 "§B源石电容器§!"
+ tech_originium_capacitor_desc:0 "源石被论证多种物理形态相互转化的媒介，源石电容器也是很好的证明，虽然电能被无损耗的存储成源石形态是基于什么原理，但至少，我们做出来了……"
+
+ tech_sarcophagus_originercy_generator:0 "§Y石棺-源能发电机§!"
+ tech_sarcophagus_originercy_generator_desc:0 "前文明的难以理解的装置，“石棺”，联合政府加强了对这一装置的研究，这种小型、高能的“家用”聚变装置虽然仍然不能复刻，但是利用其能源产出还是很容易实现的。"
+
+ tech_originercy_applied_superconductivity:0 "§H源能超导运用§!"
+ tech_originercy_applied_superconductivity_desc:0 "源能塑型制成的源石导线本身就是一种室内超导材料，再通过转换装置与储能装置，能够基本无损失的保存生产的能源。"
+
+ ##护盾
+ tech_arts_shield:0 "§B技艺护盾§!"
+ tech_arts_shield_desc:0 "源石技艺生成法术护盾并不难，舰船的技艺护盾也只需要通过大型源石技艺装置就能够生成，与普通护盾相结合，具有很大的潜力。"
+ TECH_ARTS_SHIELD_TITLE:0 "§H解锁部件：§!"
+ TECH_ARTS_SHIELD_DESC:0 ""
+
+ tech_arts_deflector:0 "§Y技艺偏转护盾§!"
+ tech_arts_deflector_desc:0 "法术护盾与普通护盾的拟合程度相当优越，以致于普通护盾的技术也能够用于法术护盾，因此，基于偏转技术，法术偏转护盾应运而生。"
+ TECH_ARTS_DEFLECTOR_TITLE:0 "§H解锁部件：§!"
+ TECH_ARTS_DEFLECTOR_DESC:0 ""
+
+ tech_deflection_foce_shield:0 "§H偏转力场护盾§!"
+ tech_deflection_foce_shield_desc:0 "远程生成法术偏转力场覆盖护盾，与普通偏转力场形成双重保护，不仅减小了更多种类的武器的伤害，还增强了护盾的耐久。"
+ TECH_DEFLECTION_FOCE_SHIELD_TITLE:0 "§H解锁部件：§!"
+ TECH_DEFLECTION_FOCE_SHIELD_DESC:0 ""
+
+ ##点防御
+
+ tech_fragment_battery:0 "§B碎片炮台§!"
+ tech_fragment_battery_desc:0 "碎片炮台能够打出大量能量，形成离子团，摧毁来犯目标。"
+ TECH_FRAGMENT_BATTERY_TITLE:0 "§H解锁部件：§!"
+ TECH_FRAGMENT_BATTERY_DESC:0 ""
+
+ tech_hali_battery:0 "§Y冰雹炮台§!"
+ tech_hali_battery_desc:0 "冰雹炮台相较于碎片炮台，能够在末端分离成多道离子团。"
+ TECH_HALI_BATTERY_TITLE:0 "§H解锁部件：§!"
+ TECH_HALI_BATTERY_DESC:0 ""
+
+ tech_thunder_battery:0 "§H天雷炮台§!"
+ tech_thunder_battery_desc:0 "天雷炮台正如其名字，离子团更具杀伤性，射程更远，能够对甚至驱逐舰造成毁灭性伤害。"
+ TECH_THUNDER_BATTERY_TITLE:0 "§H解锁部件：§!"
+ TECH_THUNDER_BATTERY_DESC:0 ""
+
+ ##科研建筑
+
+ tech_utg_academy:0 "§B联合政府研究院§!"
+ tech_utg_academy_desc:0 "效仿莱茵生命管理模式，加上规范准则，给优秀的科学家优良的工作环境与全套设施，是联合政府研究院的标准。"
+
+ tech_scientific_nomadic_city:0 "§Y科研移动城市§!"
+ tech_scientific_nomadic_city_desc:0 "科研移动城市集聚了科研设施与各种配套产业，实现整座城市为科研服务的目标，大学区划、大型实验室是这类移动城市的基本区划。"
+
+ tech_Kristen_research_institute:0 "§H"克丽斯腾"研究院§!"
+ tech_Kristen_research_institute_desc:0 "克里斯滕·莱特成为泰拉活着的传奇，她被带回泰拉之后，从未停下她探索的脚步，还积极帮助联合政府科研建设，为了纪念这位活着的传奇，联合政府以她的名字建造了“克丽斯滕”研究院"
+
+ ##舰载支援系统
+
+ tech_shiphome_support_system:0 "§B舰载支援系统§!"
+ tech_shiphome_support_system_desc:0 "舰船的辅助系统的总和"
+ TECH_SHIPHOME_SUPPORT_SYSTEM_TITLE:0 "§H解锁部件：§!"
+ TECH_SHIPHOME_SUPPORT_SYSTEM_DESC:0 ""
+
+ tech_improved_shiphome_support_system:0 "§Y改进型舰载支援系统§!"
+ tech_improved_shiphome_support_system_desc:0 "改进型辅助系统。"
+ TECH_IMPROVED_SHIPHOME_SUPPORT_SYSTEM_TITLE:0 "§H解锁部件：§!"
+ TECH_IMPROVED_SHIPHOME_SUPPORT_SYSTEM_DESC:0 ""
+
+ tech_advanced_shiphome_support_system:0 "§H先进型舰载支援系统§!"
+ tech_advanced_shiphome_support_system_desc:0 "先进型辅助系统"
+ TECH_ADVANCED_SHIPHOME_SUPPORT_SYSTEM_TITLE:0 "§H解锁部件：§!"
+ TECH_ADVANCED_SHIPHOME_SUPPORT_SYSTEM_DESC:0 ""
+
+ ##行星护盾
+
+ tech_star_pod:0 "§Y“星荚”级护盾§!"
+ tech_star_pod_desc:0 "星荚，这一千百年来一直笼罩着泰拉的帷幕，现在将要被泰拉人反过来利用，作为星球的护盾。"
+
+ tech_star_seed:0 "§H“星种”级护盾§!"
+ tech_star_seed_desc:0 "星种护盾，寓意着文明的种子，即为泰拉。星种级护盾肩负着保卫联合政府的家园的使命。"
+
+ ##人工智能
+
+ tech_the_law:0 "§H“律法”§!"
+ tech_the_law_desc:0 "拉特兰的律法不过是一台高算力的量子计算机这一事实已被众人认知，在新时代，“律法”不仅可以作为拉特兰人的“律法”，更能够作为核心，组成大型的人工智能网络，并置顶规范。"
+
+ tech_PRTS_law_research_support:0 "§HPRTS-“律法”辅助科研§!"
+ tech_PRTS_law_research_support_desc:0 "PRTS作为前文明的科技，仍具有大量的未知领域，但是联合政府还是将其扩大了其规模，并于律法合并，作为辅助系统，投入泰拉人的生活，并且帮助推进科研项目。"
+
+ tech_OGAS_system:0 "OGAS系统"
+ tech_OGAS_system_desc:0 "OGAS系统是乌萨斯联盟提出的一种人工智能规划生产的先进概念，将之运用于PRTS-”律法“系统，更为直接简单的实现了OGAS系统，极大的增加了工业的生产力。"
+
+ tech_law_supported_colony_ship:0 "律法辅助殖民船"
+ tech_law_supported_colony_ship_desc:0 "由”律法“管理殖民船的大部分功能，能够极大的优化殖民星球的流程，加速殖民地初期建设。"
+
+ tech_ANGEL_combat_computer:0 "“天使”战斗计算机"
+ tech_ANGEL_combat_computer_desc:0 "”天使“也是前文明遗留的一种人工智能概念，这种优化战斗的人工智能作为舰载武器系统，优化大部分系统，简化大部分操作，同时增强武器的性能。"
+ TECH_ANGEL_COMBAT_COMPUTER_TITLE:0 "§H解锁部件：§!"
+ TECH_ANGEL_COMBAT_COMPUTER_DESC:0 ""
 
  ######社会######
  ##营养学

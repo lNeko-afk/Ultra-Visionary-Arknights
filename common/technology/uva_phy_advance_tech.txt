@@ -103,11 +103,11 @@ tech_nonentropy_originercy_engine = {
     }
 }
 
-##跃迁引擎
-tech_fundamental_originency_warp_engine = {
-
-}
-
-tech_space_originerncy_warp_engine = {
-
-}
+###跃迁引擎
+#tech_fundamental_originency_warp_engine = {
+#
+#}
+#
+#tech_space_originerncy_warp_engine = {
+#
+#}
