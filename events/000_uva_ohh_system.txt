@@ -43,16 +43,16 @@ country_event = {   #初始弹窗
         response_text = "uva_ohh.1.c_desc"
         is_dialog_only = yes
     }
-    #option = {
-    #    name = "uva_ohh.1.d"
-    #    custom_gui = uva_event_basic_ui_option
-    #    default_hide_option = yes
-    #    hidden_effect = {
-    #        country_event ={
-    #            id = uva_ohh.10
-    #        }
-    #    }
-    #}
+    option = {
+        name = "uva_ohh.1.d"
+        custom_gui = uva_event_basic_ui_option
+        default_hide_option = yes
+        hidden_effect = {
+            country_event ={
+                id = uva_ohh.10
+            }
+        }
+    }
 }
 
 country_event = {
@@ -60,7 +60,7 @@ country_event = {
     is_triggered_only = yes
     title = "uva_ohh.10.name"
     desc = "uva_ohh.10.desc"
-    custom_gui =
+    custom_gui = uva_ohh_main_ui
     show_sound = event_default
     force_open = yes
     picture_event_data = {
@@ -79,5 +79,5 @@ country_event = {
         set_country_flag = uva_ohh_flag
     }
 
-    option =
+    #option =
 }
