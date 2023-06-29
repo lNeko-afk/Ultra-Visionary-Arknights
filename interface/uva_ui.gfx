@@ -26,17 +26,164 @@ spriteTypes = {
         textureFile = "gfx/ui/uva_operator_headhunter_normal_mainUI_text.dds"
     }
 
-    ####事件/选项基本UI####
-    spriteType = {
-        name = GFX_uva_event_basic_ui
-        textureFile = "gfx/ui/uva_event_basic_ui.dds"
-    }
+
+    ####按钮####
+
+    #退出按钮
     spriteType = {
         name = GFX_uva_event_basic_ui_exitbutton
         textureFile = "gfx/ui/uva_event_basic_ui_exitbutton.dds"
         effectFile = "gfx/FX/buttonstate_onlydisable.shader"
         noOfFrames = 1
     }
+
+
+    ##专员寻访各个阵营
+
+    #阿戈尔
+    spriteType = {
+        name= GFX_uva_bt_aegir
+        textureFile = "gfx/ui/uva_bt_aegir.dds"
+    }
+
+    #巴别塔
+    spriteType = {
+        name = GFX_uva_bt_bebel
+        textureFile = "gfx/ui/uva_bt_bebel.dds"
+    }
+
+    #黑钢
+    spriteType = {
+        name = GFX_uva_bt_black_stell
+        textureFile = "gfx/ui/uva_bt_black_steel.dds"
+    }
+
+    #玻利维亚
+    spriteType = {
+        name = GFX_uva_bt_bolivar
+        textureFile = "gfx/ui/uva_bt_bolivar.dds"
+    }
+
+    #哥伦比亚
+    spriteType = {
+        name = GFX_uva_bt_colombia
+        textureFile = "gfx/ui/uva_bt_colombia.dds"
+    }
+
+    #东
+    spriteType = {
+        name = GFX_uva_bt_higashi
+        textureFile = "gfx/ui/uva_bt_higashi.dds"
+    }
+
+    #伊比利亚
+    spriteType = {
+        name = GFX_uva_bt_iberia
+        textureFile = "gfx/ui/uva_bt_iberia.dds"
+    }
+
+    #喀兰
+    spriteType = {
+        name = GFX_uva_bt_karlan
+        textureFile = "gfx/ui/uva_bt_karlan.dds"
+    }
+
+    #卡西米尔
+    spriteType = {
+        name = GFX_uva_bt_kazimierz
+        textureFile = "gfx/ui/uva_bt_kazimierz.dds"
+    }
+
+    #拉特兰
+    spriteType = {
+        name = GFX_uva_bt_laterano
+        textureFile = "gfx/ui/uva_bt_laterano.dds"
+    }
+
+    #莱塔尼亚
+    spriteType = {
+        name = GFX_uva_bt_leithanien
+        textureFile = "gfx/ui/uva_bt_leithanien.dds"
+    }
+
+    #龙门
+    spriteType = {
+        name = GFX_uva_bt_lungmen
+        textureFile = "gfx/ui/uva_bt_lungmen.dds"
+    }
+
+    #米诺斯
+    spriteType = {
+        name = GFX_uva_bt_minos
+        textureFile = "gfx/ui/uva_bt_minos.dds"
+    }
+
+    #企鹅
+    spriteType = {
+        name = GFX_uva_bt_penguin
+        textureFile =  "gfx/ui/uva_bt_penguin.dds"
+    }
+
+    #莱茵生命
+    spriteType = {
+        name = GFX_uva_bt_raine_lab
+        textureFile = "gfx/ui/uva_bt_raine_lab.dds"
+    }
+
+    #罗德岛
+    spriteType = {
+        name = GFX_uva_rhodes_island
+        textureFile = "gfx/ui/uva_bt_rhodes_island.dds"
+    }
+
+    #雷姆必拓
+    spriteType = {
+        name = GFX_uva_bt_rim_billtion
+        textureFile = "gfx/ui/uva_bt_rim_billiton.dds"
+    }
+
+    #萨米
+    spriteType = {
+        name = GFX_uva_bt_sami
+        textureFile = "gfx/ui/uva_bt_sami.dds"
+    }
+
+    #萨尔贡
+    spriteType = {
+        name = GFX_uva_bt_sargon
+        textureFile = "gfx/ui/uva_bt_sargon.dds"
+    }
+
+    #叙拉古
+    spriteType = {
+        name = GFX_uva_bt_siracusa
+        textureFile = "gfx/ui/uva_bt_siracusa.dds"
+    }
+
+    #乌萨斯
+    spriteType = {
+        name = GFX_uva_bt_ursus
+        textureFile = "gfx/ui/uva_bt_ursus.dds"
+    }
+
+    #维多利亚
+    spriteType = {
+        name = GFX_uva_bt_victoria
+        textureFile = "gfx/ui/uva_bt_victoria.dds"
+    }
+
+    #炎
+    spriteType = {
+        name = GFX_uva_bt_yan
+        textureFile = "gfx/ui/uva_bt_yan.dds"
+    }
+
+    ####事件/选项基本UI####
+    spriteType = {
+        name = GFX_uva_event_basic_ui
+        textureFile = "gfx/ui/uva_event_basic_ui.dds"
+    }
+
     spriteType = {
         name = GFX_uva_event_basic_ui_option
         textureFile = "gfx/ui/uva_event_basic_ui_option.dds"
@@ -63,5 +210,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_uva_world_mod_view"
         textureFile = "gfx/ui/uva_world_mod_view.dds"
+    }
+
+    #干员寻访测试UI
+    spriteType = {
+        name = "GFX_uva_ohh_main_ui"
+        textureFile = "gfx/ui/uva_ohh_main_ui.dds"
     }
 }
