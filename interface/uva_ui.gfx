@@ -132,7 +132,7 @@ spriteTypes = {
 
     #罗德岛
     spriteType = {
-        name = GFX_uva_rhodes_island
+        name = GFX_uva_bt_rhodes_island
         textureFile = "gfx/ui/uva_bt_rhodes_island.dds"
     }
 

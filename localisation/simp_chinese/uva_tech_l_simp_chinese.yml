@@ -12,13 +12,13 @@
  ##激光武器
  tech_arts_lasers:0 "§T技艺激光发射器§!"
  tech_arts_lasers_desc:0 "由源石技艺激发的激光武器，比常规激光武器能量更大，杀伤性更强。"
- TECH_ARTS_LASERS_TITLE:0 "§H解锁部件：§!"
- TECH_ARTS_LASERS_DESC:0 ""
+ TECH_ARTS_LASERS_TITLE:0 "§H解锁部件：§!$tech_arts_lasers$"
+ TECH_ARTS_LASERS_DESC:0 "$tech_arts_lasers$\n$tech_arts_lasers_desc$"
 
  tech_originercy_laser_refractor:0 "§M源能激光折射器§!"
  tech_originercy_laser_refractor_desc:0 "技艺激光发射器的进阶武器，将激光进行多段折射并用源石技艺不停增幅激光强度，达到更高的杀伤力"
- TECH_ORIGINERCY_LASER_REFRACTOR_TITLE:0 "§H解锁部件：§!"
- TECH_ORIGINERCY_LASER_REFRACTOR_DESC:0 ""
+ TECH_ORIGINERCY_LASER_REFRACTOR_TITLE:0 "§H解锁部件：§!$tech_originercy_laser_refractor$"
+ TECH_ORIGINERCY_LASER_REFRACTOR_DESC:0 "$tech_originercy_laser_refractor$\n$tech_originercy_laser_refractor_desc$"
 
  tech_originercy_refraction_lance:0 "§I源能折射光矛§!"
  tech_originercy_refraction_lance_desc:0 "通过源石技艺折射技术，改进光矛武器，使光矛武器更具穿透性，射程更大，威力更远。"

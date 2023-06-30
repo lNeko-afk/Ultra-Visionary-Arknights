@@ -647,7 +647,148 @@ guiTypes = {
 
         ### EVENT DIPLO ###
 
+        #阿戈尔
+        buttonType = {
+            name = bt_aegir
+            position = { x= 917 y=638 }
+            spriteType = "GFX_uva_bt_aegir"
+        }
 
+        #巴别塔
+        buttonType = {
+            name = bt_bebelv
+            position = { x= 844 y=313 }
+            spriteType = "GFX_uva_bt_bebel"
+        }
+
+        #黑钢
+        buttonType = {
+            name = bt_aegir
+            position = { x= 196 y=375 }
+            spriteType = "GFX_uva_bt_black_stell"
+        }
+
+        #玻利维亚
+        buttonType = {
+            name = bt_bolivar
+            position = { x = 320  y =464}
+            spriteType = "GFX_uva_bt_bolivar"
+        }
+
+        #哥伦比亚
+        buttonType = {
+            name = bt_colombia
+            position = { x = 168 y =264}
+            spriteType = "GFX_uva_bt_colombia"
+        }
+        #东
+        buttonType = {
+            name =bt_higashi
+            position = { x = 985 y =14}
+            spriteType = "GFX_uva_bt_higashi"
+        }
+        #伊比利亚
+        buttonType = {
+            name =bt_iberia
+            position = { x = 751 y =589}
+            spriteType = "GFX_uva_bt_iberia"
+        }
+        #喀兰
+        buttonType = {
+            name =bt_karlan
+            position = { x = 443 y =489}
+            spriteType = "GFX_uva_bt_karlan"
+        }
+        #卡西米尔
+        buttonType = {
+            name =bt_kazimierz
+            position = { x = 318 y =113}
+            spriteType = "GFX_uva_bt_kazimierz"
+        }
+        #拉特兰
+        buttonType = {
+            name =bt_laterano
+            position = { x = 770 y =464}
+            spriteType = "GFX_uva_bt_laterano"
+        }
+        #莱塔尼亚
+        buttonType = {
+            name =bt_leithanien
+            position = { x = 952 y =340}
+            spriteType = "GFX_uva_bt_leithanien"
+        }
+        #龙门
+        buttonType = {
+            name =bt_lungmen
+            position = { x = 785 y =46}
+            spriteType = "GFX_uva_bt_lungmen"
+        }
+        #米诺斯
+        buttonType = {
+            name =bt_minos
+            position = { x = 147 y =512}
+            spriteType = "GFX_uva_bt_minos"
+        }
+        #企鹅
+        buttonType = {
+            name =bt_penguin
+            position = { x = 106 y = 108}
+            spriteType = "GFX_uva_bt_penguin"
+        }
+        #莱茵
+        buttonType = {
+            name =bt_raine_lab
+            position = { x = 337 y =300}
+            spriteType = "GFX_uva_bt_raine_lab"
+        }
+        #罗德岛
+        buttonType = {
+            name =bt_rhodes_island
+            position = { x = 535 y =235}
+            spriteType = "GFX_uva_bt_rhodes_island"
+        }
+        #雷姆必拓
+        buttonType = {
+            name =bt_rim_billiton
+            position = { x = 1057 y =464}
+            spriteType = "GFX_uva_bt_rim_billtion"
+        }
+        #萨米
+        buttonType = {
+            name =bt_sami
+            position = { x = 362 y =14}
+            spriteType = "GFX_uva_bt_sami"
+        }
+        #萨尔贡
+        buttonType = {
+            name =bt_sargon
+            position = { x = 285 y =587}
+            spriteType = "GFX_uva_bt_sargon"
+        }
+        #叙拉古
+        buttonType = {
+            name =bt_siracusa
+            position = { x = 907 y =464}
+            spriteType = "GFX_uva_bt_siracusa"
+        }
+        #乌萨斯
+        buttonType = {
+            name =bt_ursus
+            position = { x = 491 y =63}
+            spriteType = "GFX_uva_bt_ursus"
+        }
+        #维多利亚
+        buttonType = {
+            name =bt_victoria
+            position = { x = 534 y =557}
+            spriteType = "GFX_uva_bt_victoria"
+        }
+        #炎
+        buttonType = {
+            name =bt_yan
+            position = { x = 907 y =164}
+            spriteType = "GFX_uva_bt_yan"
+        }
 
         containerWindowType = {
             name = "EVENT_DIPLO"
