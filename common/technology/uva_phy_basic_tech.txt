@@ -607,8 +607,6 @@ tech_originercy_hyperspace_leap_drive = {
     }
     weight = @tier2weight3
 
-    }
-
     weight_modifier = {
         factor = 2
         modifier = {
@@ -1141,7 +1139,6 @@ tech_shiphome_support_system = {
     cost = @tier1cost2
     category = { originium_theory }
     ai_update_type = military
-    is_rare = yes
     prerequisites = {  }
     weight = @tier1weight2
 
@@ -1173,7 +1170,6 @@ tech_improved_shiphome_support_system = {
     cost = @tier2cost2
     category = { originium_theory }
     ai_update_type = military
-    is_rare = yes
     prerequisites = { tech_shiphome_support_system }
     weight = @tier2weight2
 
@@ -1205,7 +1201,6 @@ tech_advanced_shiphome_support_system= {
     cost = @tier3cost2
     category = { originium_theory }
     ai_update_type = military
-    is_rare = yes
     prerequisites = { tech_improved_shiphome_support_system }
     weight = @tier3weight2
 
@@ -1241,7 +1236,6 @@ tech_star_pod ={
     tier = 3
     category = { originium_theory }
     ai_update_type = all
-    is_rare = yes
     prerequisites = { "tech_planetary_shield_generator" }
     weight = @tier3weight3
 
@@ -1287,7 +1281,6 @@ tech_star_seed = {
     tier = 4
     category = { originium_theory }
     ai_update_type = all
-    is_rare = yes
     prerequisites = { "tech_planetary_shield_generator" }
     weight = @tier4weight3
 
