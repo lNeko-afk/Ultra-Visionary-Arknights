@@ -831,6 +831,13 @@ tech_originercy_power_supply = {
     prerequisites = { tech_power_plant_1 }
     weight = @tier1weight3
 
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_SHORT_DISTANCE_WRAP_DEVICE_TITLE"
+            desc = "TECH_SHORT_DISTANCE_WRAP_DEVICE_DESC"
+        }
+    }
+
     modifier = {
         planet_technician_energy_produces_mult = 0.2
         starbase_constructions_energy_produces_mult = 0.10
