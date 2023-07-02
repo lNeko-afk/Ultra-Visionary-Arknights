@@ -354,7 +354,7 @@ portrait_groups = {
                     sniper_32_1
                     sniper_32_2
                     sniper_32_3
-                    specialist_1_1
+                    
                     specialist_2_1
                     specialist_2_2
                     specialist_2_3
@@ -866,7 +866,7 @@ portrait_groups = {
                     sniper_32_1
                     sniper_32_2
                     sniper_32_3
-                    specialist_1_1
+                    
                     specialist_2_1
                     specialist_2_2
                     specialist_2_3
@@ -1381,7 +1381,7 @@ portrait_groups = {
                     sniper_32_1
                     sniper_32_2
                     sniper_32_3
-                    specialist_1_1
+                    
                     specialist_2_1
                     specialist_2_2
                     specialist_2_3
@@ -1895,7 +1895,7 @@ portrait_groups = {
                     sniper_32_1
                     sniper_32_2
                     sniper_32_3
-                    specialist_1_1
+                    
                     specialist_2_1
                     specialist_2_2
                     specialist_2_3
@@ -2408,7 +2408,7 @@ portrait_groups = {
                     sniper_32_1
                     sniper_32_2
                     sniper_32_3
-                    specialist_1_1
+                    
                     specialist_2_1
                     specialist_2_2
                     specialist_2_3
