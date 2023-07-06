@@ -1,24 +1,89 @@
+#leader_trait_unyielding = {#ID 应该以“leader”开头
+#    cost = 1 #花费，领袖特质里面默认为 1
+#    modification = no #是否可修改，领袖特质里面默认不可
+#    icon = "gfx/interface/icons/traits/leader_traits/leader_trait_unyielding.dds"#图标同上
+#    modifier = { #修正器，对于这个领袖所在的区域生效（国家/舰队/陆军/星球等）
+#        ship_hull_mult = 0.1
+#        ship_weapon_damage = 0.05
+#        ship_disengage_chance_mult = -0.33
+#    }
+#    #self_modifier = {} #对于自身的修正，比如自身经验获取和招募花费等
+#    #prerequisites = { tech_xxx } #需要的前置科技
+#    #custom_tooltip = TRAIT_WOMEN_WEAR_EFFECT #显示的文本，注意：将会覆盖自动生成的修正器文本
+#    #initial = no #能否在初始界面被选择
+#    #randomized = no #是否可以随机生成该特质
+#    #requires_traits = {trait_psionic} #拥有哪个特质的人口可以生成带有这个特质的领袖
+#    leader_trait = { admiral } #属于哪个范围的特质，一般和 leader_class 一样
+#    leader_class = { admiral } #属于哪个类型的特质，一般和 leader_trait 一样
+#    opposites = { "leader_trait_nervous" "leader_trait_trickster" } #和什么是互斥的
+#}
+
+
+###########
+####通用####
+###########
+
+##通用-科学家
+
+#源石理论
 leader_trait_originium_theory = {
-    cost = 1
+    cost = 0
 
     icon = gfx/interface/icons/traits/trait_originium_theory.dds
     immortal_leaders = yes
     modifier = {
         category_originium_theory_research_speed_mult = 0.25
     }
+
+    randomized = yes
+
+    requires_traits = { trait_improved_oripathy }
+
     leader_trait = {
         scientist
     }
     leader_class = {
         scientist
     }
+}
 
-    ai_categories = {
-        physics
-        engineering
-        society
+#我无所不知
+leader_trait_omniscient_and_omnipotent = {
+    cost = 0
+
+    icon =
+
+    immortal_leaders = yes
+    randomized = yes
+    initial = no
+
+    modifier = {
+        all_technology_research_speed = 0.40
     }
-    ai_weight = {
-        weight = 100
+
+    leader_trait = {
+        scientist
+    }
+    leader_class = {
+        scientist
     }
 }
+
+#PRTS辅助系统
+#前置科技
+
+###########
+####专员####
+###########
+
+##阿米娅##
+#战术咏唱
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,6 @@
 ﻿l_simp_chinese:
+
+ #资源获取
  mod_country_base_originium_prime_produces_add:0 "每月£originium_prime£§H至纯源石§!"
  mod_country_base_crystalline_electronic_unit_produces_add:0 "每月£crystalline_electronic_unit£§g电子晶体单元§!"
  mod_country_base_d32_steel_produces_add:0 "每月£d32_steel£§ED32钢§!"
@@ -11,5 +13,5 @@
  mod_TERRA_pop_growth_speed:0 "§lTERRA§!人口增长速度"
 
 
-
+ category_originium_theory_research_speed_mult:0 "源石学"
 

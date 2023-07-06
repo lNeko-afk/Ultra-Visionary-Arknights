@@ -252,6 +252,17 @@ civic_armorless_union = {
         authority = {
             value = auth_united_goverments
         }
+        civics = {
+            OR = {
+                value = civic_columbia_lab
+                value = civic_laterano_religion
+                value = civic_rhodes_island
+                value = civic_great_yan
+                value = civic_military_committee
+                value = civic_reunion_movement
+                value = civic_UTG_diplomacy_department
+            }
+        }
     }
     random_weight = { base = 0 }#AI 随机刷出率，支持逻辑判断
     modifier = { #国家修正器
@@ -276,6 +287,17 @@ civic_ram_billiton ={
         authority = {
             value = auth_united_goverments
         }
+        civics = {
+            OR = {
+                value = civic_columbia_lab
+                value = civic_laterano_religion
+                value = civic_rhodes_island
+                value = civic_great_yan
+                value = civic_military_committee
+                value = civic_reunion_movement
+                value = civic_UTG_diplomacy_department
+            }
+        }
     }
     random_weight = { base = 0 }#AI 随机刷出率，支持逻辑判断
     modifier = { #国家修正器
@@ -284,7 +306,6 @@ civic_ram_billiton ={
     }
 }
 
-#物流联盟（企鹅，峯驰，谢拉格）
 civic_logistics_union = {
     #基础龙门币收入，空间站
     modification = yes #能否被替换，默认否
@@ -299,6 +320,17 @@ civic_logistics_union = {
     possible = { #对于“可用”的逻辑判断
         authority = {
             value = auth_united_goverments
+        }
+        civics = {
+            OR = {
+                value = civic_columbia_lab
+                value = civic_laterano_religion
+                value = civic_rhodes_island
+                value = civic_great_yan
+                value = civic_military_committee
+                value = civic_reunion_movement
+                value = civic_UTG_diplomacy_department
+            }
         }
     }
     random_weight = { base = 0 }#AI 随机刷出率，支持逻辑判断

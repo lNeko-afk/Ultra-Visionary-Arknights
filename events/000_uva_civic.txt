@@ -1,0 +1,175 @@
+namespace = uva_civic
+
+country_event = {
+    id = uva_civic.0
+    hide_window = yes
+
+    trigger = {
+        or = {
+            has_civic = civic_columbia_lab
+            has_civic = civic_laterano_religion
+            has_civic = civic_rhodes_island
+            has_civic = civic_great_yan
+            has_civic = civic_military_committee
+            has_civic = civic_reunion_movement
+            has_civic = civic_UTG_diplomacy_department
+        }
+    }
+
+    immediate = {
+        set_country_flag = uva_has_perp_civic
+        hidden_effect = {
+            country_event = { id = uva_civic.1}
+            country_event = { id = uva_civic.11}
+            country_event = { id = uva_civic.12}
+            country_event = { id = uva_civic.2}
+        }
+    }
+
+    fire_only_once = yes
+}
+
+country_event = {
+    id = uva_civic.1
+    hide_window = yes
+
+    trigger = {
+        has_civic = civic_armorless_union
+    }
+
+    immediate = {
+        set_country_flag = uva_has_armless_union_civic
+    }
+}
+
+country_event = {
+    id = uva_civic.11
+    hide_window = yes
+
+    trigger = {
+        has_civic = civic_ram_billiton
+    }
+
+    immediate = {
+        set_country_flag = uva_has_ram_billiton_civic
+    }
+}
+
+country_event = {
+    id = uva_civic.12
+    hide_window = yes
+
+    trigger = {
+        has_civic = civic_logistics_union
+    }
+
+    immediate = {
+        set_country_flag = uva_has_logistics_union_civic
+
+    }
+}
+
+country_event = {
+    id = uva_civic.2
+    title = uva_civic.2_tittle
+    desc = uva_civic.2_desc
+    picture = GFX_uva_post
+    location = root
+
+    is_triggered_only = yes
+    trigger = {
+        has_country_flag = uva_has_perp_civic
+    }
+
+    immediate = {  }
+
+    option = {
+        name = uva_civic.2.a
+        trigger ={
+            NOT = { has_country_flag =  uva_has_armless_union_civic }
+        }
+        custom_tooltip = uva_civic.2.a.tooltip
+        force_add_civic = civic_armorless_union
+        set_country_flag = uva_has_armless_union_civic
+    }
+    option = {
+        name = uva_civic.2.b
+        trigger ={
+            NOT = { has_country_flag =  uva_has_ram_billiton_civic }
+        }
+        custom_tooltip = uva_civic.2.b.tooltip
+        force_add_civic = civic_ram_billiton
+        set_country_flag = uva_has_ram_billiton_civic
+    }
+    option = {
+        name = uva_civic.2.c
+        trigger ={
+            NOT = { has_country_flag =  uva_has_logistics_union_civic }
+        }
+        custom_tooltip = uva_civic.2.c.tooltip
+        force_add_civic = civic_logistics_union
+        set_country_flag = uva_has_logistics_union_civic
+    }
+    option = {
+        name = uva.civic.2.d
+    }
+
+    after = {
+        hidden_effect = {
+            country_event = { id = uva_civic.21 }
+        }
+    }
+}
+
+
+
+country_event = {
+    id = uva_civic.21
+    title = uva_civic.2_tittle
+    desc = uva_civic.2_desc
+    picture = GFX_uva_post
+    location = root
+
+    is_triggered_only = yes
+    trigger = {
+        has_country_flag = uva_has_perp_civic
+        OR = {
+            has_country_flag = uva_has_logistics_union_civic
+            has_country_flag = uva_has_ram_billiton_civic
+            has_country_flag = uva_has_armless_union_civic
+        }
+    }
+
+    immediate = {  }
+
+    option = {
+        name = uva_civic.2.a
+        trigger ={
+            NOT = { has_country_flag =  uva_has_armless_union_civic }
+        }
+        custom_tooltip = uva_civic.2.a.tooltip
+        force_add_civic = civic_armorless_union
+        set_country_flag = uva_has_armless_union_civic
+    }
+    option = {
+        name = uva_civic.2.b
+        trigger ={
+            NOT = { has_country_flag =  uva_has_ram_billiton_civic }
+        }
+        custom_tooltip = uva_civic.2.b.tooltip
+        force_add_civic = civic_ram_billiton
+        set_country_flag = uva_has_ram_billiton_civic
+    }
+    option = {
+        name = uva_civic.2.c
+        trigger ={
+            NOT = { has_country_flag =  uva_has_logistics_union_civic }
+        }
+        custom_tooltip = uva_civic.2.c.tooltip
+        force_add_civic = civic_logistics_union
+        set_country_flag = uva_has_logistics_union_civic
+    }
+    option = {
+        name = uva.civic.2.d
+    }
+}
