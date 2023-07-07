@@ -506,6 +506,7 @@ utility_component_template = {
         }
     }
 }
+
 utility_component_template = {
     key = "uva_shippart_reactor_Core2_T3"
     size = small
@@ -742,6 +743,7 @@ utility_component_template = {
         }
     }
 }
+
 utility_component_template = {
     key = "uva_shippart_reactor_Core2_T4"
     size = small
@@ -978,6 +980,7 @@ utility_component_template = {
         }
     }
 }
+
 utility_component_template = {
     key = "uva_shippart_reactor_Core2_T5"
     size = small

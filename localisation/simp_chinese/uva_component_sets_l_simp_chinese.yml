@@ -1,5 +1,21 @@
 ﻿l_simp_chinese:
 
  SMALL_UVA_LASER_1:0 "§T技艺激光发射器§!"
- UVA_ARTS_LASERS:0 "§T技艺激光发射器§!"
- UVA_ARTS_LASERS_DESC:0 "源石技艺加强后的激光发射器，通过高强能量给敌方造成伤害"
+ MEDIUM_UVA_LASER_1:0 "§T技艺激光发射器§!"
+ LARGE_UVA_LASER_1:0 "$SMALL_UVA_LASER_1$"
+ UVA_ARTS_LASERS_1:0 "§T技艺激光发射器§!"
+ UVA_ARTS_LASERS_DESC_1:0 "源石技艺加强后的激光发射器，通过高强能量给敌方造成伤害"
+
+ SMALL_UVA_LASER_2:0 "$tech_originercy_laser_refractor$"
+ MEDIUM_UVA_LASER_2:0 "$SMALL_UVA_LASER_2$"
+ LARGE_UVA_LASER_2:0 "$SMALL_UVA_LASER_2$"
+ UVA_ARTS_LASERS_2:0 "$SMALL_UVA_LASER_2$"
+ UVA_ARTS_LASERS_2_DESC:0 "$tech_originercy_laser_refractor_desc$"
+
+
+
+
+
+
+
+

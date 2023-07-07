@@ -70,7 +70,7 @@ leader_trait_omniscient_and_omnipotent = {
 }
 
 #PRTS辅助系统
-#前置科技
+#前置科技x
 
 ###########
 ####专员####

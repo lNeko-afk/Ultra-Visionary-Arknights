@@ -1,12 +1,9 @@
 uva_1_system_initializer = {
-    name = "Arknights Core Solar System"
+    name = "Arknights_Core_Solar_System"
     class = "sc_uva_star1"
     init_effect = {
         every_neighbor_system = {
             set_star_flag = empire_cluster
-            every_neighbor_system = {
-                set_star_flag = empire_cluster
-            }
         }
     }
     flags = {

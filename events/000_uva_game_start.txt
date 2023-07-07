@@ -7,9 +7,4 @@ country_event = {
 
     trigger = { has_origin = origin_united_terra }
 
-    immediate = {
-        ruler = {
-            set_skill =3
-        }
-    }
 }

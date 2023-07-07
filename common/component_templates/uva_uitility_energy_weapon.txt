@@ -1,4 +1,8 @@
-#### 技艺激光发射器 ####
+##################
+####轻型激光武器####
+##################
+
+##技艺激光发射器
 weapon_component_template = {
     key = SMALL_UVA_LASER_1
     size = small
@@ -6,10 +10,10 @@ weapon_component_template = {
     icon = "GFX_uva_lasers_1"
     icon_frame = 1
     prerequisites = { tech_arts_lasers }
-    component_set =  "UVA_ARTS_LASERS"
+    component_set =  "UVA_ARTS_LASERS_1"
     projectile_gfx = "infrared_laser_s"
     tags = { weapon_type_energy s_slot }
-    #upgrades_to = { "SMALL_UVA_LASER_2" }
+    upgrades_to = "SMALL_UVA_LASER_2"
 
     resources = {
         category = ship_components
@@ -48,15 +52,259 @@ weapon_component_template = {
     }
 }
 
-#### 源能激光折射器 ####
+weapon_component_template = {
+    key = MEDIUM_UVA_LASER_1
+    size = medium
+    type = instant
+    icon = "GFX_uva_lasers_1"
+    icon_frame = 1
+    prerequisites = { tech_arts_lasers }
+    component_set =  "UVA_ARTS_LASERS_1"
+    projectile_gfx = "infrared_laser_m"
+    tags = { weapon_type_energy m_slot }
+    upgrades_to = "MEDIUM_UVA_LASER_2"
+
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 20
+            originium_prime = 10
+            lung_men_dollaris = 20
+        }
+        upkeep = {
+            energy = 0.20
+            alloys = 0.040
+        }
+    }
+
+    power = -60
+    damage = { min = 30 max = 60 }
+    windup = { min = 2 max = 14 }
+    total_fire_time = 29
+    hull_damage = 1.0
+    shield_damage = 0.6
+    armor_damage = 1.6
+    shield_penetration = 0.1
+    armor_penetration = 0.1
+    tracking = 0.50
+    range = 70
+    accuracy = 0.80
+
+    ai_tags = { weapon_role_anti_armor gunship }
+    ai_tag_weight = 0
+    ai_weight = {
+        weight = 3
+        modifier = {
+            factor = 0
+            is_TERRA_species = no
+        }
+    }
+}
+
+weapon_component_template = {
+    key = LARGE_UVA_LASER_1
+    size = large
+    type = instant
+    icon = "GFX_uva_lasers_1"
+    icon_frame = 1
+    prerequisites = { tech_arts_lasers }
+    component_set =  "UVA_ARTS_LASERS_1"
+    projectile_gfx = "infrared_laser_l"
+    tags = { weapon_type_energy l_slot }
+    upgrades_to = "LARGE_UVA_LASER_2"
+
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 40
+            originium_prime = 20
+            lung_men_dollaris = 40
+        }
+        upkeep = {
+            energy = 0.40
+            alloys = 0.080
+        }
+    }
+
+    power = -120
+    damage = { min = 150 max = 300 }
+    windup = { min = 2 max = 14 }
+    total_fire_time = 50
+    hull_damage = 1.0
+    shield_damage = 0.6
+    armor_damage = 1.6
+    shield_penetration = 0.1
+    armor_penetration = 0.1
+    tracking = 0.30
+    range = 90
+    accuracy = 0.70
+
+    ai_tags = { weapon_role_anti_armor gunship }
+    ai_tag_weight = 0
+    ai_weight = {
+        weight = 3
+        modifier = {
+            factor = 0
+            is_TERRA_species = no
+        }
+    }
+}
+
+##源能激光折射器
+weapon_component_template = {
+    key = SMALL_UVA_LASER_2
+    size = small
+    type = instant
+    icon = "GFX_uva_lasers_2"
+    icon_frame = 1
+    prerequisites = { tech_originercy_laser_refractor }
+    component_set =  "UVA_ARTS_LASERS_2"
+    projectile_gfx = "infrared_laser_s"
+    tags = { weapon_type_energy s_slot }
+    #upgrades_to = { "SMALL_UVA_LASER_2" }
+
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 10
+            originium_prime = 5
+            lung_men_dollaris = 10
+        }
+        upkeep = {
+            energy = 0.10
+            alloys = 0.020
+        }
+    }
+
+    power = -30
+    damage = { min = 23 max = 60 }
+    windup = { min = 1 max = 8 }
+    total_fire_time = 15
+    hull_damage = 1.1
+    shield_damage = 0.7
+    armor_damage = 1.8
+    shield_penetration = 0.15
+    armor_penetration = 0.15
+    tracking = 0.55
+    range = 46
+    accuracy = 0.95
+
+    ai_tags = { weapon_role_anti_armor gunship }
+    ai_tag_weight = 0
+    ai_weight = {
+        weight = 3
+        modifier = {
+            factor = 0
+            is_TERRA_species = no
+        }
+    }
+}
+
+weapon_component_template = {
+    key = MEDIUM_UVA_LASER_2
+    size = medium
+    type = instant
+    icon = "GFX_uva_lasers_2"
+    icon_frame = 1
+    prerequisites = { tech_originercy_laser_refractor }
+    component_set =  "UVA_ARTS_LASERS_2"
+    projectile_gfx = "infrared_laser_m"
+    tags = { weapon_type_energy m_slot }
+    upgrades_to = "MEDIUM_UVA_LASER_2"
+
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 40
+            originium_prime = 20
+            lung_men_dollaris = 40
+        }
+        upkeep = {
+            energy = 0.40
+            alloys = 0.080
+        }
+    }
+
+    power = -120
+    damage = { min = 150 max = 300 }
+    windup = { min = 2 max = 14 }
+    total_fire_time = 50
+    hull_damage = 1.0
+    shield_damage = 0.6
+    armor_damage = 1.6
+    shield_penetration = 0.1
+    armor_penetration = 0.1
+    tracking = 0.30
+    range = 90
+    accuracy = 0.70
+
+    ai_tags = { weapon_role_anti_armor gunship }
+    ai_tag_weight = 0
+    ai_weight = {
+        weight = 3
+        modifier = {
+            factor = 0
+            is_TERRA_species = no
+        }
+    }
+}
+
+weapon_component_template = {
+    key = LARGE_UVA_LASER_2
+    size = large
+    type = instant
+    icon = "GFX_uva_lasers_2"
+    icon_frame = 1
+    prerequisites = { tech_originercy_laser_refractor }
+    component_set =  "UVA_ARTS_LASERS_2"
+    projectile_gfx = "infrared_laser_l"
+    tags = { weapon_type_energy l_slot }
+    upgrades_to = "LARGE_UVA_LASER_2"
+
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 80
+            originium_prime = 40
+            lung_men_dollaris = 80
+        }
+        upkeep = {
+            energy = 0.80
+            alloys = 0.160
+        }
+    }
+
+    power = -240
+    damage = { min = 280 max = 650 }
+    windup = { min = 2 max = 14 }
+    total_fire_time = 35
+    hull_damage = 1.1
+    shield_damage = 0.7
+    armor_damage = 1.8
+    shield_penetration = 0.15
+    armor_penetration = 0.15
+    tracking = 0.40
+    range = 46
+    accuracy = 0.80
+
+    ai_tags = { weapon_role_anti_armor gunship }
+    ai_tag_weight = 0
+    ai_weight = {
+        weight = 3
+        modifier = {
+            factor = 0
+            is_TERRA_species = no
+        }
+    }
+}
 
 ##################
 ##### 光矛分支 #####
 ##################
 
-#### 源能折射光矛 ####
+##源能折射光矛
 
-#### 重整光束流 ####
+##重整光束流
 
 ###################
 ##### L槽发射器 #####
