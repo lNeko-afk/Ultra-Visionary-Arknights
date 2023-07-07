@@ -1,0 +1,15 @@
+namespace = uva_game_start
+
+country_event = {
+    id = uva_game_start.1
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = { has_origin = origin_united_terra }
+
+    immediate = {
+        ruler = {
+            set_skill =3
+        }
+    }
+}

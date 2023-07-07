@@ -1,397 +1,397 @@
-#@tier6cost1 = 60000 @tier6cost2 = 65000 @tier6cost3 = 70000
-#@tier7cost1 = 75000 @tier7cost2 = 80000 @tier7cost3 = 85000
-#@tier8cost1 = 90000 @tier8cost2 = 95000 @tier8cost3 = 100000
-#
-#@tier6weight1 = 15 @tier6weight2 = 10 @tier6weight3 = 5
-#
-#################
-#####源石档案馆####
-#################
-#
-##人格档案馆
-#tech_personality_archives = {
-#
-#}
-#
-#
-##星球档案馆
-#tech_planet_archives ={
-#
-#}
-#
-##文明档案馆
-#tech_civilization_archives ={
-#
-#}
-#
-##苦难纪念碑
-#tech_tragedy_monument ={
-#
-#}
-#
+@tier6cost1 = 60000 @tier6cost2 = 65000 @tier6cost3 = 70000
+@tier7cost1 = 75000 @tier7cost2 = 80000 @tier7cost3 = 85000
+@tier8cost1 = 90000 @tier8cost2 = 95000 @tier8cost3 = 100000
+
+@tier6weight1 = 15 @tier6weight2 = 10 @tier6weight3 = 5
+
+################
+####源石档案馆####
+################
+
+#人格档案馆
+tech_personality_archives = {
+
+}
+
+
+#星球档案馆
+tech_planet_archives ={
+
+}
+
+#文明档案馆
+tech_civilization_archives ={
+
+}
+
+#苦难纪念碑
+tech_tragedy_monument ={
+
+}
+
+#############
+####营养学####
+#############
+
+tech_sanity_factory_0 = {
+    cost = @tier0cost1
+    area = society
+    tier = 0
+    start_tech = yes
+    category = { biology }
+    prerequisites = { "tech_eco_simulation" }
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_SANITY_FACTORY_0_TITLE"
+            desc = "TECH_SANITY_FACTORY_0_DESC"
+        }
+    }
+    modifier = {
+        planet_jobs_food_produces_mult = 0.05
+    }
+    weight_modifier = {
+        modifier = {
+            factor = 0
+            nor = {
+                is_TERRA_species = no
+            }
+        }
+    }
+
+    starting_potential = {
+        is_TERRA_species = yes
+    }
+    ai_weight = {
+        factor = 0
+    }
+}
+
+tech_originercy_forced_ripening = {#源能催熟
+    cost = @tier1cost3
+    area = society
+    tier = 1
+    category = { originium_theory }
+    prerequisites = {
+        "tech_sanity_factory_0"
+        "tech_gene_crops"
+    }
+    weight = @tier1weight3
+
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_ORIGINERCY_FORCED_RIPENING_TITTLE"
+            desc = "TECH_ORIGINERCY_FORCED_RIPENING_DESC"
+        }
+    }
+    modifier = {
+        planet_jobs_food_produces_mult = 0.15
+        pop_growth_speed = 0.10
+    }
+    weight_modifier = {
+        modifier = {
+            factor = 1
+            has_authority = auth_united_goverments
+        }
+        modifier = {
+            factor = 2
+            has_civic = civic_columbia_lab
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = society
+                has_trait = leader_trait_originium_theory
+            }
+        }
+        modifier = {
+            factor = 1.5
+            has_technology = tech_eco_simulation
+        }
+    }
+}
+
+tech_originercy_synthetic_starch = {#合成淀粉
+    cost = @tier2cost3
+    area = society
+    tier = 1
+    category = { originium_theory }
+    prerequisites = { "tech_originercy_forced_ripening" }
+    weight = @tier2weight3
+
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_ORIGINERCY_SYNTHETIC_STARCH_TITTLE"
+            desc = "TECH_ORIGINERCY_SYNTHETIC_STARCH_DESC"
+        }
+    }
+    modifier = {
+        planet_jobs_food_produces_mult = 0.35
+        pop_growth_speed = 0.25
+    }
+    weight_modifier = {
+        modifier = {
+            factor = 1
+            has_authority = auth_united_goverments
+        }
+        modifier = {
+            factor = 2
+            has_civic = civic_columbia_lab
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = society
+                has_trait = leader_trait_originium_theory
+            }
+        }
+        modifier = {
+            factor = 1.5
+            has_technology = tech_gene_crops
+        }
+    }
+}
+
+tech_sanity_factory_1 = {
+    cost = @tier3cost1
+    area = society
+    tier = 3
+    category = { biology }
+    prerequisites = {
+        "tech_originercy_synthetic_starch"
+        "tech_nano_vitality_crops"
+    }
+    weight = @tier3weight3
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_SANITY_FACTORY_1_TITLE"
+            desc = "TECH_SANITY_FACTORY_1_DESC"
+        }
+    }
+    modifier = { planet_jobs_food_produces_mult = 0.25 }
+    weight_modifier = {
+        modifier = {
+            factor = 1
+            has_authority = auth_united_goverments
+        }
+        modifier = {
+            factor = 2
+            has_civic = civic_columbia_lab
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = society
+                has_trait = leader_trait_originium_theory
+            }
+        }
+        modifier = {
+            factor = 1.5
+            has_technology = tech_nano_vitality_crops
+        }
+    }
+
+    ai_weight = {
+        factor = 0
+    }
+}
+
 ##############
-#####营养学####
+####递质研究####
 ##############
-#
-#tech_sanity_factory_0 = {
-#    cost = @tier0cost1
-#    area = society
-#    tier = 0
-#    start_tech = yes
-#    category = { biology }
-#    prerequisites = { "tech_eco_simulation" }
-#    prereqfor_desc = {
-#        ship = {
-#            title = "TECH_SANITY_FACTORY_0_TITLE"
-#            desc = "TECH_SANITY_FACTORY_0_DESC"
-#        }
-#    }
-#    modifier = {
-#        planet_jobs_food_produces_mult = 0.05
-#    }
-#    weight_modifier = {
-#        modifier = {
-#            factor = 0
-#            nor = {
-#                is_TERRA_species = no
-#            }
-#        }
-#    }
-#
-#    starting_potential = {
-#        is_TERRA_species = yes
-#    }
-#    ai_weight = {
-#        factor = 0
-#    }
-#}
-#
-#tech_originercy_forced_ripening = {#源能催熟
-#    cost = @tier1cost3
-#    area = society
-#    tier = 1
-#    category = { originium_theory }
-#    prerequisites = {
-#        "tech_sanity_factory_0"
-#        "tech_gene_crops"
-#    }
-#    weight = @tier1weight3
-#
-#    prereqfor_desc = {
-#        ship = {
-#            title = "TECH_ORIGINERCY_FORCED_RIPENING_TITTLE"
-#            desc = "TECH_ORIGINERCY_FORCED_RIPENING_DESC"
-#        }
-#    }
-#    modifier = {
-#        planet_jobs_food_produces_mult = 0.15
-#        pop_growth_speed = 0.10
-#    }
-#    weight_modifier = {
-#        modifier = {
-#            factor = 1
-#            has_authority = auth_united_goverments
-#        }
-#        modifier = {
-#            factor = 2
-#            has_civic = civic_columbia_lab
-#        }
-#        modifier = {
-#            factor = 1.25
-#            research_leader = {
-#                area = society
-#                has_trait = leader_trait_originium_theory
-#            }
-#        }
-#        modifier = {
-#            factor = 1.5
-#            has_technology = tech_eco_simulation
-#        }
-#    }
-#}
-#
-#tech_originercy_synthetic_starch = {#合成淀粉
-#    cost = @tier2cost3
-#    area = society
-#    tier = 1
-#    category = { originium_theory }
-#    prerequisites = { "tech_originercy_forced_ripening" }
-#    weight = @tier2weight3
-#
-#    prereqfor_desc = {
-#        ship = {
-#            title = "TECH_ORIGINERCY_SYNTHETIC_STARCH_TITTLE"
-#            desc = "TECH_ORIGINERCY_SYNTHETIC_STARCH_DESC"
-#        }
-#    }
-#    modifier = {
-#        planet_jobs_food_produces_mult = 0.35
-#        pop_growth_speed = 0.25
-#    }
-#    weight_modifier = {
-#        modifier = {
-#            factor = 1
-#            has_authority = auth_united_goverments
-#        }
-#        modifier = {
-#            factor = 2
-#            has_civic = civic_columbia_lab
-#        }
-#        modifier = {
-#            factor = 1.25
-#            research_leader = {
-#                area = society
-#                has_trait = leader_trait_originium_theory
-#            }
-#        }
-#        modifier = {
-#            factor = 1.5
-#            has_technology = tech_gene_crops
-#        }
-#    }
-#}
-#
-#tech_sanity_factory_1 = {
-#    cost = @tier3cost1
-#    area = society
-#    tier = 3
-#    category = { biology }
-#    prerequisites = {
-#        "tech_originercy_synthetic_starch"
-#        "tech_nano_vitality_crops"
-#    }
-#    weight = @tier3weight3
-#    prereqfor_desc = {
-#        ship = {
-#            title = "TECH_SANITY_FACTORY_1_TITLE"
-#            desc = "TECH_SANITY_FACTORY_1_DESC"
-#        }
-#    }
-#    modifier = { planet_jobs_food_produces_mult = 0.25 }
-#    weight_modifier = {
-#        modifier = {
-#            factor = 1
-#            has_authority = auth_united_goverments
-#        }
-#        modifier = {
-#            factor = 2
-#            has_civic = civic_columbia_lab
-#        }
-#        modifier = {
-#            factor = 1.25
-#            research_leader = {
-#                area = society
-#                has_trait = leader_trait_originium_theory
-#            }
-#        }
-#        modifier = {
-#            factor = 1.5
-#            has_technology = tech_nano_vitality_crops
-#        }
-#    }
-#
-#    ai_weight = {
-#        factor = 0
-#    }
-#}
-#
+
+#递质基础理论（稀有下同
+tech_reconstruct_fundamental_theory ={
+
+}
+
+#延展性递质
+tech_ductile_reconstruct = {
+
+}
+
+#递质-思维理论
+tech_reconstruct_mind_theory = {
+
+}
+
+#定向特质修改
+tech_directional_trait_modification ={
+
+}
+
+##############
+####领袖科技####
+##############
+
+#罗德岛式管理
+tech_rhodesisland_style_operator_management = {
+    cost = @tier2cost1
+    area = society
+    tier = 2
+    category = { statecraft }
+    prerequisites = {
+        "tech_originium_theory"
+    }
+    weight = @tier2cost1
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_RHODESISLAND_STYLE_OPERATOR_MANAGEMENT_TITTLE"
+            desc =  "TECH_RHODESISLAND_STYLE_OPERATOR_MANAGEMENT_DESC"
+        }
+    }
+    modifier = {
+        country_leader_cap_add = 10
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1
+            has_authority = auth_united_goverments
+        }
+        modifier = {
+            factor = 2
+            has_civic = civic_columbia_lab
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = society
+                has_trait = leader_trait_originium_theory
+            }
+        }
+    }
+
+    ai_weight = {
+        factor = 0
+    }
+}
+
+#定向专员培训
+tech_directional_operator_training = {
+
+}
+
+#专员高效管理
+tech_operator_efficent_management= {
+
+}
+
+#专员专精
+tech_operator_rank ={
+
+}
+
 ###############
-#####递质研究####
+####贸易科技####
 ###############
-#
-##递质基础理论（稀有下同
-#tech_reconstruct_fundamental_theory ={
-#
-#}
-#
-##延展性递质
-#tech_ductile_reconstruct = {
-#
-#}
-#
-##递质-思维理论
-#tech_reconstruct_mind_theory = {
-#
-#}
-#
-##定向特质修改
-#tech_directional_trait_modification ={
-#
-#}
-#
+
+#龙门币-源能体系
+tehc_lmd_originercy_system = {
+
+}
+
+#联合政府金融部门
+tech_utg_financial_sector= {
+
+}
+
+##############
+####人口建筑####
+##############
+
+#基层罗德岛办事处
+tech_rhodesisland_grassroots_office ={
+
+}
+
+#罗德岛医院
+tech_rhodesisland_hospital = {
+
+}
+
+##############
+####防御建筑####
+##############
+
+#绝对防御
+tech_absolute_defence ={
+
+}
+
+#空中移动要塞
+tech_aerial_nomadic_fortress ={
+
+}
+
+##############
+####环境改造####
+##############
+
+#海嗣共生
+tech_symbiosis_with_seaborn ={
+
+}
+
+#海嗣环境改造技术
+tech_seaborn_environmental_transformation ={
+
+}
+
+##############
+####行政科技####
+##############
+
+#联合政府行政管理
+tech_utg_adminsitration  = {
+
+}
+
+#联合政府星系管理
+tech_utg_segmentum_management= {
+
+}
+
+#T4占位
+
+#灵活监管机构
+tech_flexible_regulartory_agencies ={
+
+}
+
+#T4占位
+
+
+##############
+####陆军科技####
+##############
+
+#天使作战系统
+tech_angel_battle_system = {
+
+}
+
+#高速战斗舰
+tech_high_speed_battle_ship = {
+
+}
+
 ###############
-#####领袖科技####
+####陆军科技####
 ###############
-#
-##罗德岛式管理
-#tech_rhodesisland_style_operator_management = {
-#    cost = @tier2cost1
-#    area = society
-#    tier = 2
-#    category = { statecraft }
-#    prerequisites = {
-#        "tech_originium_theory"
-#    }
-#    weight = @tier2cost1
-#    prereqfor_desc = {
-#        ship = {
-#            title = "TECH_RHODESISLAND_STYLE_OPERATOR_MANAGEMENT_TITTLE"
-#            desc =  "TECH_RHODESISLAND_STYLE_OPERATOR_MANAGEMENT_DESC"
-#        }
-#    }
-#    modifier = {
-#        country_leader_cap_add = 10
-#    }
-#
-#    weight_modifier = {
-#        modifier = {
-#            factor = 1
-#            has_authority = auth_united_goverments
-#        }
-#        modifier = {
-#            factor = 2
-#            has_civic = civic_columbia_lab
-#        }
-#        modifier = {
-#            factor = 1.25
-#            research_leader = {
-#                area = society
-#                has_trait = leader_trait_originium_theory
-#            }
-#        }
-#    }
-#
-#    ai_weight = {
-#        factor = 0
-#    }
-#}
-#
-##定向专员培训
-#tech_directional_operator_training = {
-#
-#}
-#
-##专员高效管理
-#tech_operator_efficent_management= {
-#
-#}
-#
-##专员专精
-#tech_operator_rank ={
-#
-#}
-#
-################
-#####贸易科技####
-################
-#
-##龙门币-源能体系
-#tehc_lmd_originercy_system = {
-#
-#}
-#
-##联合政府金融部门
-#tech_utg_financial_sector= {
-#
-#}
-#
-###############
-#####人口建筑####
-###############
-#
-##基层罗德岛办事处
-#tech_rhodesisland_grassroots_office ={
-#
-#}
-#
-##罗德岛医院
-#tech_rhodesisland_hospital = {
-#
-#}
-#
-###############
-#####防御建筑####
-###############
-#
-##绝对防御
-#tech_absolute_defence ={
-#
-#}
-#
-##空中移动要塞
-#tech_aerial_nomadic_fortress ={
-#
-#}
-#
-###############
-#####环境改造####
-###############
-#
-##海嗣共生
-#tech_symbiosis_with_seaborn ={
-#
-#}
-#
-##海嗣环境改造技术
-#tech_seaborn_environmental_transformation ={
-#
-#}
-#
-###############
-#####行政科技####
-###############
-#
-##联合政府行政管理
-#tech_utg_adminsitration  = {
-#
-#}
-#
-##联合政府星系管理
-#tech_utg_segmentum_management= {
-#
-#}
-#
-##T4占位
-#
-##灵活监管机构
-#tech_flexible_regulartory_agencies ={
-#
-#}
-#
-##T4占位
-#
-#
-###############
-#####陆军科技####
-###############
-#
-##天使作战系统
-#tech_angel_battle_system = {
-#
-#}
-#
-##高速战斗舰
-#tech_high_speed_battle_ship = {
-#
-#}
-#
-################
-#####陆军科技####
-################
-#
-##联合政府军事委员会
-#tech_utg_military_commission = {
-#
-#}
-#
-##PRTS代理作战
-#tech_PRTS_proxy_operation = {
-#
-#}
-#
-##PRTS作战系统
-#tech_PRTS_combat_system = {
-#
-#}
-#
-#
+
+#联合政府军事委员会
+tech_utg_military_commission = {
+
+}
+
+#PRTS代理作战
+tech_PRTS_proxy_operation = {
+
+}
+
+#PRTS作战系统
+tech_PRTS_combat_system = {
+
+}
+
+
