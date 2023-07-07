@@ -25,6 +25,7 @@ tech_civilization_archives ={
 }
 
 #苦难纪念碑
+
 tech_tragedy_monument ={
 
 }
