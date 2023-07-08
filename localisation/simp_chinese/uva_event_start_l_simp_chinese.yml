@@ -28,6 +28,8 @@
  uva_civic.2.c.tooltip:0 "$civic_logistics_union_desc$\n每月龙门币£lung_men_dollaris£§G+100§!\n行星建造速度£mod_planet_building_build_speed_mult£§G+25%§!\n决议颁布速度£mod_planet_decision_enact_speed_mult£§G+25%§!\n建筑维护费§G-10%§!\n"
  uva.civic.2.d:0 "关闭"
 
+ ####开局领袖修改####
+ RULERAMIYA:0 "阿米娅"
 
 
 

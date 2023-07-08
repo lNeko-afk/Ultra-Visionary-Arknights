@@ -7,4 +7,19 @@ country_event = {
 
     trigger = { has_origin = origin_united_terra }
 
+<<<<<<< Updated upstream
+=======
+    immediate = {
+        ruler = {
+            set_skill = 5
+            set_name = RULERAMIYA
+            change_leader_portrait = Amiya_01
+
+            set_leader_flag = leader_death_events_blocked
+            set_leader_flag = immune_to_negative_traits
+
+            save_global_event_target_as = uva_leader_Amiya_flag
+        }
+    }
+>>>>>>> Stashed changes
 }

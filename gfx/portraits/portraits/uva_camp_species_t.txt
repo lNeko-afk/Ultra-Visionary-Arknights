@@ -2279,7 +2279,6 @@ portrait_groups={
     }
 }
 
-
 #####7辅助
 portrait_groups={
     "Ultra_Visionary_Arknights_supporter"={
@@ -2862,14 +2861,14 @@ portrait_groups = {
         leader={
             add ={
                 portraits={
-
+                    Amiya_01
                 }
             }
         }
         ruler = {
             add = {
                 portraits = {
-
+                    Amiya_01
                 }
             }
         }
