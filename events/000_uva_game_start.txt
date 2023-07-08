@@ -7,8 +7,7 @@ country_event = {
 
     trigger = { has_origin = origin_united_terra }
 
-<<<<<<< Updated upstream
-=======
+
     immediate = {
         ruler = {
             set_skill = 5
@@ -21,5 +20,4 @@ country_event = {
             save_global_event_target_as = uva_leader_Amiya_flag
         }
     }
->>>>>>> Stashed changes
 }
