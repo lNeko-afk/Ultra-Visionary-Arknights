@@ -213,6 +213,7 @@ tech_sanity_factory_1 = {
 ##############
 
 #递质基础理论（稀有下同
+@tech_gene_tailoring_POINTS = 1
 tech_reconstruct_fundamental_theory ={
     cost = @tier3cost1
     area = society
@@ -221,9 +222,11 @@ tech_reconstruct_fundamental_theory ={
     prerequisites = {
     }
     weight = @tier3weight3
-    prereqfor_desc = {
-        gene = {
 
+    prereqfor_desc = {
+        ship = {
+            title = ""
+            desc = ""
         }
     }
     modifier = {
@@ -258,7 +261,50 @@ tech_reconstruct_fundamental_theory ={
 
 #延展性递质
 tech_ductile_reconstruct = {
+    cost = @tier3cost1
+    area = society
+    tier = 3
+    category = { biology }
+    prerequisites = {
+        tech_reconstruct_fundamental_theory
+    }
+    weight = @tier3weight3
 
+    prereqfor_desc = {
+        ship = {
+            title = ""
+            desc = ""
+        }
+    }
+
+    modifier = {
+        description = tech_gene_tailoring_modifier_desc
+        description_parameters = {
+            POINTS = @tech_gene_tailoring_POINTS
+        }
+        BIOLOGICAL_species_trait_points_add = @tech_gene_tailoring_POINTS
+    }
+    weight_modifier = {
+        modifier = {
+            factor = 1
+            has_authority = auth_united_goverments
+        }
+        modifier = {
+            factor = 2
+            has_civic = civic_columbia_lab
+        }
+        modifier = {
+            factor = 1.5
+            research_leader = {
+                area = society
+                has_trait = leader_trait_originium_theory
+            }
+        }
+    }
+
+    ai_weight = {
+        factor = 0
+    }
 }
 
 #递质-思维理论
