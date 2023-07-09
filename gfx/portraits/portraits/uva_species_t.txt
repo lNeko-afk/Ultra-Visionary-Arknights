@@ -517,7 +517,7 @@ portraits = {
     vanguard_18_1 = { textureFile = "gfx/models/portraits/rhodes_island/vanguard/立绘_香草_1.dds"}
 }
 portraits = {
-    senior_01_1 = { }
+    Amiya_01 = { textureFile = "gfx/models/portraits/rhodes_island/senior/立绘_阿米娅_1.dds" }
 
     special_01_1 = {
 
