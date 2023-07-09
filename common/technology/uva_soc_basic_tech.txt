@@ -206,6 +206,7 @@ tech_sanity_factory_1 = {
         factor = 0
     }
 }
+@tech_gene_tailoring_POINTS = 0
 
 ##############
 ####递质研究####
@@ -218,14 +219,19 @@ tech_reconstruct_fundamental_theory ={
     tier = 3
     category = { biology }
     prerequisites = {
-        "tech_originercy_synthetic_starch"
-        "tech_nano_vitality_crops"
     }
     weight = @tier3weight3
     prereqfor_desc = {
-        ship = {
+        gene = {
 
         }
+    }
+    modifier = {
+        description = tech_gene_tailoring_modifier_desc
+        description_parameters = {
+            POINTS = @tech_gene_tailoring_POINTS
+        }
+        BIOLOGICAL_species_trait_points_add = @tech_gene_tailoring_POINTS
     }
     weight_modifier = {
         modifier = {
@@ -237,16 +243,16 @@ tech_reconstruct_fundamental_theory ={
             has_civic = civic_columbia_lab
         }
         modifier = {
-            factor = 1.25
+            factor = 1.5
             research_leader = {
                 area = society
                 has_trait = leader_trait_originium_theory
             }
         }
-        modifier = {
-            factor = 1.5
-            has_technology = tech_nano_vitality_crops
-        }
+    }
+
+    ai_weight = {
+        factor = 0
     }
 }
 
