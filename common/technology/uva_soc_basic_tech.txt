@@ -10,7 +10,18 @@
 
 #人格档案馆
 tech_personality_archives = {
-
+    cost = @tier1cost2
+    area = society
+    tier = 0
+    start_tech = yes
+    category = { biology }
+    prerequisites = { "tech_originium_theory" }
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_SANITY_FACTORY_0_TITLE"
+            desc = "TECH_SANITY_FACTORY_0_DESC"
+        }
+    }
 }
 
 
@@ -35,7 +46,7 @@ tech_tragedy_monument ={
 #############
 
 tech_sanity_factory_0 = {
-    cost = @tier0cost1
+    cost = @tier1cost2
     area = society
     tier = 0
     start_tech = yes
@@ -68,7 +79,7 @@ tech_sanity_factory_0 = {
 }
 
 tech_originercy_forced_ripening = {#源能催熟
-    cost = @tier1cost3
+    cost = @tier2cost2
     area = society
     tier = 1
     category = { originium_theory }
@@ -112,7 +123,7 @@ tech_originercy_forced_ripening = {#源能催熟
 }
 
 tech_originercy_synthetic_starch = {#合成淀粉
-    cost = @tier2cost3
+    cost = @tier3cost3
     area = society
     tier = 1
     category = { originium_theory }
@@ -202,7 +213,41 @@ tech_sanity_factory_1 = {
 
 #递质基础理论（稀有下同
 tech_reconstruct_fundamental_theory ={
+    cost = @tier3cost1
+    area = society
+    tier = 3
+    category = { biology }
+    prerequisites = {
+        "tech_originercy_synthetic_starch"
+        "tech_nano_vitality_crops"
+    }
+    weight = @tier3weight3
+    prereqfor_desc = {
+        ship = {
 
+        }
+    }
+    weight_modifier = {
+        modifier = {
+            factor = 1
+            has_authority = auth_united_goverments
+        }
+        modifier = {
+            factor = 2
+            has_civic = civic_columbia_lab
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = society
+                has_trait = leader_trait_originium_theory
+            }
+        }
+        modifier = {
+            factor = 1.5
+            has_technology = tech_nano_vitality_crops
+        }
+    }
 }
 
 #延展性递质
@@ -226,7 +271,7 @@ tech_directional_trait_modification ={
 
 #罗德岛式管理
 tech_rhodesisland_style_operator_management = {
-    cost = @tier2cost1
+    cost = @tier1cost1
     area = society
     tier = 2
     category = { statecraft }
@@ -269,17 +314,131 @@ tech_rhodesisland_style_operator_management = {
 
 #定向专员培训
 tech_directional_operator_training = {
+    cost = @tier2cost2
+    area = society
+    tier = 2
+    category = { statecraft }
+    prerequisites = {
+        "tech_rhodesisland_style_operator_management"
+    }
+    weight = @tier2cost1
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_RHODESISLAND_STYLE_OPERATOR_MANAGEMENT_TITTLE"
+            desc =  "TECH_RHODESISLAND_STYLE_OPERATOR_MANAGEMENT_DESC"
+        }
+    }
+    modifier = {
+        country_leader_cap_add = 10
+    }
 
+    weight_modifier = {
+        modifier = {
+            factor = 1
+            has_authority = auth_united_goverments
+        }
+        modifier = {
+            factor = 2
+            has_civic = civic_columbia_lab
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = society
+                has_trait = leader_trait_originium_theory
+            }
+        }
+    }
+
+    ai_weight = {
+        factor = 0
+    }
 }
 
 #专员高效管理
 tech_operator_efficent_management= {
+    cost = @tier3cost2
+    area = society
+    tier = 2
+    category = { statecraft }
+    prerequisites = {
+        "tech_directional_operator_training"
+    }
+    weight = @tier2cost1
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_RHODESISLAND_STYLE_OPERATOR_MANAGEMENT_TITTLE"
+            desc =  "TECH_RHODESISLAND_STYLE_OPERATOR_MANAGEMENT_DESC"
+        }
+    }
+    modifier = {
+        country_leader_cap_add = 10
+    }
 
+    weight_modifier = {
+        modifier = {
+            factor = 1
+            has_authority = auth_united_goverments
+        }
+        modifier = {
+            factor = 2
+            has_civic = civic_columbia_lab
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = society
+                has_trait = leader_trait_originium_theory
+            }
+        }
+    }
+
+    ai_weight = {
+        factor = 0
+    }
 }
 
 #专员专精
 tech_operator_rank ={
+    cost = @tier4cost2
+    area = society
+    tier = 2
+    category = { statecraft }
+    prerequisites = {
+        "tech_operator_efficent_management"
+    }
+    weight = @tier2cost1
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_RHODESISLAND_STYLE_OPERATOR_MANAGEMENT_TITTLE"
+            desc =  "TECH_RHODESISLAND_STYLE_OPERATOR_MANAGEMENT_DESC"
+        }
+    }
+    modifier = {
+        country_leader_cap_add = 10
+    }
 
+    weight_modifier = {
+        modifier = {
+            factor = 1
+            has_authority = auth_united_goverments
+        }
+        modifier = {
+            factor = 2
+            has_civic = civic_columbia_lab
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = society
+                has_trait = leader_trait_originium_theory
+            }
+        }
+    }
+
+    ai_weight = {
+        factor = 0
+    }
 }
 
 ###############
