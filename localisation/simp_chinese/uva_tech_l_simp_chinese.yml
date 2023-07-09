@@ -219,6 +219,27 @@
  TECH_ANGEL_COMBAT_COMPUTER_DESC:0 "$tech_ANGEL_combat_computer$\n$tech_ANGEL_combat_computer_desc$"
 
  ######社会######
+ #源石档案馆
+ tech_personality_archives:0 "§G人格档案馆§!"
+ tech_personality_archives_desc:0 ""
+ TECH_PERSONALITY_ARCHIVES_TITTLE:0 ""
+ TECH_PERSONALITY_ARCHIVES_DESC:0 ""
+
+ tech_planet_archives:0 "§G星球档案馆§!"
+ tech_planet_archives_desc:0 ""
+ TECH_PLANET_ARCHIVES_TITLE:0 ""
+ TECH_PLANET_ARCHIVES_DESC:0 ""
+
+ tech_civilization_archives:0 "§G文明档案馆§!"
+ tech_civilization_archives_desc:0 ""
+ TECH_CIVILIZATION_ARCHIVES_TITLE:0 ""
+ TECH_CIVILIZATION_ARCHIVES_DESC:0 ""
+
+ tech_tragedy_monument:0 "§G苦难纪念碑§!"
+ tech_tragedy_monument_desc:0 ""
+ TECH_TRAGEDY_MONUMENT_TITLE:0 ""
+ TECH_TRAGEDY_MONUMENT_DESC:0 ""
+
  ##营养学
  tech_sanity_factory_0:0 "§G营养提取技术§!"
  tech_sanity_factory_0_desc:0 "从食品中提取营养恢复体力与理智"
@@ -230,7 +251,7 @@
  TECH_ORIGINERCY_FORCED_RIPENING_TITTLE:0 "这玩意可比转基因更靠谱！"
  TECH_ORIGINERCY_FORCED_RIPENING_DESC:0 "给植物生长提供额外的能量，既能够保证质量也能提升效率"
 
- tech_originercy_synthetic_starch:0 "§G合成淀粉§!"
+ tech_originercy_synthetic_starch:0 "§G源能合成食物§!"
  tech_originercy_synthetic_starch_desc:0 "利用源能合成物质，合成淀粉是先例"
  TECH_ORIGINERCY_SYNTHETIC_STARCH_TITTLE:0 "不好吃不好喝不好用"
  TECH_ORIGINERCY_SYNTHETIC_STARCH_DESC:0 "利用源能合成物质，合成淀粉是先例"
@@ -241,6 +262,25 @@
  TECH_SANITY_FACTORY_1_DESC:0 "性价比极高的理智液，两单位小麦就能提供抵一人的体力！"
 
  ##递质学
+ tech_reconstruct_fundamental_theory:0 "§G递质基础理论§!"
+ tech_reconstruct_fundamental_theory_desc:0 ""
+ TECH_RECONSTRUCT_FUNDAMENTAL_THEORY_TITTLE:0 ""
+ TECH_RECONSTRUCT_FUNDAMENTAL_THEORY_DESC:0 ""
+
+ tech_ductile_reconstruct:0 "§G延展性递质§!""
+ tech_ductile_reconstruct_desc:0 ""
+ TECH_DUCTILE_RECONSTRUCT_TITTLE:0 ""
+ TECH_DUCTILE_RECONSTRUCT_DESC:0 ""
+
+ tech_reconstruct_mind_theory:0 "§G递质-思维理论§!"
+ tech_reconstruct_mind_theory_desc:0 ""
+ TECH_RECONSTRUCT_MIND_THEORY_TITTLE:0 ""
+ TECH_RECONSTRUCT_MIND_THEORY_DESC:0 ""
+
+ tech_directional_trait_modification:0 "§G定向特质修改§!"
+ tech_directional_trait_modification_desc:0 ""
+ TECH_DIRECTIONAL_TRAIT_MODIFICATION_TITTLE:0 ""
+ TECH_DIRECTIONAL_TRAIT_MODIFICATION_DESC:0 ""
 
  ##领袖学
  tech_rhodesisland_style_operator_management:0 "§M罗德岛式干员管理§!"
@@ -248,7 +288,106 @@
  TECH_RHODESISLAND_STYLE_OPERATOR_MANAGEMENT_TITTLE:0 "懂不懂罗德岛博士的含金量啊！"
  TECH_RHODESISLAND_STYLE_OPERATOR_MANAGEMENT_DESC:0 "借鉴了罗德岛医药组织的干员管理模式，更为合理的优化了领袖组织"
 
+ tech_directional_operator_training:0 "§M定向专员培训§!"
+ tech_directional_operator_training_desc:0 ""
+ TECH_DIRECTIONAL_OPERATOR_TRAINING_TITTLE:0 ""
+ TECH_DIRECTIONAL_OPERATOR_TRAINING_DESC:0 ""
 
+ tech_operator_efficent_management:0 "§M专员高效管理§!"
+ tech_operator_efficent_management_desc:0 ""
+ TECH_OPERATOR_EFFICENT_MANAGEMENT_TITTLE:0 ""
+ TECH_OPERATOR_EFFICENT_MANAGEMENT_DESC:0 ""
+
+ tech_operator_rank:0 "§M专员专精§!"
+ tech_operator_rank_desc:0 ""
+ TECH_OPERATOR_RANK_TITTLE:0 ""
+ TECH_OPERATOR_RANK_DESC:0 ""
+
+#贸易科技
+ tech_lmd_originercy_system:0 "§M龙门币-源能体系§!"
+ tech_lmd_originercy_system_desc:0 ""
+ TECH_LMD_ORIGINERCY_SYSTEM_TITTLE:0 ""
+ TECH_LMD_ORIGINERCY_SYSTEM_DESC:0 ""
+
+ tech_utg_financial_sector:0 "§M联合政府金融部门§!"
+ tech_utg_financial_sector_desc:0 ""
+ TECH_UTG_FINANCIAL_SECTOR_TITTLE:0 ""
+ TECH_UTG_FINANCIAL_SECTOR_DESC:0 ""
+
+ #人口建筑
+ #基层罗德岛办事处
+ tech_rhodesisland_grassroots_office:0 "§M基层罗德岛办事处§!"
+ tech_rhodesisland_grassroots_office_desc:0 ""
+ TECH_RHODESISLAND_GRASSROOTS_OFFICE_TITTLE:0 ""
+ TECH_RHODESISLAND_GRASSROOTS_OFFICE_DESC:0 ""
+
+ tech_rhodesisland_hospital:0 "§M罗德岛医院§!"
+ tech_rhodesisland_hospital_desc:0 ""
+ TECH_RHODESISLAND_HOSPITAL_TITTLE:0 ""
+ TECH_RHODESISLAND_HOSPITAL_DESC:0 ""
+
+ #防御建筑
+ tech_absolute_defence:0 "§M绝对防御§!"
+ tech_absolute_defence_desc:0 ""
+ TECH_ABSOLUTE_DEFENCE_TITTLE:0 ""
+ TECH_ABSOLUTE_DEFENCE_DESC:0 ""
+
+ tech_aerial_nomadic_fortress:0 "§M空中移动要塞§!"
+ tech_aerial_nomadic_fortress_desc:0 ""
+ TECH_AERIAL_NOMADIC_FORTRESS_TITTLE:0 ""
+ TECH_AERIAL_NOMADIC_FORTRESS_DESC:0 ""
+
+ tech_symbiosis_with_seaborn:0 "§M海嗣共生§!"
+ tech_symbiosis_with_seaborn_desc:0 ""
+ TECH_SYMBIOSIS_WITH_SEABORN_TITTLE:0 ""
+ TECH_SYMBIOSIS_WITH_SEABORN_DESC:0 ""
+
+ tech_seaborn_environmental_transformation:0 "§M海嗣环境改造技术§!"
+ tech_seaborn_environmental_transformation_desc:0 ""
+ TECH_SEABORN_ENVIRONMENTAL_TRANSFORMATION_TITTLE:0 ""
+ TECH_SEABORN_ENVIRONMENTAL_TRANSFORMATION_DESC:0 ""
+
+ #行政科技
+ tech_utg_adminsitration:0 "§M联合政府行政管理§!"
+ tech_utg_adminsitration_desc:0 ""
+ TECH_UTG_ADMINSITRATION_TITTLE:0 ""
+ TECH_UTG_ADMINSITRATION_DESC:0 ""
+
+ tech_utg_segmentum_management:0 "§M联合政府星系管理§!"
+ tech_utg_segmentum_management_desc:0 ""
+ TECH_UTG_SEGMENTUM_MANAGEMENT_TITTLE:0 ""
+ TECH_UTG_SEGMENTUM_MANAGEMENT_DESC:0 ""
+
+ tech_flexible_regulartory_agencies:0 "§M灵活监管机构§!"
+ tech_flexible_regulartory_agencies_desc:0 ""
+ TECH_FLEXIBLE_REGULARTORY_AGENCIES_TITTLE:0 ""
+ TECH_FLEXIBLE_REGULARTORY_AGENCIES_DESC:0 ""
+
+ tech_angel_battle_system:0 "§M天使作战系统§!"
+ tech_angel_battle_system_desc:0 ""
+ TECH_ANGEL_BATTLE_SYSTEM_TITTLE:0 ""
+ TECH_ANGEL_BATTLE_SYSTEM_DESC:0 ""
+
+ tech_high_speed_battle_ship:0 "§M高速战斗舰§!"
+ tech_high_speed_battle_ship_desc:0 ""
+ TECH_HIGH_SPEED_BATTLE_SHIP_TITTLE:0 ""
+ TECH_HIGH_SPEED_BATTLE_SHIP_DESC:0 ""
+
+ #陆军科技
+ tech_utg_military_commission:0 "§M联合政府军事委员会§!"
+ tech_utg_military_commission_desc:0 ""
+ TECH_UTG_MILITARY_COMMISSION_TITTLE:0 ""
+ TECH_UTG_MILITARY_COMMISSION_DESC:0 ""
+
+ tech_PRTS_proxy_operation:0 "§MPRTS代理作战§!"
+ tech_PRTS_proxy_operation_desc:0 ""
+ TECH_PRTS_PROXY_OPERATION_TITTLE:0 ""
+ TECH_PRTS_PROXY_OPERATION_DESC:0 ""
+
+ tech_PRTS_combat_system:0 "§MPRTS作战系统§!"
+ tech_PRTS_combat_system_desc:0 ""
+ TECH_PRTS_COMBAT_SYSTEM_TITTLE:0 ""
+ TECH_PRTS_COMBAT_SYSTEM_DESC:0 ""
  ######工程######
 
  ##矿石科技##
