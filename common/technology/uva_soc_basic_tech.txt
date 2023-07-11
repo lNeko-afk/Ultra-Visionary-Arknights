@@ -1405,6 +1405,3 @@ tech_PRTS_combat_system = {
         factor = 0
     }
 }
-
-
->>>>>>> Stashed changes
