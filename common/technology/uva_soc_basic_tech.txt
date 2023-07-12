@@ -120,43 +120,6 @@ tech_civilization_archives ={
     }
 }
 
-#苦难纪念碑
-
-tech_tragedy_monument ={
-    cost = @tier6cost2
-    area = society
-    tier = 5
-    category = { originium_theory }
-    prerequisites = { "tech_originium_theory" }
-    weight = @tier6weight2
-    prereqfor_desc = {
-        ship = {
-            title = "TECH_TRAGEDY_MONUMENT_TITLE"
-            desc = "TECH_TRAGEDY_MONUMENT_DESC"
-        }
-    }
-    weight_modifier = {
-        modifier = {
-            factor = 1
-            has_authority = auth_united_goverments
-        }
-        modifier = {
-            factor = 2
-            has_civic = civic_columbia_lab
-        }
-        modifier = {
-            factor = 1.25
-            research_leader = {
-                area = society
-                has_trait = leader_trait_originium_theory
-            }
-        }
-    }
-    ai_weight = {
-        factor = 0
-    }
-}
-
 #############
 ####营养学####
 #############
@@ -927,12 +890,13 @@ tech_absolute_defence ={
 
 #空中移动要塞
 tech_aerial_nomadic_fortress ={
-    cost = @tier2cost2
+    cost = @tier3cost3
     area = society
     tier = 2
     category = { originium_theory }
     prerequisites = {
         "tech_rhodesisland_grassroots_office"
+        "tech_aerial_nomadic"
     }
     weight = @tier2cost2
     prereqfor_desc = {

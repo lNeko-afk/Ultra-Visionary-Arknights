@@ -149,3 +149,10 @@ tech_crystalline_electronic_unit_factory={
         factor = 0
     }
 }
+
+
+##行星建筑速度/区划
+
+tech_aerial_nomadic = {
+
+}

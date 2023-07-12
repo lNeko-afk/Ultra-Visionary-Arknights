@@ -219,175 +219,114 @@
  TECH_ANGEL_COMBAT_COMPUTER_DESC:0 "$tech_ANGEL_combat_computer$\n$tech_ANGEL_combat_computer_desc$"
 
  ######社会######
- #源石档案馆
+
+ ##源石档案馆
  tech_personality_archives:0 "§G人格档案馆§!"
- tech_personality_archives_desc:0 ""
- TECH_PERSONALITY_ARCHIVES_TITTLE:0 ""
- TECH_PERSONALITY_ARCHIVES_DESC:0 ""
+ tech_personality_archives_desc:0 "将所有泰拉人的意识存储于一个绝对安全且空间足够的建筑内。"
 
  tech_planet_archives:0 "§G星球档案馆§!"
- tech_planet_archives_desc:0 ""
- TECH_PLANET_ARCHIVES_TITLE:0 ""
- TECH_PLANET_ARCHIVES_DESC:0 ""
+ tech_planet_archives_desc:0 "泰拉的历史、生物、矿物……将泰拉的所有事务储存在档案馆内。"
 
  tech_civilization_archives:0 "§G文明档案馆§!"
- tech_civilization_archives_desc:0 ""
- TECH_CIVILIZATION_ARCHIVES_TITLE:0 ""
- TECH_CIVILIZATION_ARCHIVES_DESC:0 ""
-
- tech_tragedy_monument:0 "§G苦难纪念碑§!"
- tech_tragedy_monument_desc:0 ""
- TECH_TRAGEDY_MONUMENT_TITLE:0 ""
- TECH_TRAGEDY_MONUMENT_DESC:0 ""
+ tech_civilization_archives_desc:0 "泰拉文明、前文明乃至我们一直的任何文明，都能够被永恒的记录在源石内。"
 
  ##营养学
  tech_sanity_factory_0:0 "§G营养提取技术§!"
  tech_sanity_factory_0_desc:0 "从食品中提取营养恢复体力与理智"
- TECH_SANITY_FACTORY_0_TITLE:0 "绿瓶的，好喝的！"
- TECH_SANITY_FACTORY_0_DESC:0 "从食品中提取营养恢复体力与理智"
 
  tech_originercy_forced_ripening:0 "§G源能催熟§!"
  tech_originercy_forced_ripening_desc:0 "给植物生长提供额外的能量，既能够保证质量也能提升效率"
- TECH_ORIGINERCY_FORCED_RIPENING_TITTLE:0 "这玩意可比转基因更靠谱！"
- TECH_ORIGINERCY_FORCED_RIPENING_DESC:0 "给植物生长提供额外的能量，既能够保证质量也能提升效率"
 
  tech_originercy_synthetic_starch:0 "§G源能合成食物§!"
  tech_originercy_synthetic_starch_desc:0 "利用源能合成物质，合成淀粉是先例"
- TECH_ORIGINERCY_SYNTHETIC_STARCH_TITTLE:0 "不好吃不好喝不好用"
- TECH_ORIGINERCY_SYNTHETIC_STARCH_DESC:0 "利用源能合成物质，合成淀粉是先例"
 
  tech_sanity_factory_1:0 "§G营养浓缩技术§!"
  tech_sanity_factory_1_desc:0 "性价比极高的理智液，两单位小麦就能提供抵一人的体力！"
- TECH_SANITY_FACTORY_1_TITLE:0 "横扫饥饿，做回博士！"
- TECH_SANITY_FACTORY_1_DESC:0 "性价比极高的理智液，两单位小麦就能提供抵一人的体力！"
 
  ##递质学
  tech_reconstruct_fundamental_theory:0 "§G递质基础理论§!"
- tech_reconstruct_fundamental_theory_desc:0 ""
- TECH_RECONSTRUCT_FUNDAMENTAL_THEORY_TITTLE:0 ""
- TECH_RECONSTRUCT_FUNDAMENTAL_THEORY_DESC:0 ""
+ tech_reconstruct_fundamental_theory_desc:0 "莱茵生命开发的一种物质"
 
  tech_ductile_reconstruct:0 "§G延展性递质§!""
- tech_ductile_reconstruct_desc:0 ""
- TECH_DUCTILE_RECONSTRUCT_TITTLE:0 ""
- TECH_DUCTILE_RECONSTRUCT_DESC:0 ""
+ tech_ductile_reconstruct_desc:0 "强化了延展性的递质，提升了递质的传递性"
 
  tech_reconstruct_mind_theory:0 "§G递质-思维理论§!"
- tech_reconstruct_mind_theory_desc:0 ""
- TECH_RECONSTRUCT_MIND_THEORY_TITTLE:0 ""
- TECH_RECONSTRUCT_MIND_THEORY_DESC:0 ""
+ tech_reconstruct_mind_theory_desc:0 "将递质于思维关联，拓展了源石技艺的可能性"
 
  tech_directional_trait_modification:0 "§G定向特质修改§!"
- tech_directional_trait_modification_desc:0 ""
- TECH_DIRECTIONAL_TRAIT_MODIFICATION_TITTLE:0 ""
- TECH_DIRECTIONAL_TRAIT_MODIFICATION_DESC:0 ""
+ tech_directional_trait_modification_desc:0 "递质提供的可能性，让我们能够对我们自身的特性进行修改。"
 
  ##领袖学
  tech_rhodesisland_style_operator_management:0 "§M罗德岛式干员管理§!"
  tech_rhodesisland_style_operator_management_desc:0 "借鉴了罗德岛医药组织的干员管理模式，更为合理的优化了领袖组织"
- TECH_RHODESISLAND_STYLE_OPERATOR_MANAGEMENT_TITTLE:0 "懂不懂罗德岛博士的含金量啊！"
- TECH_RHODESISLAND_STYLE_OPERATOR_MANAGEMENT_DESC:0 "借鉴了罗德岛医药组织的干员管理模式，更为合理的优化了领袖组织"
 
  tech_directional_operator_training:0 "§M定向专员培训§!"
- tech_directional_operator_training_desc:0 ""
- TECH_DIRECTIONAL_OPERATOR_TRAINING_TITTLE:0 ""
- TECH_DIRECTIONAL_OPERATOR_TRAINING_DESC:0 ""
+ tech_directional_operator_training_desc:0 "定向培训专员，强化专员能力"
 
  tech_operator_efficent_management:0 "§M专员高效管理§!"
- tech_operator_efficent_management_desc:0 ""
- TECH_OPERATOR_EFFICENT_MANAGEMENT_TITTLE:0 ""
- TECH_OPERATOR_EFFICENT_MANAGEMENT_DESC:0 ""
+ tech_operator_efficent_management_desc:0 "依靠高效的通讯技术与共感源石技艺，我们加强对专员们的管理。"
 
  tech_operator_rank:0 "§M专员专精§!"
- tech_operator_rank_desc:0 ""
- TECH_OPERATOR_RANK_TITTLE:0 ""
- TECH_OPERATOR_RANK_DESC:0 ""
+ tech_operator_rank_desc:0 "针对各个专员的个人特点进行强化，使得各个专员拥有自己的专精技能。"
 
-#贸易科技
+ ##贸易科技
  tech_lmd_originercy_system:0 "§M龙门币-源能体系§!"
- tech_lmd_originercy_system_desc:0 ""
- TECH_LMD_ORIGINERCY_SYSTEM_TITTLE:0 ""
- TECH_LMD_ORIGINERCY_SYSTEM_DESC:0 ""
+ tech_lmd_originercy_system_desc:0 "龙门币作为泰拉大陆上最有流通性的货币，把它与一般等价物能源绑定，极大的促进了经济发展"
 
  tech_utg_financial_sector:0 "§M联合政府金融部门§!"
- tech_utg_financial_sector_desc:0 ""
- TECH_UTG_FINANCIAL_SECTOR_TITTLE:0 ""
- TECH_UTG_FINANCIAL_SECTOR_DESC:0 ""
+ tech_utg_financial_sector_desc:0 "为了更好建设泰拉，联合政府设立了金融部，负责资金的管理"
 
- #人口建筑
- #基层罗德岛办事处
+ ##人口建筑
+
  tech_rhodesisland_grassroots_office:0 "§M基层罗德岛办事处§!"
- tech_rhodesisland_grassroots_office_desc:0 ""
- TECH_RHODESISLAND_GRASSROOTS_OFFICE_TITTLE:0 ""
- TECH_RHODESISLAND_GRASSROOTS_OFFICE_DESC:0 ""
+ tech_rhodesisland_grassroots_office_desc:0 "在矿石病尚未得到解决的时代，罗德岛就已经在各地建立了办事处，到了现代，这些办事处转型负责完善当地的医疗系统。"
 
  tech_rhodesisland_hospital:0 "§M罗德岛医院§!"
- tech_rhodesisland_hospital_desc:0 ""
- TECH_RHODESISLAND_HOSPITAL_TITTLE:0 ""
- TECH_RHODESISLAND_HOSPITAL_DESC:0 ""
+ tech_rhodesisland_hospital_desc:0 "罗德岛完善了所有办事处的基础设施，将办事处升级为医院，提供全面的医疗帮助。"
 
- #防御建筑
+ ##防御建筑
  tech_absolute_defence:0 "§M绝对防御§!"
- tech_absolute_defence_desc:0 ""
- TECH_ABSOLUTE_DEFENCE_TITTLE:0 ""
- TECH_ABSOLUTE_DEFENCE_DESC:0 ""
+ tech_absolute_defence_desc:0 "泰拉多年的内耗与战争，反而让泰拉的防守技术得到了提升"
 
  tech_aerial_nomadic_fortress:0 "§M空中移动要塞§!"
- tech_aerial_nomadic_fortress_desc:0 ""
- TECH_AERIAL_NOMADIC_FORTRESS_TITTLE:0 ""
- TECH_AERIAL_NOMADIC_FORTRESS_DESC:0 ""
+ tech_aerial_nomadic_fortress_desc:0 "某位萨卡兹提出的设想，通过大功率的引擎与萨卡兹古老的技术，能够让城市区划升空，也衍生出空中要塞。"
+
+ ##坏境改造技术
 
  tech_symbiosis_with_seaborn:0 "§M海嗣共生§!"
- tech_symbiosis_with_seaborn_desc:0 ""
- TECH_SYMBIOSIS_WITH_SEABORN_TITTLE:0 ""
- TECH_SYMBIOSIS_WITH_SEABORN_DESC:0 ""
+ tech_symbiosis_with_seaborn_desc:0 "海嗣因为阿戈尔的扩张，生存环境被严重压迫。与海嗣共生的方法是存在的。"
 
  tech_seaborn_environmental_transformation:0 "§M海嗣环境改造技术§!"
- tech_seaborn_environmental_transformation_desc:0 ""
- TECH_SEABORN_ENVIRONMENTAL_TRANSFORMATION_TITTLE:0 ""
- TECH_SEABORN_ENVIRONMENTAL_TRANSFORMATION_DESC:0 ""
+ tech_seaborn_environmental_transformation_desc:0 "海嗣问题和平解决之后，泰拉也发现了海嗣其实是前文明改造环境的生物手段，也就被泰拉用来将泰拉改造为更合适的环境"
 
- #行政科技
+ ##行政科技
+
  tech_utg_adminsitration:0 "§M联合政府行政管理§!"
- tech_utg_adminsitration_desc:0 ""
- TECH_UTG_ADMINSITRATION_TITTLE:0 ""
- TECH_UTG_ADMINSITRATION_DESC:0 ""
+ tech_utg_adminsitration_desc:0 "随着泰拉步入星际文明的门槛，泰拉的行政系统也继续升级"
 
  tech_utg_segmentum_management:0 "§M联合政府星系管理§!"
- tech_utg_segmentum_management_desc:0 ""
- TECH_UTG_SEGMENTUM_MANAGEMENT_TITTLE:0 ""
- TECH_UTG_SEGMENTUM_MANAGEMENT_DESC:0 ""
+ tech_utg_segmentum_management_desc:0 "当一个星系内存在两个联合政府的殖民星球之后，通常需要对这两个星球进行统和管理"
 
  tech_flexible_regulartory_agencies:0 "§M灵活监管机构§!"
- tech_flexible_regulartory_agencies_desc:0 ""
- TECH_FLEXIBLE_REGULARTORY_AGENCIES_TITTLE:0 ""
- TECH_FLEXIBLE_REGULARTORY_AGENCIES_DESC:0 ""
+ tech_flexible_regulartory_agencies_desc:0 "即使有了递质对联合政府官员的管理，对联合政府的官员进行一定程度的监督也是有必要的"
 
+ ##陆军科技 - 兵种
  tech_angel_battle_system:0 "§M天使作战系统§!"
- tech_angel_battle_system_desc:0 ""
- TECH_ANGEL_BATTLE_SYSTEM_TITTLE:0 ""
- TECH_ANGEL_BATTLE_SYSTEM_DESC:0 ""
+ tech_angel_battle_system_desc:0 "在塔卫四发现的”天使“具有极强的作战能力，联合政府将它们合理的运用于陆军体系"
 
  tech_high_speed_battle_ship:0 "§M高速战斗舰§!"
- tech_high_speed_battle_ship_desc:0 ""
- TECH_HIGH_SPEED_BATTLE_SHIP_TITTLE:0 ""
- TECH_HIGH_SPEED_BATTLE_SHIP_DESC:0 ""
+ tech_high_speed_battle_ship_desc:0 "高速战斗舰在装配了线代技术后，是泰拉独具特色的作战单位。"
 
- #陆军科技
+ ##陆军科技 - 增益
+
  tech_utg_military_commission:0 "§M联合政府军事委员会§!"
- tech_utg_military_commission_desc:0 ""
- TECH_UTG_MILITARY_COMMISSION_TITTLE:0 ""
- TECH_UTG_MILITARY_COMMISSION_DESC:0 ""
+ tech_utg_military_commission_desc:0 "联合政府军事委员会是泰拉诸国建立的军事组织，集合了全泰拉所有的军事专家。"
 
  tech_PRTS_proxy_operation:0 "§MPRTS代理作战§!"
- tech_PRTS_proxy_operation_desc:0 ""
- TECH_PRTS_PROXY_OPERATION_TITTLE:0 ""
- TECH_PRTS_PROXY_OPERATION_DESC:0 ""
+ tech_PRTS_proxy_operation_desc:0 "PRTS作为罗德岛的代理作战系统，能够较好的补充优先级并不高的战斗的指挥位。"
 
  tech_PRTS_combat_system:0 "§MPRTS作战系统§!"
- tech_PRTS_combat_system_desc:0 ""
- TECH_PRTS_COMBAT_SYSTEM_TITTLE:0 ""
- TECH_PRTS_COMBAT_SYSTEM_DESC:0 ""
+ tech_PRTS_combat_system_desc:0 "在强化了PRTS系统之后，其更能够作为一种作战系统，直接指挥作战。"
 
  ######工程######
 
