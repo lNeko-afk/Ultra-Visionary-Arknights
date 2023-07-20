@@ -1,16 +1,15 @@
 
-tech_originium_mining = {
+##############
+####矿石科技####
+##############
+
+#T1
+tech_originium_mining_T1 = {
     area = engineering
     cost = @tier0cost1
     tier = 0
     start_tech = yes
     category = { materials }
-    prereqfor_desc = { #文本
-        ship = {
-            title = "TECH_ORIGINIUM_MINING_TITLE"
-            desc = "TECH_ORIGNIUM_MINING_DESC"
-        }
-    }
 
     weight_modifier = {
         modifier = { #这里的默认范围是帝国，所以不需要表示范围的语句（例如 from/owner 等）
@@ -29,20 +28,29 @@ tech_originium_mining = {
         factor = 0
     }
 }
-tech_bipolar_nanoflake_factory={
+
+#T2
+tech_originium_mining_T2 = {
+
+}
+
+#T3
+tech_originium_mining_T3 = {
+
+}
+
+##############
+####特殊资源####
+##############
+#T1
+tech_bipolar_nanoflake_factory_T1={
     area = engineering
     cost = @tier2cost2
     tier = 2
     category = { originium_theory }
     weight = @tier2weight2
-    prereqfor_desc = { #文本
-        ship = {
-            title = "TECH_BIPOLAR_NANOFLAKE_FACTORY_TITLE"
-            desc = "TECH_PRODUCE_BIOPOLAR_NANOFLAKE_DESC"
-        }
-    }
 
-    PREREQUISITES = { tech_originium_mining }
+    PREREQUISITES = { tech_originium_mining_T1 }
 
     weight_modifier = {
         modifier = {
@@ -53,20 +61,14 @@ tech_bipolar_nanoflake_factory={
         factor = 0
     }
 }
-tech_polymerization_preparation_factory ={
+tech_polymerization_preparation_factory_T1 ={
     area = engineering
     cost = @tier2cost2
     tier = 2
     category = { originium_theory }
     weight = @tier2weight2
-    prereqfor_desc = { #文本
-        ship = {
-            title = "TECH_POLYMERIZATION_PREPARATION_FACTORY_TITLE"
-            desc = "TECH_PRODUCE_POLYMERIZATION_PREPARATION_DESC"
-        }
-    }
 
-    PREREQUISITES = { tech_originium_mining }
+    PREREQUISITES = { tech_originium_mining_T1 }
 
     weight_modifier = {
         modifier = {
@@ -77,20 +79,14 @@ tech_polymerization_preparation_factory ={
         factor = 0
     }
 }
-tech_D32_steel_factory={
+tech_D32_steel_factory_T1={
     area = engineering
     cost = @tier2cost2
     tier = 2
     category = { originium_theory }
     weight = @tier2weight2
-    prereqfor_desc = { #文本
-        ship = {
-            title = "TECH_D32_STEEL_FACTORY_TITLE"
-            desc = "TECH_PRODUCE_D32_STEEL_DESC"
-        }
-    }
 
-    PREREQUISITES = { tech_originium_mining }
+    PREREQUISITES = { tech_originium_mining_T1 }
 
     weight_modifier = {
         modifier = {
@@ -101,20 +97,14 @@ tech_D32_steel_factory={
         factor = 0
     }
 }
-tech_calcined_concretion_factory={
+tech_calcined_concretion_factory_T1={
     area = engineering
     cost = @tier2cost2
     tier = 2
     category = { originium_theory }
     weight = @tier2weight2
-    prereqfor_desc = { #文本
-        ship = {
-            title = "TECH_CALCINED_CONCRETION_FACTORY_TITLE"
-            desc = "TECH_PRODUCE_CALCINED_CONCRETION_DESC"
-        }
-    }
 
-    PREREQUISITES = { tech_originium_mining }
+    PREREQUISITES = { tech_originium_mining_T1 }
 
     weight_modifier = {
         modifier = {
@@ -125,20 +115,14 @@ tech_calcined_concretion_factory={
         factor = 0
     }
 }
-tech_crystalline_electronic_unit_factory={
+tech_crystalline_electronic_unit_factory_T1={
     area = engineering
     cost = @tier2cost2
     tier = 2
     category = { originium_theory }
     weight = @tier2weight2
-    prereqfor_desc = { #文本
-        ship = {
-            title = "TECH_CRYSTALLINE_ELECTRONIC_UNIT_FACTORY_TITLE"
-            desc = "TECH_PRODUCE_CRYSTALLINE_ELECTRONIC_UNIT_DESC"
-        }
-    }
 
-    PREREQUISITES = { tech_originium_mining }
+    PREREQUISITES = { tech_originium_mining_T1 }
 
     weight_modifier = {
         modifier = {
@@ -150,9 +134,183 @@ tech_crystalline_electronic_unit_factory={
     }
 }
 
-
-##行星建筑速度/区划
-
-tech_aerial_nomadic = {
+#T2
+tech_bipolar_nanoflake_factory_T2={
+}
+tech_polymerization_preparation_factory_T2 ={
+}
+tech_D32_steel_factory_T2={
+}
+tech_calcined_concretion_factory_T2={
+}
+tech_crystalline_electronic_unit_factory_T2={
 
 }
+
+#T3
+
+tech_bipolar_nanoflake_factory_T3={
+}
+tech_polymerization_preparation_factory_T3 ={
+}
+tech_D32_steel_factory_T3={
+}
+tech_calcined_concretion_factory_T3={
+}
+tech_crystalline_electronic_unit_factory_T3={
+
+}
+
+##############
+####机械科技####
+##############
+
+#律法规范
+tech_uva_robotech_T1 = {
+
+}
+
+#超级量子计算机
+tech_uva_robotech_T2 = {
+
+}
+
+#集成化装配网路
+tech_uva_robotech_T3 = {
+
+}
+
+#源能智人
+tech_uva_machinary_modifier_T1 = {
+
+}
+
+#高级装配区划T1
+tech_uva_robot_factory_T1 = {
+
+}
+
+#高级装配区划T2
+tech_uva_robot_factory_T2 = {
+
+}
+#################
+####合金\消费品####
+#################
+
+#高效复制工厂T1
+tech_uva_T2_resources_factory_T1 = {
+
+}
+
+#高校复制工厂T2
+tech_uva_T2_resources_factory_T2 = {
+
+}
+
+
+#################
+####行星建造科技####
+#################
+
+#移动城市装配T1
+tech_uva_planetary_building_T1 = {
+
+}
+
+#集成装配T2
+tech_uva_planetary_building_T2= {  }
+
+#################
+####行星区划科技####
+#################
+
+#空中移动城市
+tech_uva_planetary_deposit_T1 = {
+    
+}
+
+#空中花园
+tech_uva_planetary_deposit_T2= {
+
+}
+
+##############
+####装甲科技####
+##############
+
+#异铁材料
+tech_uva_armor_tech_T1 = {
+
+}
+
+#D钢材料
+tech_uva_armor_tech_T2 = {
+
+}
+
+#源钢材料
+tech_uva_armor_tech_T3 = {  }
+
+##############
+####船体科技####
+##############
+
+#复合源石材料
+tech_uva_hull_tech_T1 = {
+
+}
+
+#蚀刻材料
+tech_uva_hull_tech_T2 = {
+
+}
+
+#技艺强化材料
+tech_uva_hull_tech_T3 = {
+
+}
+
+#一体化防护
+tech_uva_ship_defence_tech_T1 = {
+
+}
+
+#############
+####高射炮####
+#############
+
+#粉尘高射炮
+tech_uva_flak_tech_T1 = {
+
+}
+
+#结晶高射炮
+tech_uva_flak_tech_T2 = {
+
+}
+
+#############
+####推进器####
+#############
+
+#增幅装置
+tech_uva_propeller_tech_T1 = {
+
+}
+
+#推进器强化
+tech_uva_propeller_tech_T2 = {
+
+}
+
+#技艺脉冲推进器
+tech_uva_propeller_tech_T3 = {
+
+}
+
+
+
+
+
+

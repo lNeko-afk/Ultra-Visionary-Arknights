@@ -5,9 +5,9 @@
 
 ################一阶段源石科技################
 
- ###############
- ######物理######
- ###############
+      ###############
+      ######物理######
+      ###############
  
  ##激光武器
  tech_arts_lasers:0 "§T技艺激光发射器§!"
@@ -218,7 +218,9 @@
  TECH_ANGEL_COMBAT_COMPUTER_TITLE:0 "§H解锁部件：§!$tech_ANGEL_combat_computer$"
  TECH_ANGEL_COMBAT_COMPUTER_DESC:0 "$tech_ANGEL_combat_computer$\n$tech_ANGEL_combat_computer_desc$"
 
- ######社会######
+      ###############
+      ######社会######
+      ###############
 
  ##源石档案馆
  tech_personality_archives:0 "§G人格档案馆§!"
@@ -328,39 +330,29 @@
  tech_PRTS_combat_system:0 "§MPRTS作战系统§!"
  tech_PRTS_combat_system_desc:0 "在强化了PRTS系统之后，其更能够作为一种作战系统，直接指挥作战。"
 
- ######工程######
+      ###############
+      ######工程######
+      ###############
 
  ##矿石科技##
- tech_originium_mining:0 "§H源石开采技术§!"
- tech_originium_mining_desc:0 "源石开采技术，泰拉世界的核心科技"
- TECH_ORIGINIUM_MINING_TITLE:0 "泰拉掌握核心科技！"
- TECH_ORIGNIUM_MINING_DESC:0 "源石开采技术，泰拉世界的核心科技"
+ tech_originium_mining_T1:0 "§H源石开采技术§!"
+ tech_originium_mining_T1_desc:0 "源石开采技术，泰拉世界的核心科技"
 
  ##战略资源##
- tech_bipolar_nanoflake_factory:0 "$bipolar_nanoflake$工厂"
- tech_bipolar_nanoflake_factory_desc:0 "集成制造$bipolar_nanoflake$的制造站"
- TECH_BIPOLAR_NANOFLAKE_FACTORY_TITLE:0 "现代工业的创造力结晶"
- TECH_PRODUCE_BIOPOLAR_NANOFLAKE_DESC:0 "对范围内源石敏感的装置。能有效提升源石附近范围内作战武器和设备对源石的敏感性，使源石技艺的存储几近可能"
+ tech_bipolar_nanoflake_factory_T1:0 "$bipolar_nanoflake$工厂"
+ tech_bipolar_nanoflake_factory_T1_desc:0 "集成制造$bipolar_nanoflake$的制造站"
 
- tech_polymerization_preparation_factory:0 "$polymerization_preparation$工厂"
- tech_polymerization_preparation_factory_desc:0 "集成制造$polymerization_preparation$的制造站"
- TECH_POLYMERIZATION_PREPARATION_FACTORY_TITLE:0 "复杂的液态工业产物"
- TECH_POLYMERIZATION_PREPARATION_FACTORY_DESC:0 "精密穿戴着装中常用的材料。多作为隔绝涂层使用。强大的聚合粘接效果足以阻断源石的挥发"
+ tech_polymerization_preparation_factory_T1:0 "$polymerization_preparation$工厂"
+ tech_polymerization_preparation_factory_T1_desc:0 "集成制造$polymerization_preparation$的制造站"
 
- tech_D32_steel_factory:0 "$D32_steel$工厂"
- tech_D32_steel_factory_desc:0 "集成制造$D32_steel$的制造站"
- TECH_D32_STEEL_FACTORY_TITLE:0 "自然界中不应存在的人造金属材料，呈固态"
- TECH_PRODUCE_D32_STEEL_DESC:0 "强度超群，无法击穿，顺畅传导源石技艺，将重新订立武器材料的标准"
+ tech_D32_steel_factory_T1:0 "$D32_steel$工厂"
+ tech_D32_steel_factory_T1_desc:0 "集成制造$D32_steel$的制造站"
 
- tech_calcined_concretion_factory:0 "$calcined_concretion$工厂"
- tech_calcined_concretion_factory_desc:0 "集成制造$calcined_concretion$的制造站"
- TECH_CALCINED_CONCRETION_FACTORY_TITLE:0 "对工艺要求极高的现代科技产物"
- TECH_CALCINED_CONCRETION_FACTORY_DESC:0 "特定高温环境下具有分子识别能力的材料。作为助剂能选择性地吸附源石，为精密加工源石材料、降低源石器件耗能提供新可能"
+ tech_calcined_concretion_factory_T1:0 "$calcined_concretion$工厂"
+ tech_calcined_concretion_factory_T1_desc:0 "集成制造$calcined_concretion$的制造站"
 
- tech_crystalline_electronic_unit_factory:0 "$crystalline_electronic_unit$工厂"
- tech_crystalline_electronic_unit_factory_desc:0 "集成制造$crystalline_electronic_unit$的制造站"
- TECH_CRYSTALLINE_ELECTRONIC_UNIT_FACTORY_TITLE:0 "昂贵的源石工业产品"
- TECH_PRODUCE_CRYSTALLINE_ELECTRONIC_UNIT_DESC:0 "泰拉源石科技的结晶，泰拉工业现代化的代表。源石施术单元与城际网络服务器的制造都离不开这种科技产品"
+ tech_crystalline_electronic_unit_factory_T1:0 "$crystalline_electronic_unit$工厂"
+ tech_crystalline_electronic_unit_factory_T1_desc:0 "集成制造$crystalline_electronic_unit$的制造站"
 
 
 
