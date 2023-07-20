@@ -23,24 +23,33 @@ spriteTypes = {
 
     ####舰船反应堆####
     spriteType = {
-        name = "GFX_ship_part_originium_reactor_T1"
+        name = "GFX_uva_ship_part_reactor_T1"
         textureFile = "gfx/interface/icons/ship_parts/ship_part_originium_reactor_1.dds"
     }
     spriteType = {
-        name = "GFX_ship_part_originium_reactor_T2"
+        name = "GFX_uva_ship_part_reactor_T2"
         textureFile = "gfx/interface/icons/ship_parts/ship_part_originium_reactor_2.dds"
     }
     spriteType = {
-        name = "GFX_ship_part_originium_reactor_T3"
+        name = "GFX_uva_ship_part_reactor_T3"
         textureFile = "gfx/interface/icons/ship_parts/ship_part_originium_reactor_3.dds"
     }
     spriteType = {
-        name = "GFX_ship_part_originium_reactor_T4"
+        name = "GFX_uva_ship_part_reactor_T4"
         textureFile = "gfx/interface/icons/ship_parts/ship_part_originium_reactor_4.dds"
     }
     spriteType = {
-        name = "GFX_ship_part_originium_reactor_T5"
+        name = "GFX_uva_ship_part_reactor_T5"
         textureFile = "gfx/interface/icons/ship_parts/ship_part_originium_reactor_5.dds"
     }
 
+    #### 舰船驱动 ####
+    spriteType = {
+        name = "GFX_uva_shipparts_drive_T1"
+        textureFile = "gfx/interface/icons/ship_parts/ship_parts_uva_drive_1.dds"
+    }
+    spriteType = {
+        name = "GFX_uva_shipparts_drive_T2"
+        textureFile = "gfx/interface/icons/ship_parts/ship_parts_uva_drive_2.dds"
+    }
 }

@@ -1,3 +1,81 @@
-#### 源能折跃引擎 ####
+#### 源能超空间跳跃节点 ####
+utility_component_template = {
+    key = uva_shippart_drive_T1
+    size = small
+    icon = "GFX_uva_shipparts_drive_T1"
+    icon_frame = 1
+    power = -15
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 10
+            lung_men_dollaris = 20
+            originium_prime = 10
+        }
+    }
+    ftl = yes
 
-#### 非熵源能引擎 ####
+    ship_modifier = {
+        ship_disengage_opportunities_add = 1.5
+        ship_windup_mult = -0.5
+    }
+
+    ai_weight = {
+        weight = 3
+    }
+
+    class_restriction = {
+        shipclass_military
+        shipclass_constructor
+        shipclass_colonizer
+        shipclass_science_ship
+        shipclass_transport
+        shipclass_military_special
+        shipclass_starbase
+    }
+    prerequisites = { tech_originercy_hyperspace_leap_drive }
+    component_set = "ftl_components"
+    upgrades_to = uva_shippart_drive_T2
+}
+
+#### 超空间“白域” ####
+utility_component_template = {
+    key = uva_shippart_drive_T2
+    size = small
+    icon = "GFX_uva_shipparts_drive_T2"
+    icon_frame = 1
+    power = -20
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 20
+            lung_men_dollaris = 40
+            originium_prime = 20
+        }
+    }
+    ftl = yes
+
+    ship_modifier = {
+        ship_disengage_opportunities_add = 2
+        ship_windup_mult = -0.6
+    }
+
+    ai_weight = {
+        weight = 3
+    }
+
+    class_restriction = {
+        shipclass_military
+        shipclass_constructor
+        shipclass_colonizer
+        shipclass_science_ship
+        shipclass_transport
+        shipclass_military_special
+        shipclass_starbase
+    }
+    prerequisites = { tech_hyperspace_white_domain }
+    component_set = "ftl_components"
+    upgrades_to = uva_shippart_drive_T3
+}
+
+#### 短途跃迁装置 ####

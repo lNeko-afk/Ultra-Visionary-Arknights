@@ -1,4 +1,5 @@
 ﻿l_simp_chinese:
+ #### 引擎 ####
  #基础源石引擎
  uva_shippart_reactor_Core1_T1: "§M基础源石引擎§!"
  uva_shippart_reactor_Core2_T1: "§M基础源石引擎§!"
@@ -39,6 +40,10 @@
  uva_shippart_reactor_Core5_T5: "§R非熵源能引擎§!"
  uva_shippart_reactor_Core6_T5: "§R非熵源能引擎§!"
  uva_shippart_reactor_Core7_T5: "§R非熵源能引擎§!"
+
+ #### 驱动 ####
+ uva_shippart_drive_T1:0 "§M源能超空间跳跃节点§!"
+ uva_shippart_drive_T2:0 "$tech_hyperspace_white_domain$"
 
 
 
