@@ -240,39 +240,39 @@ tech_uva_planetary_deposit_T2= {
 ##############
 
 #异铁材料
-tech_uva_armor_tech_T1 = {
+tech_uva_armor_T1 = {
 
 }
 
 #D钢材料
-tech_uva_armor_tech_T2 = {
+tech_uva_armor_T2 = {
 
 }
 
 #源钢材料
-tech_uva_armor_tech_T3 = {  }
+tech_uva_armor_T3 = {  }
 
 ##############
 ####船体科技####
 ##############
 
 #复合源石材料
-tech_uva_hull_tech_T1 = {
+tech_uva_hull_T1 = {
 
 }
 
 #蚀刻材料
-tech_uva_hull_tech_T2 = {
+tech_uva_hull_T2 = {
 
 }
 
 #技艺强化材料
-tech_uva_hull_tech_T3 = {
+tech_uva_hull_T3 = {
 
 }
 
 #一体化防护
-tech_uva_ship_defence_tech_T1 = {
+tech_uva_ship_defence_T1 = {
 
 }
 
@@ -281,12 +281,12 @@ tech_uva_ship_defence_tech_T1 = {
 #############
 
 #粉尘高射炮
-tech_uva_flak_tech_T1 = {
+tech_uva_flak_T1 = {
 
 }
 
 #结晶高射炮
-tech_uva_flak_tech_T2 = {
+tech_uva_flak_T2 = {
 
 }
 
@@ -295,21 +295,162 @@ tech_uva_flak_tech_T2 = {
 #############
 
 #增幅装置
-tech_uva_propeller_tech_T1 = {
+tech_uva_propeller_T1 = {
 
 }
 
 #推进器强化
-tech_uva_propeller_tech_T2 = {
+tech_uva_propeller_T2 = {
 
 }
 
 #技艺脉冲推进器
-tech_uva_propeller_tech_T3 = {
+tech_uva_propeller_T3 = {
 
 }
 
+#############
+####核导弹####
+#############
 
+#女妖导弹
+tech_uva_missile_T1 ={
+
+}
+
+#白杨导弹
+tech_uva_missile_T2 = {
+
+}
+
+##############
+####蜂群导弹####
+##############
+
+#飘航者导弹
+tech_uva_swarm_missile_T1 = {
+
+}
+
+#东风导弹
+tech_uva_swarm_missile_T2 = {
+
+}
+
+##############
+####动能武器####
+##############
+
+##轨道炮
+
+#枯朽轨道炮
+tech_uva_railgun_T1 =  {
+
+}
+
+#动力轨道炮
+tech_uva_railgun_T2= {
+
+}
+
+#推进轨道炮
+tech_uva_railgun_T2 = {
+
+}
+
+##L槽火炮
+
+#破坚火炮
+tech_uva_artillery_T1 = {
+
+}
+
+#碎壁火炮
+tech_uva_artillery_T2 = {
+
+}
+
+##X槽火炮
+
+#穿刺者兆级火炮
+tech_uva_heavy_artillery_T1 = {
+
+}
+
+#解构者千兆级火炮
+tech_uva_heavy_artillery_T2 = {
+
+}
+
+#############
+####机关炮####
+#############
+
+#工蚁机关炮
+tech_uva_machine_gun_T1 = {
+
+}
+
+#幽灵机关炮
+tech_uva_machine_gun_T2 = {
+
+}
+
+#渗透者机关炮
+tech_uva_machine_gun_T3 = {
+
+}
+
+#############
+####舰载机####
+#############
+
+#前掠翼舰载机
+tech_uva_strike_craft_T1 = {
+
+}
+
+#多座舰载机
+tech_uva_strike_craft_T2= {
+
+}
+
+#无人舰载机
+tech_uva_strike_craft_T3 = {
+
+}
+
+#############
+####空间站####
+#############
+
+#空间站模块
+tech_uva_station_T1 = {
+
+}
+
+###########
+####鱼雷####
+###########
+
+#猎食者鱼雷
+tech_uva_torpedo_T1 = {
+
+}
+
+#投嗣者鱼雷
+tech_uva_torpedo_T2 = {
+
+}
+
+###########
+####巨像####
+###########
+
+#“天灾”
+tech_uva_catastrophe_T1 = {
+    
+}
 
 
 
