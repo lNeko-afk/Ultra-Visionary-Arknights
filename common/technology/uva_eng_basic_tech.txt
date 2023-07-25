@@ -31,7 +31,7 @@ tech_originium_mining_T1 = {
 
 #T2
 tech_originium_mining_T2 = {
-
+    area = engineering
 }
 
 #T3
