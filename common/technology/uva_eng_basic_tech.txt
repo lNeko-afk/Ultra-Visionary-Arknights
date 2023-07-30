@@ -9,7 +9,7 @@ tech_originium_mining_T1 = {
     cost = @tier0cost1
     tier = 0
     start_tech = yes
-    category = { materials }
+    category = { originium_theory }
 
     weight_modifier = {
         modifier = { #这里的默认范围是帝国，所以不需要表示范围的语句（例如 from/owner 等）
@@ -32,14 +32,58 @@ tech_originium_mining_T1 = {
 #T2
 tech_originium_mining_T2 = {
     area = engineering
-    cost = @tier1cost1
+    cost = @tier1cost3
+    weight = @tier1weight3
     tier = 1
-    
+    prerequisites = { tech_originium_mining_T1 }
+    category = { originium_theory }
+
+    modifier = {
+        country_originium_prime_produces_mult = 0.15
+        country_minerals_produces_mult = 0.10
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 0
+            nor = {
+                is_TERRA_species = yes
+            }
+        }
+    }
+
+    ai_weight = {
+        factor = 0
+    }
 }
 
 #T3
 tech_originium_mining_T3 = {
+    area = engineering
+    cost = @tier2cost3
+    weight = @tier2weight3
+    tier = 2
+    prerequisites = { tech_originium_mining_T1 }
+    category = { originium_theory }
 
+    modifier = {
+        country_base_originium_prime_produces_add = 20
+        country_originium_prime_produces_mult = 0.2
+        country_minerals_produces_mult = 0.10
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 0
+            nor = {
+                is_TERRA_species = yes
+            }
+        }
+    }
+
+    ai_weight = {
+        factor = 0
+    }
 }
 
 ##############
@@ -139,29 +183,188 @@ tech_crystalline_electronic_unit_factory_T1={
 
 #T2
 tech_bipolar_nanoflake_factory_T2={
+    area = engineering
+    cost = @tier3cost2
+    tier = 3
+    category = { originium_theory }
+    weight = @tier3weight2
+
+    PREREQUISITES = { tech_bipolar_nanoflake_factory_T1 }
+
+    weight_modifier = {
+        modifier = {
+            factor = 0
+        }
+    }
+    ai_weight = {
+        factor = 0
+    }
 }
 tech_polymerization_preparation_factory_T2 ={
+    area = engineering
+    cost = @tier3cost2
+    tier = 3
+    category = { originium_theory }
+    weight = @tier3weight2
+
+    PREREQUISITES = { tech_polymerization_preparation_factory_T1}
+
+    weight_modifier = {
+        modifier = {
+            factor = 0
+        }
+    }
+    ai_weight = {
+        factor = 0
+    }
 }
 tech_D32_steel_factory_T2={
+    area = engineering
+    cost = @tier3cost2
+    tier = 3
+    category = { originium_theory }
+    weight = @tier3weight2
+
+    PREREQUISITES = { tech_D32_steel_factory_T1}
+
+    weight_modifier = {
+        modifier = {
+            factor = 0
+        }
+    }
+    ai_weight = {
+        factor = 0
+    }
 }
 tech_calcined_concretion_factory_T2={
+    area = engineering
+    cost = @tier3cost2
+    tier = 3
+    category = { originium_theory }
+    weight = @tier3weight2
+
+    PREREQUISITES = { tech_calcined_concretion_factory_T1}
+
+    weight_modifier = {
+        modifier = {
+            factor = 0
+        }
+    }
+    ai_weight = {
+        factor = 0
+    }
+
 }
 tech_crystalline_electronic_unit_factory_T2={
+    area = engineering
+    cost = @tier3cost2
+    tier = 3
+    category = { originium_theory }
+    weight = @tier3weight2
 
+    PREREQUISITES = { tech_crystalline_electronic_unit_factory_T1}
+
+    weight_modifier = {
+        modifier = {
+            factor = 0
+        }
+    }
+    ai_weight = {
+        factor = 0
+    }
 }
 
 #T3
 
 tech_bipolar_nanoflake_factory_T3={
+    area = engineering
+    cost = @tier4cost2
+    tier = 4
+    category = { originium_theory }
+    weight = @tier4weight2
+
+    PREREQUISITES = { tech_bipolar_nanoflake_factory_T2}
+
+    weight_modifier = {
+        modifier = {
+            factor = 0
+        }
+    }
+    ai_weight = {
+        factor = 0
+    }
 }
 tech_polymerization_preparation_factory_T3 ={
+    area = engineering
+    cost = @tier4cost2
+    tier = 4
+    category = { originium_theory }
+    weight = @tier4weight2
+
+    PREREQUISITES = { tech_polymerization_preparation_factory_T2}
+
+    weight_modifier = {
+        modifier = {
+            factor = 0
+        }
+    }
+    ai_weight = {
+        factor = 0
+    }
 }
 tech_D32_steel_factory_T3={
+    area = engineering
+    cost = @tier4cost2
+    tier = 4
+    category = { originium_theory }
+    weight = @tier4weight2
+
+    PREREQUISITES = { tech_D32_steel_factory_T2}
+
+    weight_modifier = {
+        modifier = {
+            factor = 0
+        }
+    }
+    ai_weight = {
+        factor = 0
+    }
 }
 tech_calcined_concretion_factory_T3={
+    area = engineering
+    cost = @tier4cost2
+    tier = 4
+    category = { originium_theory }
+    weight = @tier4weight2
+
+    PREREQUISITES = { tech_calcined_concretion_factory_T2}
+
+    weight_modifier = {
+        modifier = {
+            factor = 0
+        }
+    }
+    ai_weight = {
+        factor = 0
+    }
 }
 tech_crystalline_electronic_unit_factory_T3={
+    area = engineering
+    cost = @tier4cost2
+    tier = 4
+    category = { originium_theory }
+    weight = @tier4weight2
 
+    PREREQUISITES = { tech_crystalline_electronic_unit_factory_T2}
+
+    weight_modifier = {
+        modifier = {
+            factor = 0
+        }
+    }
+    ai_weight = {
+        factor = 0
+    }
 }
 
 ##############
