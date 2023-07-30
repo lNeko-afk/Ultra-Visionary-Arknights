@@ -227,7 +227,7 @@ tech_uva_planetary_building_T2= {  }
 
 #空中移动城市
 tech_uva_planetary_deposit_T1 = {
-    
+
 }
 
 #空中花园
