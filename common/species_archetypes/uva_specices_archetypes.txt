@@ -5,7 +5,7 @@ TERRA = {
 }
 
 ORIGINIUM_BOT= {
-    species_trait_points = 3
+    species_trait_points = 1
     species_max_traits = 12
-    inherit_traits_from = { MACHINE }
+    inherit_traits_from = { ROBOT }
 }

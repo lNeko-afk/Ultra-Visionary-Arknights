@@ -13,6 +13,8 @@
  country_lung_men_dollaris_produces_add: "每月龙门币"
  mod_TERRA_pop_growth_speed:0 "§lTERRA§!人口增长速度"
 
+ ORIGINIUM_BOT_species_trait_points_add:0 "源械人改造点数"
+ ORIGINIUM_BOT_pop_growth_speed:0 "源械人装配速度"
 
  category_originium_theory_research_speed_mult:0 "源石学"
 

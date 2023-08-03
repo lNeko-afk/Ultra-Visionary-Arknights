@@ -101,7 +101,7 @@ tech_bipolar_nanoflake_factory_T1={
 
     weight_modifier = {
         modifier = {
-            factor = 0
+            factor = 1
         }
     }
     ai_weight = {
@@ -119,7 +119,7 @@ tech_polymerization_preparation_factory_T1 ={
 
     weight_modifier = {
         modifier = {
-            factor = 0
+            factor = 1
         }
     }
     ai_weight = {
@@ -137,7 +137,7 @@ tech_D32_steel_factory_T1={
 
     weight_modifier = {
         modifier = {
-            factor = 0
+            factor = 1
         }
     }
     ai_weight = {
@@ -155,7 +155,7 @@ tech_calcined_concretion_factory_T1={
 
     weight_modifier = {
         modifier = {
-            factor = 0
+            factor = 1
         }
     }
     ai_weight = {
@@ -173,7 +173,7 @@ tech_crystalline_electronic_unit_factory_T1={
 
     weight_modifier = {
         modifier = {
-            factor = 0
+            factor = 1
         }
     }
     ai_weight = {
@@ -193,7 +193,7 @@ tech_bipolar_nanoflake_factory_T2={
 
     weight_modifier = {
         modifier = {
-            factor = 0
+            factor = 1
         }
     }
     ai_weight = {
@@ -211,7 +211,7 @@ tech_polymerization_preparation_factory_T2 ={
 
     weight_modifier = {
         modifier = {
-            factor = 0
+            factor = 1
         }
     }
     ai_weight = {
@@ -229,7 +229,7 @@ tech_D32_steel_factory_T2={
 
     weight_modifier = {
         modifier = {
-            factor = 0
+            factor = 1
         }
     }
     ai_weight = {
@@ -247,7 +247,7 @@ tech_calcined_concretion_factory_T2={
 
     weight_modifier = {
         modifier = {
-            factor = 0
+            factor = 1
         }
     }
     ai_weight = {
@@ -266,7 +266,7 @@ tech_crystalline_electronic_unit_factory_T2={
 
     weight_modifier = {
         modifier = {
-            factor = 0
+            factor = 1
         }
     }
     ai_weight = {
@@ -287,7 +287,7 @@ tech_bipolar_nanoflake_factory_T3={
 
     weight_modifier = {
         modifier = {
-            factor = 0
+            factor = 1
         }
     }
     ai_weight = {
@@ -305,7 +305,7 @@ tech_polymerization_preparation_factory_T3 ={
 
     weight_modifier = {
         modifier = {
-            factor = 0
+            factor = 1
         }
     }
     ai_weight = {
@@ -323,7 +323,7 @@ tech_D32_steel_factory_T3={
 
     weight_modifier = {
         modifier = {
-            factor = 0
+            factor = 1
         }
     }
     ai_weight = {
@@ -341,7 +341,7 @@ tech_calcined_concretion_factory_T3={
 
     weight_modifier = {
         modifier = {
-            factor = 0
+            factor = 1
         }
     }
     ai_weight = {
@@ -359,7 +359,7 @@ tech_crystalline_electronic_unit_factory_T3={
 
     weight_modifier = {
         modifier = {
-            factor = 0
+            factor = 1
         }
     }
     ai_weight = {
@@ -373,32 +373,242 @@ tech_crystalline_electronic_unit_factory_T3={
 
 #律法规范
 tech_uva_robotech_T1 = {
+    area = engineering
+    cost = @tier1cost3
+    tier = 1
+    category = { originium_theory }
+    weight = @tier1weight3
 
+    prerequisites = {
+        tech_powered_exoskeletons
+        tech_originium_theory
+    }
+
+    modifier = {
+        ORIGINIUM_BOT_species_trait_points_add = 2
+        planet_jobs_worker_produces_mult = 0.05
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_materialist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_materialist
+        }
+        modifier = {
+            factor = 1.25
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        factor = 0
+    }
 }
 
 #超级量子计算机
 tech_uva_robotech_T2 = {
+    area = engineering
+    cost = @tier2cost3
+    tier = 2
+    category = { originium_theory }
+    weight = @tier2weight3
 
+    prerequisites = { tech_uva_robotech_T1 }
+
+    modifier = {
+        all_technology_research_speed = 0.25
+        ORIGINIUM_BOT_species_trait_points_add = 2
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_materialist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_materialist
+        }
+        modifier = {
+            factor = 1.25
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        factor = 0
+    }
 }
 
 #集成化装配网路
 tech_uva_robotech_T3 = {
+    area = engineering
+    cost = @tier3cost3
+    tier = 3
+    category = { originium_theory }
+    weight = @tier3weight3
 
+    prerequisites = { tech_uva_robotech_T3 }
+
+    modifier = {
+        ORIGINIUM_BOT_pop_growth_speed = 0.35
+        ORIGINIUM_BOT_species_trait_points_add = 2
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_materialist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_materialist
+        }
+        modifier = {
+            factor = 1.25
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        factor = 0
+    }
 }
 
 #源能智人
 tech_uva_machinary_modifier_T1 = {
+    area =engineering
+    cost = @tier2cost3
+    category = { originium_theory }
+    tier = 2
+    weight =@tier2weight3
 
+    prerequisites = {
+        tech_droid_workers
+        tech_uva_robotech_T1
+    }
+
+    modifier = {
+        ORIGINIUM_BOT_species_trait_points_add = 3
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_materialist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_materialist
+        }
+        modifier = {
+            factor = 1.25
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        factor = 0
+    }
+}
+
+tech_uva_machinary_modifier_T2 = {
+    area =engineering
+    cost = @tier3cost3
+    category = { originium_theory }
+    tier = 3
+    weight =@tier3weight3
+
+    prerequisites = {
+        tech_uva_machinary_modifier_T1
+    }
+
+    modifier = {
+        ORIGINIUM_BOT_species_trait_points_add = 3
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_materialist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_materialist
+        }
+        modifier = {
+            factor = 1.25
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        factor = 0
+    }
 }
 
 #高级装配区划T1
 tech_uva_robot_factory_T1 = {
+    area = engineering
+    cost = @tier3cost3
+    tier = 3
+    category = { originium_theory }
+    weight = @tier3weight3
 
+    prerequisites = { tech_uva_machinary_modifier_T1 }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_materialist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_materialist
+        }
+        modifier = {
+            factor = 1.25
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        factor = 0
+    }
 }
 
 #高级装配区划T2
 tech_uva_robot_factory_T2 = {
+    area = engineering
+    cost = @tier4cost3
+    tier = 4
+    category = { originium_theory }
+    weight = @tier4weight3
 
+    prerequisites = { tech_uva_robot_factory_T1 }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_materialist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_materialist
+        }
+        modifier = {
+            factor = 1.25
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        factor = 0
+    }
 }
 #################
 ####合金\消费品####
@@ -406,12 +616,51 @@ tech_uva_robot_factory_T2 = {
 
 #高效复制工厂T1
 tech_uva_T2_resources_factory_T1 = {
+    area = engineering
+    cost = @tier3cost2
+    tier = 3
+    category = { originium_theory }
+    weight = @tier3weight2
 
+    prerequisites = {
+        tech_alloys_2
+        tech_luxuries_2
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        factor = 0
+    }
 }
 
 #高校复制工厂T2
 tech_uva_T2_resources_factory_T2 = {
+    area = engineering
+    cost = @tier4cost2
+    tier = 4
+    category = { originium_theory }
+    weight = @tier4weight2
 
+    prerequisites = {
+        tech_uva_T2_resources_factory_T1
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        factor = 0
+    }
 }
 
 
@@ -421,11 +670,55 @@ tech_uva_T2_resources_factory_T2 = {
 
 #移动城市装配T1
 tech_uva_planetary_building_T1 = {
+    area = engineering
+    cost = @tier2cost2
+    tier = 2
+    weight = @tier2weight2
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_originium_theory
+        tech_assembly_pattern
+    }
+
+    modifier = {
+        planet_building_build_speed_mult = 0.33
+    }
+
+    weight_modifier = {
+
+    }
+
+    ai_weight = {
+        factor = 0
+    }
 }
 
 #集成装配T2
-tech_uva_planetary_building_T2= {  }
+tech_uva_planetary_building_T2= {
+    area = engineering
+    cost = @tier2cost2
+    tier = 2
+    weight = @tier2weight2
+    category = { originium_theory }
+
+    prerequisites = {
+        tech_originium_theory
+        tech_assembly_pattern
+    }
+
+    modifier = {
+        planet_building_build_speed_mult = 0.5
+    }
+
+    weight_modifier = {
+
+    }
+
+    ai_weight = {
+        factor = 0
+    }
+}
 
 #################
 ####行星区划科技####
@@ -433,12 +726,47 @@ tech_uva_planetary_building_T2= {  }
 
 #空中移动城市
 tech_uva_planetary_deposit_T1 = {
+    area = engineering
+    cost = @tier3cost3
+    tier =3
+    weight = @tier3weight3
+    category = {
+        originium_theory
+    }
 
+    prerequisites = {
+        tech_originium_theory
+        tech_housing_2
+    }
+
+    modifier = {
+        planet_max_buildings_add = 1
+        planet_buildings_upkeep_mult = -0.10
+    }
+    weight_modifier = {  }
+    ai_weight = { factor = 0 }
 }
 
 #空中花园
 tech_uva_planetary_deposit_T2= {
+    area = engineering
+    cost = @tier4cost3
+    tier =4
+    weight = @tier4weight3
+    category = {
+        originium_theory
+    }
 
+    prerequisites = {
+        tech_uva_planetary_deposit_T1
+    }
+
+    modifier = {
+        planet_max_buildings_add = 1
+        planet_buildings_upkeep_mult = -0.15
+    }
+    weight_modifier = {  }
+    ai_weight = { factor = 0 }
 }
 
 ##############
@@ -447,16 +775,127 @@ tech_uva_planetary_deposit_T2= {
 
 #异铁材料
 tech_uva_armor_T1 = {
+    area = engineering
+    cost = @tier2cost2
+    tier = 2
+    weight = @tier2weight2
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_originium_theory
+        tech_ship_armor_3
+    }
+
+    prereqfor_desc = {
+        ship = {
+            title = TECH_UVA_ARMOR_T1_TITTLE
+            desc = TECH_UVA_ARMOR_T1_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #D钢材料
 tech_uva_armor_T2 = {
+    area = engineering
+    cost = @tier3cost2
+    tier = 3
+    weight = @tier3weight2
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_uva_armor_T1
+    }
+
+    prereqfor_desc = {
+        ship = {
+            title = TECH_UVA_ARMOR_T2_TITTLE
+            desc = TECH_UVA_ARMOR_T2_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #源钢材料
-tech_uva_armor_T3 = {  }
+tech_uva_armor_T3 = {
+    area = engineering
+    cost = @tier4cost2
+    tier = 4
+    weight = @tier4weight2
+    category = { originium_theory }
+
+    prerequisites = {
+        tech_uva_armor_T2
+    }
+
+    prereqfor_desc = {
+        ship = {
+            title = TECH_UVA_ARMOR_T3_TITTLE
+            desc = TECH_UVA_ARMOR_T3_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
+}
 
 ##############
 ####船体科技####
@@ -464,22 +903,168 @@ tech_uva_armor_T3 = {  }
 
 #复合源石材料
 tech_uva_hull_T1 = {
+    area = engineering
+    cost = @tier2cost2
+    tier = 2
+    weight = @tier2weight2
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_originium_theory
+        tech_ship_armor_3
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_HULL_T1_TITTLE
+            DESC = TECH_UVA_HULL_T1_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #蚀刻材料
 tech_uva_hull_T2 = {
+    area = engineering
+    cost = @tier3cost2
+    tier = 3
+    weight = @tier3weight2
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_uva_hull_T1
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_HULL_T2_TITTLE
+            DESC = TECH_UVA_HULL_T2_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #技艺强化材料
 tech_uva_hull_T3 = {
+    area = engineering
+    cost = @tier4cost2
+    tier = 4
+    weight = @tier4weight2
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_uva_hull_T2
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_HULL_T3_TITTLE
+            DESC = TECH_UVA_HULL_T3_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #一体化防护
 tech_uva_ship_defence_T1 = {
+    area = engineering
+    cost = @tier5cost2
+    tier = 5
+    weight = @tier5weight2
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_uva_armor_T3
+        tech_uva_hull_T3
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_SHIP_DEFENCE_T1_TITTLE
+            DESC = TECH_UVA_SHIP_DEFENCE_T1_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #############
@@ -488,12 +1073,85 @@ tech_uva_ship_defence_T1 = {
 
 #粉尘高射炮
 tech_uva_flak_T1 = {
+    area = engineering
+    cost = @tier3cost3
+    tier = 3
+    weight = @tier3weight3
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_originium_theory
+        tech_flak_batteries_2
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_FLAK_T1_TITTLE
+            DESC = TECH_UVA_FLAK_T1_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #结晶高射炮
 tech_uva_flak_T2 = {
+    area = engineering
+    cost = @tier4cost3
+    tier = 4
+    weight = @tier4weight3
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_uva_flak_T1
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_FLAK_T2_TITTLE
+            DESC = TECH_UVA_FLAK_T2_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #############
