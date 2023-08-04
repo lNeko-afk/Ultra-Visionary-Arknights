@@ -26,6 +26,18 @@ spriteTypes = {
         textureFile = "gfx/ui/uva_operator_headhunter_normal_mainUI_text.dds"
     }
 
+    ####招募界面###
+    ##维多利亚
+    spriteType = {
+        name = GFX_uva_ohh_vic_background
+        textureFile = "gfx/ui/uva_ohh_vic_background.dds"
+    }
+    #01澄闪
+    spriteType = {
+        name = GFX_uva_ohh_vic_gdg
+        textureFile = "gfx/ui/uva_ohh_vic_gdg.dds"
+    }
+
 
     ####按钮####
 

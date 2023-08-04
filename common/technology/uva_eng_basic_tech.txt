@@ -610,6 +610,7 @@ tech_uva_robot_factory_T2 = {
         factor = 0
     }
 }
+
 #################
 ####合金\消费品####
 #################
@@ -788,7 +789,7 @@ tech_uva_armor_T1 = {
 
     prereqfor_desc = {
         ship = {
-            title = TECH_UVA_ARMOR_T1_TITTLE
+            title = TECH_UVA_ARMOR_T1_TITLE
             desc = TECH_UVA_ARMOR_T1_DESC
         }
     }
@@ -829,7 +830,7 @@ tech_uva_armor_T2 = {
 
     prereqfor_desc = {
         ship = {
-            title = TECH_UVA_ARMOR_T2_TITTLE
+            title = TECH_UVA_ARMOR_T2_TITLE
             desc = TECH_UVA_ARMOR_T2_DESC
         }
     }
@@ -870,7 +871,7 @@ tech_uva_armor_T3 = {
 
     prereqfor_desc = {
         ship = {
-            title = TECH_UVA_ARMOR_T3_TITTLE
+            title = TECH_UVA_ARMOR_T3_TITLE
             desc = TECH_UVA_ARMOR_T3_DESC
         }
     }
@@ -916,7 +917,7 @@ tech_uva_hull_T1 = {
 
     prereqfor_desc = {
         ship = {
-            TITLE = TECH_UVA_HULL_T1_TITTLE
+            TITLE = TECH_UVA_HULL_T1_TITLE
             DESC = TECH_UVA_HULL_T1_DESC
         }
     }
@@ -957,7 +958,7 @@ tech_uva_hull_T2 = {
 
     prereqfor_desc = {
         ship = {
-            TITLE = TECH_UVA_HULL_T2_TITTLE
+            TITLE = TECH_UVA_HULL_T2_TITLE
             DESC = TECH_UVA_HULL_T2_DESC
         }
     }
@@ -998,7 +999,7 @@ tech_uva_hull_T3 = {
 
     prereqfor_desc = {
         ship = {
-            TITLE = TECH_UVA_HULL_T3_TITTLE
+            TITLE = TECH_UVA_HULL_T3_TITLE
             DESC = TECH_UVA_HULL_T3_DESC
         }
     }
@@ -1040,7 +1041,7 @@ tech_uva_ship_defence_T1 = {
 
     prereqfor_desc = {
         ship = {
-            TITLE = TECH_UVA_SHIP_DEFENCE_T1_TITTLE
+            TITLE = TECH_UVA_SHIP_DEFENCE_T1_TITLE
             DESC = TECH_UVA_SHIP_DEFENCE_T1_DESC
         }
     }
@@ -1086,7 +1087,7 @@ tech_uva_flak_T1 = {
 
     prereqfor_desc = {
         ship = {
-            TITLE = TECH_UVA_FLAK_T1_TITTLE
+            TITLE = TECH_UVA_FLAK_T1_TITLE
             DESC = TECH_UVA_FLAK_T1_DESC
         }
     }
@@ -1127,7 +1128,7 @@ tech_uva_flak_T2 = {
 
     prereqfor_desc = {
         ship = {
-            TITLE = TECH_UVA_FLAK_T2_TITTLE
+            TITLE = TECH_UVA_FLAK_T2_TITLE
             DESC = TECH_UVA_FLAK_T2_DESC
         }
     }
@@ -1160,17 +1161,126 @@ tech_uva_flak_T2 = {
 
 #增幅装置
 tech_uva_propeller_T1 = {
+    area = engineering
+    cost = @tier2cost3
+    tier = 2
+    weight = @tier2weight3
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_originium_theory
+        tech_thrusters_2
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_PROPELLER_T1_TITLE
+            DESC = TECH_UVA_PROPELLER_T1_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #推进器强化
 tech_uva_propeller_T2 = {
+    area = engineering
+    cost = @tier3cost3
+    tier = 3
+    weight = @tier3weight3
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_uva_propeller_T1
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_PROPELLER_T2_TITLE
+            DESC = TECH_UVA_PROPELLER_T2_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #技艺脉冲推进器
 tech_uva_propeller_T3 = {
+    area = engineering
+    cost = @tier4cost3
+    tier = 4
+    weight = @tier4weight3
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_uva_propeller_T2
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_PROPELLER_T3_TITLE
+            DESC = TECH_UVA_PROPELLER_T3_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #############
@@ -1179,12 +1289,85 @@ tech_uva_propeller_T3 = {
 
 #女妖导弹
 tech_uva_missile_T1 ={
+    area = engineering
+    cost = @tier3cost3
+    tier = 3
+    weight = @tier3weight3
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_originium_theory
+        tech_missiles_4
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_MISSILE_T1_TITLE
+            DESC = TECH_UVA_MISSILE_T1_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #白杨导弹
 tech_uva_missile_T2 = {
+    area = engineering
+    cost = @tier4cost3
+    tier = 4
+    weight = @tier4weight3
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_uva_missile_T1
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_MISSILE_T2_TITLE
+            DESC = TECH_UVA_MISSILE_T2_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 ##############
@@ -1193,12 +1376,85 @@ tech_uva_missile_T2 = {
 
 #飘航者导弹
 tech_uva_swarm_missile_T1 = {
+    area = engineering
+    cost = @tier2cost3
+    tier = 2
+    weight = @tier2weight3
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_originium_theory
+        tech_swarmer_missiles_1
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_SWARM_MISSILE_T1_TITLE
+            DESC = TECH_UVA_SWARM_MISSILE_T1_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #东风导弹
 tech_uva_swarm_missile_T2 = {
+    area = engineering
+    cost = @tier3cost3
+    tier = 3
+    weight = @tier3weight3
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_uva_swarm_missile_T1
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_SWARM_MISSILE_T2_TITLE
+            DESC = TECH_UVA_SWARM_MISSILE_T2_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 ##############
@@ -1209,41 +1465,296 @@ tech_uva_swarm_missile_T2 = {
 
 #枯朽轨道炮
 tech_uva_railgun_T1 =  {
+    area = engineering
+    cost = @tier2cost3
+    tier = 2
+    weight = @tier2weight3
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_originium_theory
+        tech_mass_drivers_3
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_RAILGUN_T1_TITLE
+            DESC = TECH_UVA_RAILGUN_T1_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #动力轨道炮
 tech_uva_railgun_T2= {
+    area = engineering
+    cost = @tier3cost3
+    tier = 3
+    weight = @tier3weight3
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_uva_railgun_T1
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_RAILGUN_T2_TITLE
+            DESC = TECH_UVA_RAILGUN_T2_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #推进轨道炮
-tech_uva_railgun_T2 = {
+tech_uva_railgun_T3 = {
+    area = engineering
+    cost = @tier4cost3
+    tier = 4
+    weight = @tier4weight3
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_uva_railgun_T2
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_RAILGUN_T3_TITLE
+            DESC = TECH_UVA_RAILGUN_T3_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 ##L槽火炮
 
 #破坚火炮
 tech_uva_artillery_T1 = {
+    area = engineering
+    cost = @tier4cost2
+    tier = 4
+    weight = @tier4weight2
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_uva_railgun_T2
+        tech_kinetic_artillery_1
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_ARTILLERY_T1_TITLE
+            DESC = TECH_UVA_ARTILLERY_T1_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #碎壁火炮
 tech_uva_artillery_T2 = {
+    area = engineering
+    cost = @tier4cost3
+    tier = 4
+    weight = @tier4weight3
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_uva_artillery_T1
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_ARTILLERY_T2_TITLE
+            DESC = TECH_UVA_ARTILLERY_T2_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 ##X槽火炮
 
 #穿刺者兆级火炮
 tech_uva_heavy_artillery_T1 = {
+    area = engineering
+    cost = @tier5cost1
+    tier = 5
+    weight = @tier5weight1
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_uva_railgun_T2
+        tech_mass_accelerator_1
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_HEAVY_ARTILLERY_T1_TITLE
+            DESC = TECH_UVA_HEAVY_ARTILLERY_T1_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #解构者千兆级火炮
 tech_uva_heavy_artillery_T2 = {
+    area = engineering
+    cost = @tier5cost3
+    tier = 5
+    weight = @tier5weight3
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_uva_heavy_artillery_T1
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_HEAVY_ARTILLERY_T2_TITLE
+            DESC = TECH_UVA_HEAVY_ARTILLERY_T2_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #############
@@ -1252,17 +1763,126 @@ tech_uva_heavy_artillery_T2 = {
 
 #工蚁机关炮
 tech_uva_machine_gun_T1 = {
+    area = engineering
+    cost = @tier2cost3
+    tier = 2
+    weight = @tier2weight3
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_originium_theory
+        tech_autocannons_1
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_MACHINE_GUN_T1_TITLE
+            DESC = TECH_UVA_MACHINE_GUN_T1_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #幽灵机关炮
 tech_uva_machine_gun_T2 = {
+    area = engineering
+    cost = @tier3cost3
+    tier = 3
+    weight = @tier3weight3
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_uva_machine_gun_T1
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_MACHINE_GUN_T2_TITLE
+            DESC = TECH_UVA_MACHINE_GUN_T2_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #渗透者机关炮
 tech_uva_machine_gun_T3 = {
+    area = engineering
+    cost = @tier4cost3
+    tier = 4
+    weight = @tier4weight3
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_uva_machine_gun_T2
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_MACHINE_GUN_T3_TITLE
+            DESC = TECH_UVA_MACHINE_GUN_T3_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #############
@@ -1271,17 +1891,126 @@ tech_uva_machine_gun_T3 = {
 
 #前掠翼舰载机
 tech_uva_strike_craft_T1 = {
+    area = engineering
+    cost = @tier3cost1
+    tier = 3
+    weight = @tier3weight1
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_originium_theory
+        tech_strike_craft_2
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_STRIKE_CRAFT_T1_TITLE
+            DESC = TECH_UVA_STRIKE_CRAFT_T1_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #多座舰载机
 tech_uva_strike_craft_T2= {
+    area = engineering
+    cost = @tier3cost3
+    tier =3
+    weight = @tier3weight3
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_uva_strike_craft_T1
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_STRIKE_CRAFT_T2_TITLE
+            DESC = TECH_UVA_STRIKE_CRAFT_T2_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #无人舰载机
 tech_uva_strike_craft_T3 = {
+    area = engineering
+    cost = @tier4cost3
+    tier = 4
+    weight = @tier4weight3
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_uva_strike_craft_T2
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_STRIKE_CRAFT_T3_TITLE
+            DESC = TECH_UVA_STRIKE_CRAFT_T3_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #############
@@ -1290,7 +2019,44 @@ tech_uva_strike_craft_T3 = {
 
 #空间站模块
 tech_uva_station_T1 = {
+    area = engineering
+    cost = @tier4cost3
+    tier = 4
+    weight = @tier4weight3
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_originium_theory
+        tech_starbase_5
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_STATION_T1_TITLE
+            DESC = TECH_UVA_STATION_T1_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 ###########
@@ -1299,12 +2065,85 @@ tech_uva_station_T1 = {
 
 #猎食者鱼雷
 tech_uva_torpedo_T1 = {
+    area = engineering
+    cost = @tier3cost1
+    tier = 3
+    weight = @tier3weight1
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_originium_theory
+        tech_torpedoes_2
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_TORPEDO_T1_TITLE
+            DESC = TECH_UVA_TORPEDO_T1_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 #投嗣者鱼雷
 tech_uva_torpedo_T2 = {
+    area = engineering
+    cost = @tier4cost3
+    tier = 4
+    weight = @tier4weight3
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_uva_torpedo_T1
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_TORPEDO_T2_TITLE
+            DESC = TECH_UVA_TORPEDO_T2_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 ###########
@@ -1313,7 +2152,44 @@ tech_uva_torpedo_T2 = {
 
 #“天灾”
 tech_uva_catastrophe_T1 = {
+    area = engineering
+    cost = @tier5cost1
+    tier = 5
+    weight = @tier5weight1
+    category = { originium_theory }
 
+    prerequisites = {
+        tech_originium_theory
+        tech_colossus
+    }
+
+    prereqfor_desc = {
+        ship = {
+            TITLE = TECH_UVA_CATASTROPHE_T1_TITLE
+            DESC = TECH_UVA_CATASTROPHE_T1_DESC
+        }
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_civic = civic_columbia_lab
+        }
+    }
+
+    ai_weight = {
+        modifier = {
+            factor = 0
+        }
+    }
 }
 
 

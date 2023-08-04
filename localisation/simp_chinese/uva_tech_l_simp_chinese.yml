@@ -337,22 +337,268 @@
  ##矿石科技##
  tech_originium_mining_T1:0 "§H源石开采技术§!"
  tech_originium_mining_T1_desc:0 "源石开采技术，泰拉世界的核心科技"
+ tech_originium_mining_T2:0 "§H高危区域开采防护§!"
+ tech_originium_mining_T2_desc:0 ""
+ tech_originium_mining_T3:0 "§H极限采矿载具§!"
+ tech_originium_mining_T3_desc:0 ""
 
  ##战略资源##
  tech_bipolar_nanoflake_factory_T1:0 "$bipolar_nanoflake$工厂"
  tech_bipolar_nanoflake_factory_T1_desc:0 "集成制造$bipolar_nanoflake$的制造站"
-
  tech_polymerization_preparation_factory_T1:0 "$polymerization_preparation$工厂"
  tech_polymerization_preparation_factory_T1_desc:0 "集成制造$polymerization_preparation$的制造站"
-
  tech_D32_steel_factory_T1:0 "$D32_steel$工厂"
  tech_D32_steel_factory_T1_desc:0 "集成制造$D32_steel$的制造站"
-
  tech_calcined_concretion_factory_T1:0 "$calcined_concretion$工厂"
  tech_calcined_concretion_factory_T1_desc:0 "集成制造$calcined_concretion$的制造站"
-
  tech_crystalline_electronic_unit_factory_T1:0 "$crystalline_electronic_unit$工厂"
  tech_crystalline_electronic_unit_factory_T1_desc:0 "集成制造$crystalline_electronic_unit$的制造站"
+ tech_bipolar_nanoflake_factory_T2:0 "$tech_bipolar_nanoflake_factory_T1$区划"
+ tech_bipolar_nanoflake_factory_T2_desc:0 "$tech_bipolar_nanoflake_factory_T1_desc$区划"
+ tech_polymerization_preparation_factory_T2:0 "$tech_polymerization_preparation_factory_T1$区划"
+ tech_polymerization_preparation_factory_T2_desc:0 "$tech_polymerization_preparation_factory_T1_desc$区划"
+ tech_D32_steel_factory_T2:0 "$tech_D32_steel_factory_T1$区划"
+ tech_D32_steel_factory_T2_desc:0 "$tech_D32_steel_factory_T1_desc$区划"
+ tech_calcined_concretion_factory_T2:0 "$tech_calcined_concretion_factory_T1$区划"
+ tech_calcined_concretion_factory_T2_desc:0 "$tech_calcined_concretion_factory_T1_desc$区划"
+ tech_crystalline_electronic_unit_factory_T2:0 "$tech_crystalline_electronic_unit_factory_T1$区划"
+ tech_crystalline_electronic_unit_factory_T2_desc:0 "$tech_crystalline_electronic_unit_factory_T1_desc$区划"
+ tech_bipolar_nanoflake_factory_T3:0 "$tech_bipolar_nanoflake_factory_T2$集合"
+ tech_bipolar_nanoflake_factory_T3_desc:0 "$tech_bipolar_nanoflake_factory_T2_desc$集合"
+ tech_polymerization_preparation_factory_T3:0 "$tech_polymerization_preparation_factory_T2$集合"
+ tech_polymerization_preparation_factory_T3_desc:0 "$tech_polymerization_preparation_factory_T2_desc$集合"
+ tech_D32_steel_factory_T3:0 "$tech_D32_steel_factory_T2$集合"
+ tech_D32_steel_factory_T3_desc:0 "$tech_D32_steel_factory_T2_desc$集合"
+ tech_calcined_concretion_factory_T3:0 "$tech_calcined_concretion_factory_T2$集合"
+ tech_calcined_concretion_factory_T3_desc:0 "$tech_calcined_concretion_factory_T2_desc$集合"
+ tech_crystalline_electronic_unit_factory_T3:0 "$tech_crystalline_electronic_unit_factory_T2$集合"
+ tech_crystalline_electronic_unit_factory_T3_desc:0 "$tech_crystalline_electronic_unit_factory_T2_desc$集合"
+
+
+ ##机械科技##
+ tech_uva_robotech_T1:0 "律法规范"
+ tech_uva_robotech_T1_desc:0 ""
+ tech_uva_robotech_T2:0 "超级量子计算机"
+ tech_uva_robotech_T2_desc:0 ""
+ tech_uva_robotech_T3:0 "集成化装配网路"
+ tech_uva_robotech_T3_desc:0 ""
+ tech_uva_machinary_modifier_T1:0 "源能智人T1"
+ tech_uva_machinary_modifier_T1_desc:0 ""
+ tech_uva_machinary_modifier_T2:0 "源能智人T2"
+ tech_uva_machinary_modifier_T2_desc:0 ""
+ tech_uva_robot_factory_T1:0 "高级装配区划T1"
+ tech_uva_robot_factory_T1_desc:0 ""
+ tech_uva_robot_factory_T2:0 "高级装配区划T2"
+ tech_uva_robot_factory_T2_desc:0 ""
+
+ ##合金\消费品##
+ tech_uva_T2_resources_factory_T1:0 "高效复制工厂T1"
+ tech_uva_T2_resources_factory_T1_desc:0 ""
+ tech_uva_T2_resources_factory_T2:0 "高校复制工厂T2"
+ tech_uva_T2_resources_factory_T2_desc:0 ""
+
+ ##行星建造科技##
+ tech_uva_planetary_building_T1:0 "移动城市装配"
+ tech_uva_planetary_building_T1_desc:0 ""
+ tech_uva_planetary_building_T2:0 "集成装配"
+ tech_uva_planetary_building_T2_desc:0 ""
+
+ ##行星区划科技##
+ tech_uva_planetary_deposit_T1:0 "空中移动城市"
+ tech_uva_planetary_deposit_T1_desc:0 ""
+ tech_uva_planetary_deposit_T2:0 "空中花园"
+ tech_uva_planetary_deposit_T2_desc:0 ""
+
+ ##装甲科技##
+ tech_uva_armor_T1:0 "异铁材料"
+ tech_uva_armor_T1_desc:0 ""
+ TECH_UVA_ARMOR_T1_TITLE:0 ""
+ TECH_UVA_ARMOR_T1_DESC:0 ""
+ tech_uva_armor_T2:0 "D钢材料"
+ tech_uva_armor_T2_desc:0 ""
+ TECH_UVA_ARMOR_T2_TITLE:0 ""
+ TECH_UVA_ARMOR_T2_DESC:0 ""
+ tech_uva_armor_T3:0 "源钢材料"
+ tech_uva_armor_T3_desc:0 ""
+ TECH_UVA_ARMOR_T3_TITLE:0 ""
+ TECH_UVA_ARMOR_T3_DESC:0 ""
+
+ ##船体科技##
+ tech_uva_hull_T1:0 "复合源石材料"
+ tech_uva_hull_T1_desc:0 ""
+ TECH_UVA_HULL_T1_TITLE:0 ""
+ TECH_UVA_HULL_T1_DESC:0 ""
+ tech_uva_hull_T2:0 "蚀刻材料"
+ tech_uva_hull_T2_desc:0 ""
+ TECH_UVA_HULL_T2_TITLE:0 ""
+ TECH_UVA_HULL_T2_DESC:0 ""
+ tech_uva_hull_T3:0 "技艺强化材料"
+ tech_uva_hull_T3_desc:0 ""
+ TECH_UVA_HULL_T3_TITLE:0 ""
+ TECH_UVA_HULL_T3_DESC:0 ""
+ tech_uva_ship_defence_T1:0 "一体化防护"
+ tech_uva_ship_defence_T1_desc:0 ""
+ TECH_UVA_SHIP_DEFENCE_T1_TITLE:0 ""
+ TECH_UVA_SHIP_DEFENCE_T1_DESC:0 ""
+
+ ##高射炮##
+ tech_uva_flak_T1:0 "粉尘高射炮"
+ tech_uva_flak_T1_desc:0 ""
+ TECH_UVA_FLAK_T1_TITLE:0 ""
+ TECH_UVA_FLAK_T1_DESC:0 ""
+ tech_uva_flak_T2:0 "结晶高射炮"
+ tech_uva_flak_T2_desc:0 ""
+ TECH_UVA_FLAK_T2_TITLE:0 ""
+ TECH_UVA_FLAK_T2_DESC:0 ""
+
+ ##推进器##
+ tech_uva_propeller_T1:0 "增幅装置"
+ tech_uva_propeller_T1_desc:0 ""
+ TECH_UVA_PROPELLER_T1_TITLE:0 ""
+ TECH_UVA_PROPELLER_T1_DESC:0 ""
+ tech_uva_propeller_T2:0 "推进器强化"
+ tech_uva_propeller_T2_desc:0 ""
+ TECH_UVA_PROPELLER_T2_TITLE:0 ""
+ TECH_UVA_PROPELLER_T2_DESC:0 ""
+ tech_uva_propeller_T3:0 "技艺脉冲推进器"
+ tech_uva_propeller_T3_desc:0 ""
+ TECH_UVA_PROPELLER_T3_TITLE:0 ""
+ TECH_UVA_PROPELLER_T3_DESC:0 ""
+
+ ##核导弹##
+ tech_uva_missile_T1:0 "女妖导弹"
+ tech_uva_missile_T1_desc:0 ""
+ TECH_UVA_MISSILE_T1_TITLE:0 ""
+ TECH_UVA_MISSILE_T1_DESC:0 ""
+ tech_uva_missile_T2:0 "白杨导弹"
+ tech_uva_missile_T2_desc:0 ""
+ TECH_UVA_MISSILE_T2_TITLE:0 ""
+ TECH_UVA_MISSILE_T2_DESC:0 ""
+
+ ##蜂群导弹##
+ tech_uva_swarm_missile_T1:0 "飘航者导弹"
+ tech_uva_swarm_missile_T1_desc:0 ""
+ TECH_UVA_SWARM_MISSILE_T1_TITLE:0 ""
+ TECH_UVA_SWARM_MISSILE_T1_DESC:0 ""
+ tech_uva_swarm_missile_T2:0 "东风导弹"
+ tech_uva_swarm_missile_T2_desc:0 ""
+ TECH_UVA_SWARM_MISSILE_T2_TITLE:0 ""
+ TECH_UVA_SWARM_MISSILE_T2_DESC:0 ""
+
+ ##动能武器##
+
+ ##轨道炮
+ tech_uva_railgun_T1:0 "枯朽轨道炮"
+ tech_uva_railgun_T1_desc:0 ""
+ TECH_UVA_RAILGUN_T1_TITLE:0 ""
+ TECH_UVA_RAILGUN_T1_DESC:0 ""
+ tech_uva_railgun_T2:0 "动力轨道炮"
+ tech_uva_railgun_T2_desc:0 ""
+ TECH_UVA_RAILGUN_T2_TITLE:0 ""
+ TECH_UVA_RAILGUN_T2_DESC:0 ""
+ tech_uva_railgun_T3:0 "推进轨道炮"
+ tech_uva_railgun_T3_desc:0 ""
+ TECH_UVA_RAILGUN_T3_TITLE:0 ""
+ TECH_UVA_RAILGUN_T3_DESC:0 ""
+
+ ##L槽火炮
+ tech_uva_artillery_T1:0 "破坚火炮"
+ tech_uva_artillery_T1_desc:0 ""
+ TECH_UVA_ARTILLERY_T1_TITLE:0 ""
+ TECH_UVA_ARTILLERY_T1_DESC:0 ""
+ tech_uva_artillery_T2:0 "碎壁火炮"
+ tech_uva_artillery_T2_desc:0 ""
+ TECH_UVA_ARTILLERY_T2_TITLE:0 ""
+ TECH_UVA_ARTILLERY_T2_DESC:0 ""
+
+ ##X槽火炮
+ tech_uva_heavy_artillery_T1:0 "穿刺者兆级火炮"
+ tech_uva_heavy_artillery_T1_desc:0 ""
+ TECH_UVA_HEAVY_ARTILLERY_T1_TITLE:0 ""
+ TECH_UVA_HEAVY_ARTILLERY_T1_DESC:0 ""
+ tech_uva_heavy_artillery_T2:0 "解构者千兆级火炮"
+ tech_uva_heavy_artillery_T2_desc:0 ""
+ TECH_UVA_HEAVY_ARTILLERY_T2_TITLE:0 ""
+ TECH_UVA_HEAVY_ARTILLERY_T2_DESC:0 ""
+
+ ##机关炮##
+ tech_uva_machine_gun_T1:0 "工蚁机关炮"
+ tech_uva_machine_gun_T1_desc:0 ""
+ TECH_UVA_MACHINE_GUN_T1_TITLE:0 ""
+ TECH_UVA_MACHINE_GUN_T1_DESC:0 ""
+ tech_uva_machine_gun_T2:0 "幽灵机关炮"
+ tech_uva_machine_gun_T2_desc:0 ""
+ TECH_UVA_MACHINE_GUN_T2_TITLE:0 ""
+ TECH_UVA_MACHINE_GUN_T2_DESC:0 ""
+ tech_uva_machine_gun_T3:0 "渗透者机关炮"
+ tech_uva_machine_gun_T3_desc:0 ""
+ TECH_UVA_MACHINE_GUN_T3_TITLE:0 ""
+ TECH_UVA_MACHINE_GUN_T3_DESC:0 ""
+
+ ##舰载机##
+ tech_uva_strike_craft_T1:0 "前掠翼舰载机"
+ tech_uva_strike_craft_T1_desc:0 ""
+ TECH_UVA_STRIKE_CRAFT_T1_TITLE:0 ""
+ TECH_UVA_STRIKE_CRAFT_T1_DESC:0 ""
+ tech_uva_strike_craft_T2:0 "多座舰载机"
+ tech_uva_strike_craft_T2_desc:0 ""
+ TECH_UVA_STRIKE_CRAFT_T2_TITLE:0 ""
+ TECH_UVA_STRIKE_CRAFT_T2_DESC:0 ""
+ tech_uva_strike_craft_T3:0 "无人舰载机"
+ tech_uva_strike_craft_T3_desc:0 ""
+ TECH_UVA_STRIKE_CRAFT_T3_TITLE:0 ""
+ TECH_UVA_STRIKE_CRAFT_T3_DESC:0 ""
+
+ ##空间站##
+ tech_uva_station_T1:0 "空间站模块"
+ tech_uva_station_T1_desc:0 ""
+ TECH_UVA_STATION_T1_TITLE:0 ""
+ TECH_UVA_STATION_T1_DESC:0 ""
+
+ ##鱼雷##
+ tech_uva_torpedo_T1:0 "猎食者鱼雷"
+ tech_uva_torpedo_T1_desc:0 ""
+ TECH_UVA_TORPEDO_T1_TITLE:0 ""
+ TECH_UVA_TORPEDO_T1_DESC:0 ""
+ tech_uva_torpedo_T2:0 "投嗣者鱼雷"
+ tech_uva_torpedo_T2_desc:0 ""
+ TECH_UVA_TORPEDO_T2_TITLE:0 ""
+ TECH_UVA_TORPEDO_T2_DESC:0 ""
+
+ ##巨像##
+ tech_uva_catastrophe_T1:0 "“天灾”"
+ tech_uva_catastrophe_T1_desc:0 ""
+ TECH_UVA_CATASTROPHE_T1_TITLE:0 ""
+ TECH_UVA_CATASTROPHE_T1_DESC:0 ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
