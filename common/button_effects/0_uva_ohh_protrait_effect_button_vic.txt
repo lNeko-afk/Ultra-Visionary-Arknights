@@ -1,0 +1,35 @@
+uva_ohh_bt_effect_vic = {
+    potential = {
+
+    }
+    allow = {
+        uva_ohh_main_UI_bt_trigger =yes
+    }
+    effect =  {
+        hidden_effect = {
+            country_event = {
+                id = uva_ohh_vic.0
+            }
+        }
+    }
+}
+
+uva_ohh_portrait_effect_vic_1={
+    potential = {
+
+    }
+    allow = {
+        uva_ohh_operator_headhunte_trigger = {
+            OPERATOR_FLAG = UVA_goldenglow
+        }
+    }
+    effect = {
+        hidden_effect = {
+            uva_ohh_operator_headhunting_effect = {
+                OPERATOR_FLAG = UVA_goldenglow
+                OPERATOR_CODE = vic.11
+            }
+        }
+    }
+}
+

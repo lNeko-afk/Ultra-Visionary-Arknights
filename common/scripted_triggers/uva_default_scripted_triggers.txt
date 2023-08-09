@@ -9,3 +9,36 @@ is_TERRA_species = {
         is_archetype = TERRA
     }
 }
+
+#招募界面按钮触发器结构体
+uva_ohh_main_UI_bt_trigger = {
+    custom_tooltip = {
+        fail_text = uva_ohh_in_camp_UI_now
+        from ={
+            not = { has_country_flag = uva_ohh_in_camp_UI }
+        }
+    }
+}
+
+#干员招募触发器结构体
+uva_ohh_operator_headhunte_trigger = {
+    custom_tooltip = {
+        success_text = uva_ohh_in_operator_headhunting_now
+        fail_text = uva_ohh_not_operator_headhunting_now
+        from = {
+            NOT = {
+                has_country_flag = uva_ohh_in_operator_headhunting
+            }
+        }
+    }
+    custom_tooltip = {
+        fail_text = uva_ohh_operator_dead
+        NOT = {
+            event_target:UTG_government = {
+                any_owned_leader = {
+                    has_leader_flag = $OPERATOR_FLAG$
+                }
+            }
+        }
+    }
+}

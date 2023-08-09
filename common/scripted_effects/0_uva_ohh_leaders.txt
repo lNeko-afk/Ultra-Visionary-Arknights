@@ -1,0 +1,40 @@
+uva_operator_list = {
+    #victoriaŒ¨∂‡¿˚—«
+    set_leader_flag = UVA_goldenglow
+
+}
+
+uva_ohh_operator_headhunting_effect = {
+    from = {
+        if = {
+            limit = {
+                not = {
+                    any_owned_leader = {
+                        has_leader_flag = $OPERATOR_FLAG$
+                    }
+                }
+            }
+            custom_tooltip = uva_$OPERATOR_CODE$0.desc
+        }
+    }
+    hidden_effect = {
+        from = {
+            if = {
+                limit = {
+                    any_owned_leader = {
+                        has_leader_flag = $OPERATOR_FLAG$
+                    }
+                }
+                country_event = {
+                    id = uva_operator_$OPERATOR_CODE$10
+                }
+            }
+            else = {
+                country_event = {
+                    id = uva_operator_$OPERATOR_CODE$0
+                }
+            }
+        }
+    }
+}
+

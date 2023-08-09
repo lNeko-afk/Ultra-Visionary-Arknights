@@ -1,0 +1,31 @@
+namespace = uva_ohh_vic
+
+##############
+####维多利亚####
+##############
+
+#### 界面 ####
+country_event = {
+    id = uva_ohh_vic.0
+    is_triggered_only = yes
+    diplomatic = yes
+    custom_gui =uva_ohh_vic_1
+    title = "uva_ohh_vic.0.name"
+    desc = "uva_ohh_vic.0.desc"
+}
+
+#### 澄闪 ####
+
+#招募界面调用
+country_event = {
+    id= uva_ohh_vic.110
+    is_triggered_only = yes
+    diplomatic = yes
+    custom_gui =
+}
+#
+
+
+
+
+
